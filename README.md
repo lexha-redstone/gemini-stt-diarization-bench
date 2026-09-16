@@ -144,3 +144,9 @@ pytest tests/
 - **Milestone 3 Intermediate Report**: [`results/hard_2spk/hard_2spk_parity_report.md`](file:///Users/lexha/Documents/work/codes/prj/22-STT-speaker-diarization/gemini_stt_diarization_repro_final/results/hard_2spk/hard_2spk_parity_report.md)
 - **Milestone 2 Intermediate Report**: [`results/hard_2spk/hard_2spk_report.md`](file:///Users/lexha/Documents/work/codes/prj/22-STT-speaker-diarization/gemini_stt_diarization_repro_final/results/hard_2spk/hard_2spk_report.md)
 - **Milestone 1 Archive Report**: [`benchmark_report_full.md`](file:///Users/lexha/Documents/work/codes/prj/22-STT-speaker-diarization/benchmark_report_full.md)
+
+---
+
+## 5. License
+
+This project is licensed under the **Apache License, Version 2.0**. See the [LICENSE](file:///Users/lexha/Documents/work/codes/prj/22-STT-speaker-diarization/gemini_stt_diarization_repro_final/LICENSE) file for the full license text.
