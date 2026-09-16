@@ -104,4 +104,4 @@ The production-ready implementation is self-contained in **`src/pipelines/adapti
 
 - **Immediate 74% Infrastructure Savings**: Deploy high-volume call analytics at $6.25 per 1,000 calls instead of $24.00, scaling seamlessly without GPU/TPU quota bottlenecks.
 - **Superior Multi-Speaker Intelligence**: Outperforms Gemini 2.5 Flash by **+8.7%p** on multi-party calls where customer, agent, and supervisor/third-party voices overlap.
-- **Enterprise-Grade Stability**: Eliminates the infinite repetition loops occasionally seen in larger models, ensuring predictable SLA compliance and clean downstream analytics.
+- **No Loop**: Eliminates the infinite repetition loops occasionally seen in gemini-2.5-flash.
