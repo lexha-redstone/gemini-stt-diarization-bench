@@ -1,0 +1,135 @@
+{
+  "benchmark_title": "Gemini STT & Speaker Diarization: Complete 37-Sample 2-Speaker Benchmark (all_2spk_subset)",
+  "timestamp": "2026-09-16T02:55:28.510288+00:00",
+  "project_id": "my-argolis-prj",
+  "total_samples": 37,
+  "reused_samples_count": 21,
+  "live_evaluated_samples_count": 16,
+  "total_duration_seconds": 8064.95,
+  "mean_sample_duration_seconds": 217.97,
+  "mean_overlap_ratio": 6.59,
+  "macro_summary": {
+    "gemini_2_5_flash": {
+      "count": 37,
+      "mean_wer": 0.3926,
+      "mean_wer_normalized": 0.2305,
+      "mean_cer": 0.2836,
+      "mean_cer_normalized": 0.1299,
+      "mean_speaker_attribution_accuracy": 0.8997,
+      "mean_cpwer": 0.5005,
+      "mean_cpwer_normalized": 0.3368,
+      "mean_diarization_gap": 0.1134,
+      "mean_latency_seconds": 11.981,
+      "outlier_count": 1,
+      "speedup_vs_2_5": 1.0,
+      "name": "Gemini 2.5 Flash Baseline"
+    },
+    "strategy_c5_adaptive_champion": {
+      "count": 37,
+      "mean_wer": 0.2299,
+      "mean_wer_normalized": 0.2299,
+      "mean_cer": 0.1307,
+      "mean_cer_normalized": 0.1307,
+      "mean_speaker_attribution_accuracy": 0.8518,
+      "mean_cpwer": 0.3667,
+      "mean_cpwer_normalized": 0.3667,
+      "mean_diarization_gap": 0.1393,
+      "mean_latency_seconds": 9.124,
+      "outlier_count": 0,
+      "speedup_vs_2_5": 1.31,
+      "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+    }
+  },
+  "slices": {
+    "hard_20_high_overlap": {
+      "gemini_2_5_flash": {
+        "count": 20,
+        "mean_wer": 0.545,
+        "mean_wer_normalized": 0.2459,
+        "mean_cer": 0.4154,
+        "mean_cer_normalized": 0.131,
+        "mean_speaker_attribution_accuracy": 0.8881,
+        "mean_cpwer": 0.669,
+        "mean_cpwer_normalized": 0.3677,
+        "mean_diarization_gap": 0.1316,
+        "mean_latency_seconds": 7.033,
+        "outlier_count": 1,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 20,
+        "mean_wer": 0.2486,
+        "mean_wer_normalized": 0.2486,
+        "mean_cer": 0.1361,
+        "mean_cer_normalized": 0.1361,
+        "mean_speaker_attribution_accuracy": 0.871,
+        "mean_cpwer": 0.371,
+        "mean_cpwer_normalized": 0.371,
+        "mean_diarization_gap": 0.1269,
+        "mean_latency_seconds": 5.811,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.21
+      }
+    },
+    "remaining_17_moderate_overlap": {
+      "gemini_2_5_flash": {
+        "count": 17,
+        "mean_wer": 0.2134,
+        "mean_wer_normalized": 0.2134,
+        "mean_cer": 0.1286,
+        "mean_cer_normalized": 0.1286,
+        "mean_speaker_attribution_accuracy": 0.9134,
+        "mean_cpwer": 0.3022,
+        "mean_cpwer_normalized": 0.3022,
+        "mean_diarization_gap": 0.0921,
+        "mean_latency_seconds": 17.802,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 17,
+        "mean_wer": 0.2078,
+        "mean_wer_normalized": 0.2078,
+        "mean_cer": 0.1244,
+        "mean_cer_normalized": 0.1244,
+        "mean_speaker_attribution_accuracy": 0.8292,
+        "mean_cpwer": 0.3616,
+        "mean_cpwer_normalized": 0.3616,
+        "mean_diarization_gap": 0.1538,
+        "mean_latency_seconds": 13.021,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.37
+      }
+    },
+    "newly_evaluated_16_live": {
+      "gemini_2_5_flash": {
+        "count": 16,
+        "mean_wer": 0.2131,
+        "mean_wer_normalized": 0.2131,
+        "mean_cer": 0.1298,
+        "mean_cer_normalized": 0.1298,
+        "mean_speaker_attribution_accuracy": 0.9241,
+        "mean_cpwer": 0.2933,
+        "mean_cpwer_normalized": 0.2933,
+        "mean_diarization_gap": 0.0837,
+        "mean_latency_seconds": 18.722,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 16,
+        "mean_wer": 0.2083,
+        "mean_wer_normalized": 0.2083,
+        "mean_cer": 0.1259,
+        "mean_cer_normalized": 0.1259,
+        "mean_speaker_attribution_accuracy": 0.828,
+        "mean_cpwer": 0.3631,
+        "mean_cpwer_normalized": 0.3631,
+        "mean_diarization_gap": 0.1548,
+        "mean_latency_seconds": 13.576,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.38
+      }
+    }
+  }
+}

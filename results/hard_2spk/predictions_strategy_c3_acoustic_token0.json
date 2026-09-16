@@ -1,0 +1,2482 @@
+[
+  {
+    "sample_id": "hindi_062",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 300.27,
+    "num_speakers": 2,
+    "overlap_ratio": 20.62,
+    "latency_seconds": 13.305749957915395,
+    "metrics": {
+      "wer": 0.3312,
+      "cer": 0.2139,
+      "speaker_attribution_accuracy": 0.5985,
+      "cpwer": 0.6527,
+      "diarization_gap": 0.3215,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "बाड़ी करनी है, मस्त गाय भैंसें चलानी है, और इनमें भी सुकून है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हमारे गांव में, तुम्हारे गांव में कोई बीमार हो जाए, दो-दो, तीन-तीन किलोमीटर दूर जाना पड़ता है। हमारे पास में हॉस्पिटल, पास में सब, हॉस्पिटल दूर है, पर हम तो घर के घरेलू उपचार से ही सही हो जाते हैं। हमको गोली-दवाई जैसी चीजें खानी नहीं"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर एडवांस, एडवांस होती है ना चीजें?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एडवांस करके भी तुम क्या करो? तुम्हारी जिंदगी, लाइफलाइन थोड़ी कम है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हर चीज हमको मिनटों में मिल रही है। हमारा जीवन देख, हमारा जीवन इतना सुखी है कि भाई पोल्यूशन ही नहीं है, कोई किसी चीज की कोई दिक्कत ही नहीं है। हमारे यहां पे खुला ही खुला एरिया है, कहीं पे जाने की कोई दिक्कत नहीं है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "शौचालय बन गए तो पहले चल शौचालय नहीं थे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुम्हारे गांव में मतलब ऐसा नहीं है, सब खुला-खुला है, चलो मानते हैं पर जो चीज चाहिए इंसान को वो नहीं है जो सिटी में है, वैसी चीजें नहीं है इनके पास।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे, तुम्हारे सिटी में है क्या? यूं बता तू खाली,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सिटी में सब कुछ है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्या सब कुछ क्या?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "टेक्नोलॉजी अच्छी है, हर जगह जाने की फैसिलिटी है, अच्छी जगह है, रेस्टोरेंट, हॉस्पिटल, स्कूल, सब कुछ अच्छा है। गांव में ऐसी चीजें नहीं हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे मेरे भाई, तो सुकून कहां है? तेरे पास सब कुछ होने के बाद एक सुकून नहीं है। हमारे यहां पे देख, अब हमारे यहां बताऊं तेरे को, सुबह देखते ही तेरे उठते ही है ना तेरे को है ना चिड़िया की आवाज आना, भाई मुर्गे बोलना, ये गाय-भैंसों की आवाज सुनना, इनमें भी एक सुकून है। एक खेती-बाड़ी करना जैसे सुबह उठते ही अपन खेत में जा रहे हैं, भली कैसे भी जाओ, पर खेत में जा रहे हैं, मजा आ रहा है भाई उस चीज में।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अगर अपने घर वाले आसपास दिख रहे हैं अपन को, सब वही दिखते हैं, तुम्हारे यहां पे कैसे? तू ऑफिस चला जाएगा पूरे दिन, तो तू दूसरों को दिखेगा ही नहीं, तेरे ऑफिस वालों को ही दिखता है, बाकी घर वाले तेरे को दिखेंगे नहीं। हमारे यहां काम देख, हमारे यहां पे"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर नहीं, हम जैसे ही देखते, हम सिटी से जैसे गांव आते हैं, तो गांव वाले क्या सोचते हैं? हाँ यार, ये सिटी में काम कर रहा है, अच्छा है, इसकी जिंदगी अच्छी है, ये फैसिलिटी है इसके पास, सब कुछ।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर तुम्हारी जिंदगी में देख कैसा है? कि है ना एक एज में आके तुम्हें है ना वहाँ पर पोल्यूशन की वजह से मर जाओगे, और तुम्हारी है ना मृत्यु हो जाएगी देखना। मैं कह रहा हूँ, ये है ना सिटी का कल्चर ही ऐसा है। हमारे यहां पे देख, जिंदगी है ना लाइफ लॉन्ग है भाई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कोई मरने का कोई टेंशन नहीं। खान-पान ही इतना बढ़िया है ना, रोज उठ के घी खाओ, रोज उठ के दही खाओ, छाछ खाओ, सबकी सुविधा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुम्हारे यहाँ पे तो सब चीज खरीद के खानी पड़ती है, तुम्हारे यहां तो है ना मिलावट है भाई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मिलावट है भाई, मिलावट है, पर ऐसी चीजें तुम्हारे यहां पिज्जा, बर्गर मतलब हर तरह की फास्ट फूड, हर तरह का मतलब फूड।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ये ये ऑयली चीजें खानी क्यों? ऑयली चीजें"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इससे बेटा तो अच्छी चीजें खाओ ना जो शरीर को लगे। भाई, शरीर कितने मजबूत होते हैं गांव वालों के, तुमने देखे कि नहीं देखे? हमारे यहाँ देख, तू ऐसे-ऐसे शरीर देख, मेरा शरीर देख, तू कैसा शरीर है? तुम्हारे यहां पे क्या है? तुम्हारे यहां पे तो खा-खा के भाई, पूरा खत्म हो रहा है भाई, शरीर पिंपल हो जाते हैं, पता नहीं क्या-क्या हो जाता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कुछ भी होता है, पर सिटी की जिंदगी ज्यादा अच्छी है, समझ इस चीज को।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सिटी की मैं मान रहा हूँ। सिटी की पहले अच्छी हुआ करती थी, पर,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पहले नहीं, अभी भी अच्छी है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अभी भी अच्छी है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अभी भी अच्छी है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "लोग गांव से सिटी में आ रहे हैं काम करने के लिए। क्यों आ रहे हैं? क्योंकि अपन इनको रोजगार मिल रहा है। और जो लालच के लिए आते हैं, जिन को पैसे का लालच है ना, वो लोग आते हैं, बाकी इतना कोई मतलब नहीं है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तुम मेरी बात समझ नहीं रहा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "गाँव में कैसा, आज जिसके पास जगह-जमीन सब है ना, वो उसके कमा के खा रहा है, भाई उसके घर में देखना ट्रैक्टर है,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पर यार, सिटी में प्रॉपर्टी होना एक अलग चीज होती है, आगे देख, सब सिटी में ही बसेंगे ना।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तुम क्या करते हो?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "गांव में, गांव में आज क्या है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एक फ्लैट ले लिया तुमने, उसका फ्लेक्स के लिए, एक कार ले ली, उसका फ्लेक्स लिया। भाई गांव में देख, तू एक मेरे पास एक ट्रैक्टर है, यूं का यूं ही पड़ा हुआ है, बोल क्या फ्लेक्स करा क्या कभी? मेरे पास एक घर पे बुलेट है, मतलब बंदूक है, पता नहीं क्या-क्या है, बोल।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो सब चीजें, बिना लाइसेंस के एक काम कर सकता हूँ मैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एक चीज करता हूँ, एक चीज बताओ ना आप।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तेरे को तो छुपा-छुपा करनी पड़ती है ना।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पर सिटी में ऐसी चीजें है, ऐसी चीजें हैं, जो आपके गांव में नहीं है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्यों आ रहे हैं आपके गांव के लोग यहां पर कमाने?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "फॅमिली के हिसाब से, क्यों आ रहे हैं?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पैसा है भाई, हाँ, पैसा है। लोगों ने, हाँ। क्यों? मतलब,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुमने मन कर लिया है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सब चीज, सब मतलब सब चीज की फैसिलिटी है हमारे पास। आप समझ नहीं रहे हो, सब चीज की फैसिलिटी। पैसा अच्छा है, रोजगार है, स्कूलें अच्छी, हॉस्पिटल अच्छे हैं, सब कुछ अच्छा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सब अच्छा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर आपके गांव में ऐसी चीजें नहीं है, आप समझ नहीं रहे हो इस चीज को।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे मेरे भाई, तो मैं बात बता रहा हूँ तेरे को कि गांव में क्या दिक्कत है बता? गांव में, गांव में मानता हूँ, सुकून है। गांव में दिक्कत क्या है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "उस मन की जिंदगी इतनी जी सकते ना?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर सुकून तो है ना।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सुकून का क्या करें, जब जिंदगी नहीं जी सकते हो आप।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे मेरे भाई, तो कम से कम अपने हिसाब से रह तो रहे हैं, अपनी मर्जी के मालिक, अपने को जहां जाना हो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अपने हिसाब से रह रहे हो?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "आप कल को बताओ, आपके घर पे प्रॉब्लम है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यहाँ पे तो सिटी आना पड़ रहा है ना कि सिटी से गांव जाना पड़ रहा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो तो है ना ऑफिस में है ना बहाने बताने पड़ते हैं कि मेरे तो घर में कोई मर गया, कुछ कर गया कि भई, यहां जाना, वहां जाना। हमारे गांव में हम आजाद हैं भाई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर एक चीज याद रखना, आपको कभी भी किसी चीज की जरूरत है, कुछ भी है, आपके लोग सिटी में आ रहे हैं, सिटी के लोग गांव में नहीं आ रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे, पर, वो भी आते हैं कभी घूमने के हिसाब से। मजबूरी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मजबूरी, हां, मजबूरी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मजबूरी, मजबूरी। वही चीज, गांव में ऐसी चीजें नहीं है जो सिटी में है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर लोग आज भी टूरिस्ट जो होते हैं ना, वो ज्यादातर गांव को एक्सप्लोर करना चाहते हैं। सिटी को तो नहीं करते, तो सिटी वालों ने भी है ना गांव टाइप का कल्चर बनाना शुरू कर दिया है। जैसे आजकल के कैफे देखे होंगे कि भई है ना ऐसे-ऐसे देखना, तो थोड़ा ग्रीनरी-ग्रीरी दिखाएंगे, पर देखो ऐसा दिखाएंगे, कोई गांव का।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे मैं कह रहा हूँ, सिटी में मतलब हर चीज आसपास में जो छोटी-मोटी जगह है ना, वो भी इतनी आगे बढ़ी हुई है गांव के मुकाबले, हर चीज की फैसिलिटी है हमारे पास।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे पर, पर फिर भी गांव-गांव होता है भाई। मेरे को तो,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सुबह आराम से जाओ तो पीढ़ियों से पीढ़ियाँ भाई, गांव की, कहीं पे भी जाना हो, गाड़ी से चले जाओ। हमारे सीन ऐसा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे भाई, पर, तुम्हारे एकड़ तो नहीं है ना?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एकड़ है हमारे,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर कितनी के है? बता, एकड़ क्या है? तुम्हारे तो खाली तू, ऑफिस के एम्पलाई हमारे सब कुछ है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हमारे, मेरे दादा जी से लेकर सब जने घर के आसपास के सब साथ में ही रहते हैं भाई। बोल, आज भी हम साथ में बैठ के खाना खाते हैं। तुम्हारे यहां है क्या ऐसा साथ में खाना खाना?"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, lower-pitched chest voice, rapid cadence, enthusiastic and conversational tone, advocating for rural life.\n- Speaker 1: Male, slightly higher-pitched voice, rapid and conversational cadence, debating the benefits of city life versus rural living.\n\n[Utterance] बाड़ी करनी है, मस्त गाय भैंसें चलानी है, और इनमें भी सुकून है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हमारे गांव में, तुम्हारे गांव में कोई बीमार हो जाए, दो-दो, तीन-तीन किलोमीटर दूर जाना पड़ता है। हमारे पास में हॉस्पिटल, पास में सब, हॉस्पिटल दूर है, पर हम तो घर के घरेलू उपचार से ही सही हो जाते हैं। हमको गोली-दवाई जैसी चीजें खानी नहीं | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पर एडवांस, एडवांस होती है ना चीजें? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] एडवांस करके भी तुम क्या करो? तुम्हारी जिंदगी, लाइफलाइन थोड़ी कम है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हर चीज हमको मिनटों में मिल रही है। हमारा जीवन देख, हमारा जीवन इतना सुखी है कि भाई पोल्यूशन ही नहीं है, कोई किसी चीज की कोई दिक्कत ही नहीं है। हमारे यहां पे खुला ही खुला एरिया है, कहीं पे जाने की कोई दिक्कत नहीं है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] शौचालय बन गए तो पहले चल शौचालय नहीं थे। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तुम्हारे गांव में मतलब ऐसा नहीं है, सब खुला-खुला है, चलो मानते हैं पर जो चीज चाहिए इंसान को वो नहीं है जो सिटी में है, वैसी चीजें नहीं है इनके पास। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे, तुम्हारे सिटी में है क्या? यूं बता तू खाली, | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सिटी में सब कुछ है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] क्या सब कुछ क्या? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] टेक्नोलॉजी अच्छी है, हर जगह जाने की फैसिलिटी है, अच्छी जगह है, रेस्टोरेंट, हॉस्पिटल, स्कूल, सब कुछ अच्छा है। गांव में ऐसी चीजें नहीं हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे मेरे भाई, तो सुकून कहां है? तेरे पास सब कुछ होने के बाद एक सुकून नहीं है। हमारे यहां पे देख, अब हमारे यहां बताऊं तेरे को, सुबह देखते ही तेरे उठते ही है ना तेरे को है ना चिड़िया की आवाज आना, भाई मुर्गे बोलना, ये गाय-भैंसों की आवाज सुनना, इनमें भी एक सुकून है। एक खेती-बाड़ी करना जैसे सुबह उठते ही अपन खेत में जा रहे हैं, भली कैसे भी जाओ, पर खेत में जा रहे हैं, मजा आ रहा है भाई उस चीज में। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अगर अपने घर वाले आसपास दिख रहे हैं अपन को, सब वही दिखते हैं, तुम्हारे यहां पे कैसे? तू ऑफिस चला जाएगा पूरे दिन, तो तू दूसरों को दिखेगा ही नहीं, तेरे ऑफिस वालों को ही दिखता है, बाकी घर वाले तेरे को दिखेंगे नहीं। हमारे यहां काम देख, हमारे यहां पे | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर नहीं, हम जैसे ही देखते, हम सिटी से जैसे गांव आते हैं, तो गांव वाले क्या सोचते हैं? हाँ यार, ये सिटी में काम कर रहा है, अच्छा है, इसकी जिंदगी अच्छी है, ये फैसिलिटी है इसके पास, सब कुछ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पर तुम्हारी जिंदगी में देख कैसा है? कि है ना एक एज में आके तुम्हें है ना वहाँ पर पोल्यूशन की वजह से मर जाओगे, और तुम्हारी है ना मृत्यु हो जाएगी देखना। मैं कह रहा हूँ, ये है ना सिटी का कल्चर ही ऐसा है। हमारे यहां पे देख, जिंदगी है ना लाइफ लॉन्ग है भाई। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] कोई मरने का कोई टेंशन नहीं। खान-पान ही इतना बढ़िया है ना, रोज उठ के घी खाओ, रोज उठ के दही खाओ, छाछ खाओ, सबकी सुविधा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तुम्हारे यहाँ पे तो सब चीज खरीद के खानी पड़ती है, तुम्हारे यहां तो है ना मिलावट है भाई। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मिलावट है भाई, मिलावट है, पर ऐसी चीजें तुम्हारे यहां पिज्जा, बर्गर मतलब हर तरह की फास्ट फूड, हर तरह का मतलब फूड। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ये ये ऑयली चीजें खानी क्यों? ऑयली चीजें | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] इससे बेटा तो अच्छी चीजें खाओ ना जो शरीर को लगे। भाई, शरीर कितने मजबूत होते हैं गांव वालों के, तुमने देखे कि नहीं देखे? हमारे यहाँ देख, तू ऐसे-ऐसे शरीर देख, मेरा शरीर देख, तू कैसा शरीर है? तुम्हारे यहां पे क्या है? तुम्हारे यहां पे तो खा-खा के भाई, पूरा खत्म हो रहा है भाई, शरीर पिंपल हो जाते हैं, पता नहीं क्या-क्या हो जाता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] कुछ भी होता है, पर सिटी की जिंदगी ज्यादा अच्छी है, समझ इस चीज को। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सिटी की मैं मान रहा हूँ। सिटी की पहले अच्छी हुआ करती थी, पर, | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] पहले नहीं, अभी भी अच्छी है। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] अभी भी अच्छी है। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] अभी भी अच्छी है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] लोग गांव से सिटी में आ रहे हैं काम करने के लिए। क्यों आ रहे हैं? क्योंकि अपन इनको रोजगार मिल रहा है। और जो लालच के लिए आते हैं, जिन को पैसे का लालच है ना, वो लोग आते हैं, बाकी इतना कोई मतलब नहीं है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तुम मेरी बात समझ नहीं रहा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] गाँव में कैसा, आज जिसके पास जगह-जमीन सब है ना, वो उसके कमा के खा रहा है, भाई उसके घर में देखना ट्रैक्टर है, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पर यार, सिटी में प्रॉपर्टी होना एक अलग चीज होती है, आगे देख, सब सिटी में ही बसेंगे ना। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तुम क्या करते हो? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] गांव में, गांव में आज क्या है? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एक फ्लैट ले लिया तुमने, उसका फ्लेक्स के लिए, एक कार ले ली, उसका फ्लेक्स लिया। भाई गांव में देख, तू एक मेरे पास एक ट्रैक्टर है, यूं का यूं ही पड़ा हुआ है, बोल क्या फ्लेक्स करा क्या कभी? मेरे पास एक घर पे बुलेट है, मतलब बंदूक है, पता नहीं क्या-क्या है, बोल। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो सब चीजें, बिना लाइसेंस के एक काम कर सकता हूँ मैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एक चीज करता हूँ, एक चीज बताओ ना आप। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तेरे को तो छुपा-छुपा करनी पड़ती है ना। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] पर सिटी में ऐसी चीजें है, ऐसी चीजें हैं, जो आपके गांव में नहीं है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] क्यों आ रहे हैं आपके गांव के लोग यहां पर कमाने? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] फॅमिली के हिसाब से, क्यों आ रहे हैं? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पैसा है भाई, हाँ, पैसा है। लोगों ने, हाँ। क्यों? मतलब, | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तुमने मन कर लिया है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सब चीज, सब मतलब सब चीज की फैसिलिटी है हमारे पास। आप समझ नहीं रहे हो, सब चीज की फैसिलिटी। पैसा अच्छा है, रोजगार है, स्कूलें अच्छी, हॉस्पिटल अच्छे हैं, सब कुछ अच्छा है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] सब अच्छा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर आपके गांव में ऐसी चीजें नहीं है, आप समझ नहीं रहे हो इस चीज को। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे मेरे भाई, तो मैं बात बता रहा हूँ तेरे को कि गांव में क्या दिक्कत है बता? गांव में, गांव में मानता हूँ, सुकून है। गांव में दिक्कत क्या है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] उस मन की जिंदगी इतनी जी सकते ना? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर सुकून तो है ना। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सुकून का क्या करें, जब जिंदगी नहीं जी सकते हो आप। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे मेरे भाई, तो कम से कम अपने हिसाब से रह तो रहे हैं, अपनी मर्जी के मालिक, अपने को जहां जाना हो। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अपने हिसाब से रह रहे हो? | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] आप कल को बताओ, आपके घर पे प्रॉब्लम है। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] यहाँ पे तो सिटी आना पड़ रहा है ना कि सिटी से गांव जाना पड़ रहा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो तो है ना ऑफिस में है ना बहाने बताने पड़ते हैं कि मेरे तो घर में कोई मर गया, कुछ कर गया कि भई, यहां जाना, वहां जाना। हमारे गांव में हम आजाद हैं भाई। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर एक चीज याद रखना, आपको कभी भी किसी चीज की जरूरत है, कुछ भी है, आपके लोग सिटी में आ रहे हैं, सिटी के लोग गांव में नहीं आ रहे हैं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे, पर, वो भी आते हैं कभी घूमने के हिसाब से। मजबूरी। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मजबूरी, हां, मजबूरी। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] मजबूरी, मजबूरी। वही चीज, गांव में ऐसी चीजें नहीं है जो सिटी में है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर लोग आज भी टूरिस्ट जो होते हैं ना, वो ज्यादातर गांव को एक्सप्लोर करना चाहते हैं। सिटी को तो नहीं करते, तो सिटी वालों ने भी है ना गांव टाइप का कल्चर बनाना शुरू कर दिया है। जैसे आजकल के कैफे देखे होंगे कि भई है ना ऐसे-ऐसे देखना, तो थोड़ा ग्रीनरी-ग्रीरी दिखाएंगे, पर देखो ऐसा दिखाएंगे, कोई गांव का। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे मैं कह रहा हूँ, सिटी में मतलब हर चीज आसपास में जो छोटी-मोटी जगह है ना, वो भी इतनी आगे बढ़ी हुई है गांव के मुकाबले, हर चीज की फैसिलिटी है हमारे पास। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे पर, पर फिर भी गांव-गांव होता है भाई। मेरे को तो, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सुबह आराम से जाओ तो पीढ़ियों से पीढ़ियाँ भाई, गांव की, कहीं पे भी जाना हो, गाड़ी से चले जाओ। हमारे सीन ऐसा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे भाई, पर, तुम्हारे एकड़ तो नहीं है ना? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] एकड़ है हमारे, | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर कितनी के है? बता, एकड़ क्या है? तुम्हारे तो खाली तू, ऑफिस के एम्पलाई हमारे सब कुछ है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हमारे, मेरे दादा जी से लेकर सब जने घर के आसपास के सब साथ में ही रहते हैं भाई। बोल, आज भी हम साथ में बैठ के खाना खाते हैं। तुम्हारे यहां है क्या ऐसा साथ में खाना खाना? | [Transition] CONTINUE | [Speaker] Speaker 0"
+  },
+  {
+    "sample_id": "hindi_085",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.13,
+    "num_speakers": 2,
+    "overlap_ratio": 15.15,
+    "latency_seconds": 3.934626958100125,
+    "metrics": {
+      "wer": 0.2423,
+      "cer": 0.1427,
+      "speaker_attribution_accuracy": 0.9034,
+      "cpwer": 0.3763,
+      "diarization_gap": 0.134,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "यार आज"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हैलो, पता है मैंने कितनी शॉपिंग कर ली है, मेरे पैसे ही नहीं बचे यार इस महीने के बिल्कुल भी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वो तो बढ़िया बात है ना, शॉपिंग तो थेरेपी होती है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हँ!"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "व्हाट हैव यू आ क्या ख़रीदा है बताओ फिर?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं तो विएतनाम गई थी ना, मैं तो वहां से इतना कुछ लेके आई, बैग लेके आई, चॉकलेट्स लेके आई, कॉफ़ी लेके आई मैं डिफरेंट फ़्लेवर्स।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे वाह!"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बैग तो जूट के, वो वाले बैग्स है ना, लाइक प्रॉपर ऐसे दूसरे वाले जो नॉर्मल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "नहीं, नॉर्मल ऐसे ही मार्केट से स्लिम बैग लाई हूँ और एक डिओस मिलते हैं वहां पे जो वैसे मैं लाई हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ हाँ हाँ हाँ।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अच्छा, उसके अलावा मैं फ्लेवर्ड कॉफ़ी लाई हूँ और वो हमें हम सबके लिए लाई हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो फ्लेवर्ड कॉफ़ी मैंने बहुत सुना है, बट उसका मतलब डिस्टिंक्शन क्या होता है? वो डिफ़्रेंट कैसे होती है?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "उसके टेस्ट में ना मतलब ऐसे नॉर्मल कॉफ़ी में एक सर्टेन टेस्ट है, ठीक है? अब जैसे मैं कोकोनट कॉफ़ी लाई हूँ, तो उसमें क्या है? जब उसको पियोगे, तुम्हें"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, slightly higher pitch, casual and conversational tone, asking questions and leading the dialogue.\n- Speaker 1: Female, moderate pitch, expressive and descriptive tone, sharing details about her shopping trip and purchases.\n\n[Utterance] यार आज | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हैलो, पता है मैंने कितनी शॉपिंग कर ली है, मेरे पैसे ही नहीं बचे यार इस महीने के बिल्कुल भी। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो तो बढ़िया बात है ना, शॉपिंग तो थेरेपी होती है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हँ! | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] व्हाट हैव यू आ क्या ख़रीदा है बताओ फिर? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मैं तो विएतनाम गई थी ना, मैं तो वहां से इतना कुछ लेके आई, बैग लेके आई, चॉकलेट्स लेके आई, कॉफ़ी लेके आई मैं डिफरेंट फ़्लेवर्स। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे वाह! | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बैग तो जूट के, वो वाले बैग्स है ना, लाइक प्रॉपर ऐसे दूसरे वाले जो नॉर्मल। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] नहीं, नॉर्मल ऐसे ही मार्केट से स्लिम बैग लाई हूँ और एक डिओस मिलते हैं वहां पे जो वैसे मैं लाई हूँ। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ हाँ हाँ हाँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अच्छा, उसके अलावा मैं फ्लेवर्ड कॉफ़ी लाई हूँ और वो हमें हम सबके लिए लाई हूँ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] वो फ्लेवर्ड कॉफ़ी मैंने बहुत सुना है, बट उसका मतलब डिस्टिंक्शन क्या होता है? वो डिफ़्रेंट कैसे होती है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] उसके टेस्ट में ना मतलब ऐसे नॉर्मल कॉफ़ी में एक सर्टेन टेस्ट है, ठीक है? अब जैसे मैं कोकोनट कॉफ़ी लाई हूँ, तो उसमें क्या है? जब उसको पियोगे, तुम्हें | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_064",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.2,
+    "num_speakers": 2,
+    "overlap_ratio": 14.33,
+    "latency_seconds": 4.207019874826074,
+    "metrics": {
+      "wer": 0.271,
+      "cer": 0.168,
+      "speaker_attribution_accuracy": 0.9711,
+      "cpwer": 0.2806,
+      "diarization_gap": 0.0097,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "काम की चीज़ है पढ़ाई-वर पढ़ाई से जुड़े रह सकते हैं, पढ़ाई कर सकते हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार कोई काम की चीज़ नहीं, पढ़ाई तो नाम ही मत ले, पढ़ाई तो कोई करता ही नहीं है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे सब पढ़ाई करते, कैसे पढ़ाई नहीं करते?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पढ़ाई के अलावा ये सब करते हैं, बस पढ़ाई नहीं होती इनसे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे कर रहे हैं बच्चे तो कितने रील्स बना के टैलेंट टैलेंट अपना दिखा रहे हैं सोशल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार ऐसा ही टैलेंट दिखाना है तो फिर पढ़ाई में टैलेंट सबका टैलेंट पढ़ाई में थोड़ी होता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "क्या मतलब यार?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे मतलब नहीं है यार ऑनलाइन पढ़ाई का, ऑनलाइन ये सोशल।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे बच्चे तो कहाँ से कहाँ पढ़ाई कर रहे हैं, अभी तू बोल रही है कि कोई मतलब नहीं है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार पढ़ाई तो कर रहे हैं, लेकिन कितने फेल भी तो हो रहे हैं, तुझको पता नहीं है क्या?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "फेल भी तो हो रहे हैं पर पास भी तो हो रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो अपने घर पे तो अपन को ध्यान रखना पड़ेगा, अपने बच्चे क्या कर रहे हैं, क्या नहीं कर रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अपने घर के पास को रहते हैं, उनको उस लड़की को देखो वो कितना फ़ोन चलाता था और वो फेल हो गया।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे वो तो उसकी मम्मी ध्यान ही नहीं रखती थी, अपन क्या करें?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अपने बच्चों पे तो ध्यान रखना पड़ेगा ना यार।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, वो तो सही है, लेकिन अब सबको"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अपन भी तो शॉपिंग करते हैं ऑनलाइन, अपन दोनों शॉपिंग नहीं करते हैं क्या?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे शॉपिंग तो करते हैं, लेकिन तेरेको पता नहीं फ्रॉड फ्रॉड कतरोवे ऑनलाइन शॉपिंग में।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे फ्रॉड तो वेवे, पर आपने भी ध्यान रखना पड़ेगा थोड़ो-करो तो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, ध्यान तो रखना ही पड़ता है, लेकिन फिर भी यार ऑन सोशल मीडिया।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, moderate pitch, clear voice, casual conversational cadence.\n- Speaker 1: Female, slightly lower pitch, steady voice, discussing studies and social media.\n\n[Utterance] काम की चीज़ है पढ़ाई-वर पढ़ाई से जुड़े रह सकते हैं, पढ़ाई कर सकते हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे यार कोई काम की चीज़ नहीं, पढ़ाई तो नाम ही मत ले, पढ़ाई तो कोई करता ही नहीं है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे सब पढ़ाई करते, कैसे पढ़ाई नहीं करते? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] पढ़ाई के अलावा ये सब करते हैं, बस पढ़ाई नहीं होती इनसे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे कर रहे हैं बच्चे तो कितने रील्स बना के टैलेंट टैलेंट अपना दिखा रहे हैं सोशल। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे यार ऐसा ही टैलेंट दिखाना है तो फिर पढ़ाई में टैलेंट सबका टैलेंट पढ़ाई में थोड़ी होता है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] क्या मतलब यार? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे मतलब नहीं है यार ऑनलाइन पढ़ाई का, ऑनलाइन ये सोशल। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे बच्चे तो कहाँ से कहाँ पढ़ाई कर रहे हैं, अभी तू बोल रही है कि कोई मतलब नहीं है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे यार पढ़ाई तो कर रहे हैं, लेकिन कितने फेल भी तो हो रहे हैं, तुझको पता नहीं है क्या? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] फेल भी तो हो रहे हैं पर पास भी तो हो रहे हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो अपने घर पे तो अपन को ध्यान रखना पड़ेगा, अपने बच्चे क्या कर रहे हैं, क्या नहीं कर रहे हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अपने घर के पास को रहते हैं, उनको उस लड़की को देखो वो कितना फ़ोन चलाता था और वो फेल हो गया। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे वो तो उसकी मम्मी ध्यान ही नहीं रखती थी, अपन क्या करें? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अपने बच्चों पे तो ध्यान रखना पड़ेगा ना यार। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, वो तो सही है, लेकिन अब सबको | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अपन भी तो शॉपिंग करते हैं ऑनलाइन, अपन दोनों शॉपिंग नहीं करते हैं क्या? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे शॉपिंग तो करते हैं, लेकिन तेरेको पता नहीं फ्रॉड फ्रॉड कतरोवे ऑनलाइन शॉपिंग में। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे फ्रॉड तो वेवे, पर आपने भी ध्यान रखना पड़ेगा थोड़ो-करो तो। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, ध्यान तो रखना ही पड़ता है, लेकिन फिर भी यार ऑन सोशल मीडिया। | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_067",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.39,
+    "num_speakers": 2,
+    "overlap_ratio": 13.52,
+    "latency_seconds": 3.7393767500761896,
+    "metrics": {
+      "wer": 0.5195,
+      "cer": 0.311,
+      "speaker_attribution_accuracy": 0.6715,
+      "cpwer": 0.9394,
+      "diarization_gap": 0.4199,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "तो मेरे ये गांव मत मार करवो इसलिए, मुझे बाद में बात नहीं करनो यो यो नहीं करनो यो, यो तरीको वेबे के, चार लोगों में बोलनो भी पड़े, उठनो भी पड़े, सब करनो पड़े।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अब महिला है तो खेती-बाड़ी का काम चलो ठीक है, वरना रे हिस्सा में आवे तो कम-कम, मैं तो यूं ही है कहना, महिला रे शिक्षा भी तो जरूरी है, यूं थोड़ी वे है कि है ना, मतलब बिल्कुल बनी थकी नी सावेन।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ सब अनपढ़ गया, महिला ने पढ़वा देवा, घरो काम ही करना पड़े बस, अतर ऑफिस देवे क्यों भाई, कई के।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बाई-तारी मैं मैं है ना, कई के, बनी थकी आवे जो जणे भी है ना, घर में रोटी करवा मेरे देई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "महिला का भी अधिकार है, कम से कम पढ़े, लिखे, पढ़े-लिखेंगे तो उनके बच्चे भी पढ़े-लिखे, मेरा भी लिखा सके, कि घर में ऐसा है कि है ना, क्या बोलते हैं, अह, मेरे आंटी के है ना, उनको नहीं करने देते जॉब।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अच्छा, तभी कम से कम, थोड़ा बहुत तो करना चाहिए, घर वालों को इतना तो समझना चाहिए, अगर बड़ा लिखा कुछ नहीं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "शादी और बस, बाजार में काम करो, इससे थोड़ी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ऐसे, ऐसे नहीं चलता, ऐसे तो बिल्कुल भी नहीं चले, थोड़ा बहुत पढ़ाना भी पड़े, महिला को तो काम चाले नहीं।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, moderate pitch, clear and conversational tone, discussing social issues regarding women.\n- Speaker 1: Female, slightly higher pitch, engaged and responsive tone, agreeing and adding points to the discussion.\n\n[Utterance] तो मेरे ये गांव मत मार करवो इसलिए, मुझे बाद में बात नहीं करनो यो यो नहीं करनो यो, यो तरीको वेबे के, चार लोगों में बोलनो भी पड़े, उठनो भी पड़े, सब करनो पड़े। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अब महिला है तो खेती-बाड़ी का काम चलो ठीक है, वरना रे हिस्सा में आवे तो कम-कम, मैं तो यूं ही है कहना, महिला रे शिक्षा भी तो जरूरी है, यूं थोड़ी वे है कि है ना, मतलब बिल्कुल बनी थकी नी सावेन। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ सब अनपढ़ गया, महिला ने पढ़वा देवा, घरो काम ही करना पड़े बस, अतर ऑफिस देवे क्यों भाई, कई के। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बाई-तारी मैं मैं है ना, कई के, बनी थकी आवे जो जणे भी है ना, घर में रोटी करवा मेरे देई। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] महिला का भी अधिकार है, कम से कम पढ़े, लिखे, पढ़े-लिखेंगे तो उनके बच्चे भी पढ़े-लिखे, मेरा भी लिखा सके, कि घर में ऐसा है कि है ना, क्या बोलते हैं, अह, मेरे आंटी के है ना, उनको नहीं करने देते जॉब। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अच्छा, तभी कम से कम, थोड़ा बहुत तो करना चाहिए, घर वालों को इतना तो समझना चाहिए, अगर बड़ा लिखा कुछ नहीं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] शादी और बस, बाजार में काम करो, इससे थोड़ी। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] ऐसे, ऐसे नहीं चलता, ऐसे तो बिल्कुल भी नहीं चले, थोड़ा बहुत पढ़ाना भी पड़े, महिला को तो काम चाले नहीं। | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_087",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.23,
+    "num_speakers": 2,
+    "overlap_ratio": 12.18,
+    "latency_seconds": 3.6327594590839,
+    "metrics": {
+      "wer": 0.3391,
+      "cer": 0.1821,
+      "speaker_attribution_accuracy": 0.6603,
+      "cpwer": 0.5575,
+      "diarization_gap": 0.2184,
+      "speaker_mapping": {
+        "Speaker 1": "Speaker0",
+        "Speaker 0": "Speaker1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "यहाँ लोग के नहायल, पूजा लोग का आना-जाना"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यहाँ रोज का नजारा हो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "चाय का दुकान यहाँ पता बतिए, अपने आप सोचो जाला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सही बात।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वहाँ तो समय कैसे बीत जाला पता न चलेला, बस बात करत रहा, करत रहा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और साँझ का तो माहौल बदल जाला इधर।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बिल्कुल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बिल्कुल बदल जाला जहाँ चार दोस्त मिलन, चार यार मिलन।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे!"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ओकर तो बच्ची अलग हो जाला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे, वो सबसे इम्पोर्टेन्ट कहीं भजन, कहीं गीत, कहीं आरती, प्रवचन।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एकदम एकदम।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एकदम, ये सब मिलके तो बनारस का माहौल एकदम अलग, शांतिपूर्ण बना देवला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, बात तो सही है, बनारस में जब कहीं घाट पे जा के बैठा, चार यार मिलिहें।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "चार दोस्त मिलिहें, तो ई बात कुछ अलग होला।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, यहाँ का संस्कृति किताब में लिखे वाली चीज़ ना ह, यहाँ का संस्कृति तो"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एकदम महसूस करे वाली चीज़ ह।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एकदम।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ये जगह लोग चार लोग मिलिहें, चार तरीका का बात करिहें, ओकरे में बात करे में एक अलग ही मजा होला।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, moderate pitch, energetic cadence, conversational tone.\n- Speaker 1: Female, slightly lower pitch, relaxed tone, sharing thoughts in agreement.\n\n[Utterance] यहाँ लोग के नहायल, पूजा लोग का आना-जाना | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] यहाँ रोज का नजारा हो। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] चाय का दुकान यहाँ पता बतिए, अपने आप सोचो जाला। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सही बात। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] वहाँ तो समय कैसे बीत जाला पता न चलेला, बस बात करत रहा, करत रहा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] और साँझ का तो माहौल बदल जाला इधर। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बिल्कुल। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बिल्कुल बदल जाला जहाँ चार दोस्त मिलन, चार यार मिलन। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे! | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] ओकर तो बच्ची अलग हो जाला। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] अरे, वो सबसे इम्पोर्टेन्ट कहीं भजन, कहीं गीत, कहीं आरती, प्रवचन। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] एकदम एकदम। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] एकदम, ये सब मिलके तो बनारस का माहौल एकदम अलग, शांतिपूर्ण बना देवला। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ, बात तो सही है, बनारस में जब कहीं घाट पे जा के बैठा, चार यार मिलिहें। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] चार दोस्त मिलिहें, तो ई बात कुछ अलग होला। | [Transition] RESUME | [Speaker] Speaker 0\n[Utterance] हाँ, यहाँ का संस्कृति किताब में लिखे वाली चीज़ ना ह, यहाँ का संस्कृति तो | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] एकदम महसूस करे वाली चीज़ ह। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] एकदम। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] ये जगह लोग चार लोग मिलिहें, चार तरीका का बात करिहें, ओकरे में बात करे में एक अलग ही मजा होला। | [Transition] CONTINUE | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_063",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 300.51,
+    "num_speakers": 2,
+    "overlap_ratio": 11.45,
+    "latency_seconds": 9.085130874998868,
+    "metrics": {
+      "wer": 0.2189,
+      "cer": 0.152,
+      "speaker_attribution_accuracy": 0.7389,
+      "cpwer": 0.4674,
+      "diarization_gap": 0.2484,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "जो फैक्ट्रीज होती है, उसकी वजह से जो अलग-अलग पॉल्यूशंस होता है, इसकी वजह से क्लाइमेट ऑटोमेटिकली चेंज हो जाता है। अपन को पता ही नहीं चलता कब सर्दी होने वाली है, कब गर्मी होने वाली है। और पता नहीं अब इतनी ज्यादा ये सर्दी कब तक चलेगी?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सही बात है यार, बहुत नुकसान हो रहा है इस मतलब क्लाइमेट चेंज होने की वजह से। मौसम का ना एकदम पैटर्न बिल्कुल बिगड़ गया है यार, कुछ सही सा है ही नहीं। गर्मी, सर्दी, बारिश, सूखा, कुछ समझ में नहीं आ रहा कि कब क्या पड़ेगा, क्या होगा। अभी तो वैसे ही सर्दी जब नहीं पड़ रही थी, तो पता ही नहीं चल रहा था। जो सारे जो सर्दियों के जो कपड़े थे, वो तो हमने अलमारियों में पैक करके रख चुके थे कि ठीक है अब सर्दी नहीं आएगी। वापस से उनको निकालना पड़ रहा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वही वही बिल्कुल। किसानों की फसलें तुम देख रही हो? मतलब ज्यादा बारिश हो गई तो भी बेचारे की खराब हो जाए। ज्यादा ठंड पड़ गई तो भी खराब हो जाए। और ज्यादा गर्मी पड़ी, सूखा हो गया, तो भी खराब। अरे यार, उनके साथ तो मतलब इतना बुरा हो रहा है हर सीजन में की कुछ कह ही नहीं सकते यार। अपने पास तो सलूशन सही बात है। क्लाइमेट चेंज का सबसे ज्यादा वही है कि जो लोग पॉल्यूशन कर रहे हैं, फैक्ट्रियों से निकल रहा है, पेड़ कट रहे हैं, जंगली जानवर जो है छोड़ के यहां पे अंदर मतलब सिटीज एरिया में आ रहे हैं। ये सारे इसी वजह से हो रहा है कि कुछ भी चीज जो है सिस्टम के अकॉर्डिंग नहीं चल रही है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुम एक बात बताओ, मुझे ऐसा लग रहा है कि हमें फिर से मतलब पुराने टाइम पे आ जाना चाहिए कि हमें दोबारा से वो बेड लगाना शुरू करना पड़ेगा। ये जो प्लास्टिक है, इसे तो बोलना ही पड़ेगा हमें क्योंकि ये तो जाता ही नहीं है कभी भी। चाहे जला दो, चाहे कुछ भी करो, ये हमेशा रहता है। ऊपर से फिर ये जो ट्रांसपोर्ट हम इतना यूज़ करते हैं ना, व्हीकल्स कार, बाइक, बस,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इसीलिए बहुत ज्यादा पॉल्यूशन हो रहा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "इंसान ने मतलब इन सब चीजों के आने के बाद चलना फिरना छोड़ दिया है। सिर्फ वो भरोसे बैठ गए बस के, कार के, बाइक। हमें मतलब 10 कदम पे अगर दूर जाना है और अगर हमारे पास बाइक है, ट्रांसपोर्ट अगर है, तो हम उसका यूज़ करेंगे। हम पैदल नहीं जाएंगे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इवन वो साइकिल भी नहीं चलाता है कि हां थोड़ा सा दूर जाने के लिए हमें साइकलिंग करनी चाहिए ताकि हमारे वो हेल्थ के लिए भी अच्छी रहती है। लेकिन सबको बस ऐसा ही है कि"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुम समझ रहे हो, मतलब इससे क्या होता है ना? इससे हमारी बॉडी भी हेल्दी रहेगी और हम ना जो ये बिजली बिजली को इतना वेस्ट कर रहे हैं, टेक्नोलॉजी, टेक्नोलॉजी की वजह से भी जो है क्लाइमेट पे इफ़ेक्ट पड़ता है क्योंकि टेक्नोलॉजी आ गई है। अब पहले 4G चलता था, अब 5G आ गया। उसकी वजह से भी अगर आपने देखा होगा, कुछ टाइम पहले 5G आया था, तो कितना ज्यादा गर्मी ज्यादा ओवर हीटिंग हो गई थी, तो"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सेम।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ऐसे टेक्नोलॉजीज की वजह से भी क्लाइमेट पे इफ़ेक्ट पड़ता है। क्लाइमेट इसी वजह से भी चेंज होता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वही ना यार। अभी क्लाइमेट चेंज, मतलब भविष्य में ना कुछ नहीं बचेगा और सिर्फ और सिर्फ परेशानियां, सूखा ये सब रह जाएगा। अगर हमने अपने लिए स्टेप्स नहीं लिया, अगर हमने पेड़ नहीं लगाया, हमने जो है उस चीज़ का ध्यान नहीं रखा कि हमें क्लाइमेट चेंज पड़ने पर क्या करना"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वही वही। अगर आज भी हम नहीं जागे ना, तो सब ऐसा का ऐसा ही रह जाएगा, ऐसे ही चलता रहेगा और आने वाले समय में अफ़सोस होगा कि हमने ये पहले क्यों नहीं किया, हमने इसका"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बिलकुल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सांस लेने के लिए वो जो आजकल हम देखते हैं ना वो फोन्स में, Instagram, हर जगह WhatsApp, वो एक मज़ाक चल रहा है कि फ्यूचर में भविष्य में क्या होगा हम एक ऑक्सीजन सिलेंडर लेकर घूमेंगे। वो मतलब एक मज़ाक नहीं है वो। वो सच्चाई है हमारी। ये ऐसा हो सकता है हम जो कर रहे हैं पानी तो अब हम खरीद के पीते ही हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पीते ही हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "है। सांस भी, मतलब वही ऑक्सीजन भी खरीदनी पड़ेगी तो क्या मतलब इस जिंदगी का? हमने खुद सब बर्बाद कर दिया है। हमें जो है ज्यादा ट्रांसपोर्ट्स का यूज़ नहीं करना चाहिए, अगर कम जगह अगर जाना है हमें,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ज्यादा दूर नहीं जाना है, तो उसके लिए हमें जो है अपने पैदल जाना चाहिए, पैरों का यूज़ करना चाहिए। इससे हमारी हेल्थ भी अच्छी रहेगी। इससे हमारे जो है क्लाइमेट पे भी इफ़ेक्ट नहीं पड़ेगा, पॉल्यूशन भी नहीं होगा। हर चीज़ में जो है बेनिफिट्स है, तो देखा जाए तो अगर अपन कुछ अच्छी चीज़ों को देख देखेंगे अच्छी तरीके से, तो बेनिफिट्स भी हैं और अगर अपन बुरी तरीके से देखेंगे, तो उसमें ये भी है कि क्यों जाएं? हम थक जाएंगे इतनी दूर जाना है। लेकिन उसको अच्छे तरीके से देखेंगे, तो पता चलेगा कि हमारे एक सही तरीके यूज़ करने से कि हम अगर पैदल ना गाड़ी पे ना जाके पैदल कुछ दूर पे अगर कुछ जगह है, वहां जाएं, तो उससे बहुत सारी चीज़ें जो है हमारे लिए इफेक्टिव रहेगा, मतलब चीज़ों में बहुत सारी चीज़ों में जो है हमें सपोर्ट मिलेगा कि हां पॉल्यूशन नहीं होगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यार तुम सही बोल रही हो। पर मेरे हिसाब से पता है क्या होना चाहिए? ये जो हमारी सरकार है ना, इसको मतलब एकदम स्ट्रिक्ट एक्शन लेनी चाहिए, ये नेचर के लिए। ठीक है? ये जो इंडस्ट्रीज अभी जो फैक्ट्रियां बन रही हैं, नहीं-नहीं। इनके लिए तो मतलब एकदम वो स्कूल कॉलेज में भी वो होना चाहिए, कंपनी सब में मतलब,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "स्कूल कॉलेज।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कंपलसरी होना चाहिए कि हमें पेड़ लगाना है, पेड़ लगाना है, पौधे लगाने हैं, गमले लगाने हैं। जितना ज्यादा हो सके, उतना ज्यादा हमें आज से ही स्टार्ट कर देना चाहिए। पेड़ लगाना है कि हम घर के बाहर भी पेड़ लगाएं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बिलकुल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अगर अभी से स्टार्ट नहीं किया, तो कुछ नहीं हो पाएगा यार। हम ऐसी ही बस बातें करते रह जाएंगे और कुछ नहीं बचेगा हमारे पास, हमारे हाथों में कुछ"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, moderate pitch, clear and expressive vocal timbre, conversational and casual cadence, acting as the primary conversational partner discussing climate change and environmental issues.\n- Speaker 1: Female, slightly higher pitch, energetic and responsive vocal timbre, conversational cadence, reacting and elaborating on the climate change discussion.\n\n[Utterance] जो फैक्ट्रीज होती है, उसकी वजह से जो अलग-अलग पॉल्यूशंस होता है, इसकी वजह से क्लाइमेट ऑटोमेटिकली चेंज हो जाता है। अपन को पता ही नहीं चलता कब सर्दी होने वाली है, कब गर्मी होने वाली है। और पता नहीं अब इतनी ज्यादा ये सर्दी कब तक चलेगी? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सही बात है यार, बहुत नुकसान हो रहा है इस मतलब क्लाइमेट चेंज होने की वजह से। मौसम का ना एकदम पैटर्न बिल्कुल बिगड़ गया है यार, कुछ सही सा है ही नहीं। गर्मी, सर्दी, बारिश, सूखा, कुछ समझ में नहीं आ रहा कि कब क्या पड़ेगा, क्या होगा। अभी तो वैसे ही सर्दी जब नहीं पड़ रही थी, तो पता ही नहीं चल रहा था। जो सारे जो सर्दियों के जो कपड़े थे, वो तो हमने अलमारियों में पैक करके रख चुके थे कि ठीक है अब सर्दी नहीं आएगी। वापस से उनको निकालना पड़ रहा है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] वही वही बिल्कुल। किसानों की फसलें तुम देख रही हो? मतलब ज्यादा बारिश हो गई तो भी बेचारे की खराब हो जाए। ज्यादा ठंड पड़ गई तो भी खराब हो जाए। और ज्यादा गर्मी पड़ी, सूखा हो गया, तो भी खराब। अरे यार, उनके साथ तो मतलब इतना बुरा हो रहा है हर सीजन में की कुछ कह ही नहीं सकते यार। अपने पास तो सलूशन सही बात है। क्लाइमेट चेंज का सबसे ज्यादा वही है कि जो लोग पॉल्यूशन कर रहे हैं, फैक्ट्रियों से निकल रहा है, पेड़ कट रहे हैं, जंगली जानवर जो है छोड़ के यहां पे अंदर मतलब सिटीज एरिया में आ रहे हैं। ये सारे इसी वजह से हो रहा है कि कुछ भी चीज जो है सिस्टम के अकॉर्डिंग नहीं चल रही है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तुम एक बात बताओ, मुझे ऐसा लग रहा है कि हमें फिर से मतलब पुराने टाइम पे आ जाना चाहिए कि हमें दोबारा से वो बेड लगाना शुरू करना पड़ेगा। ये जो प्लास्टिक है, इसे तो बोलना ही पड़ेगा हमें क्योंकि ये तो जाता ही नहीं है कभी भी। चाहे जला दो, चाहे कुछ भी करो, ये हमेशा रहता है। ऊपर से फिर ये जो ट्रांसपोर्ट हम इतना यूज़ करते हैं ना, व्हीकल्स कार, बाइक, बस, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] इसीलिए बहुत ज्यादा पॉल्यूशन हो रहा है। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] इंसान ने मतलब इन सब चीजों के आने के बाद चलना फिरना छोड़ दिया है। सिर्फ वो भरोसे बैठ गए बस के, कार के, बाइक। हमें मतलब 10 कदम पे अगर दूर जाना है और अगर हमारे पास बाइक है, ट्रांसपोर्ट अगर है, तो हम उसका यूज़ करेंगे। हम पैदल नहीं जाएंगे। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] इवन वो साइकिल भी नहीं चलाता है कि हां थोड़ा सा दूर जाने के लिए हमें साइकलिंग करनी चाहिए ताकि हमारे वो हेल्थ के लिए भी अच्छी रहती है। लेकिन सबको बस ऐसा ही है कि | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तुम समझ रहे हो, मतलब इससे क्या होता है ना? इससे हमारी बॉडी भी हेल्दी रहेगी और हम ना जो ये बिजली बिजली को इतना वेस्ट कर रहे हैं, टेक्नोलॉजी, टेक्नोलॉजी की वजह से भी जो है क्लाइमेट पे इफ़ेक्ट पड़ता है क्योंकि टेक्नोलॉजी आ गई है। अब पहले 4G चलता था, अब 5G आ गया। उसकी वजह से भी अगर आपने देखा होगा, कुछ टाइम पहले 5G आया था, तो कितना ज्यादा गर्मी ज्यादा ओवर हीटिंग हो गई थी, तो | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सेम। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] ऐसे टेक्नोलॉजीज की वजह से भी क्लाइमेट पे इफ़ेक्ट पड़ता है। क्लाइमेट इसी वजह से भी चेंज होता है। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] वही ना यार। अभी क्लाइमेट चेंज, मतलब भविष्य में ना कुछ नहीं बचेगा और सिर्फ और सिर्फ परेशानियां, सूखा ये सब रह जाएगा। अगर हमने अपने लिए स्टेप्स नहीं लिया, अगर हमने पेड़ नहीं लगाया, हमने जो है उस चीज़ का ध्यान नहीं रखा कि हमें क्लाइमेट चेंज पड़ने पर क्या करना | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] वही वही। अगर आज भी हम नहीं जागे ना, तो सब ऐसा का ऐसा ही रह जाएगा, ऐसे ही चलता रहेगा और आने वाले समय में अफ़सोस होगा कि हमने ये पहले क्यों नहीं किया, हमने इसका | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बिलकुल। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] सांस लेने के लिए वो जो आजकल हम देखते हैं ना वो फोन्स में, Instagram, हर जगह WhatsApp, वो एक मज़ाक चल रहा है कि फ्यूचर में भविष्य में क्या होगा हम एक ऑक्सीजन सिलेंडर लेकर घूमेंगे। वो मतलब एक मज़ाक नहीं है वो। वो सच्चाई है हमारी। ये ऐसा हो सकता है हम जो कर रहे हैं पानी तो अब हम खरीद के पीते ही हैं। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] पीते ही हैं। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] है। सांस भी, मतलब वही ऑक्सीजन भी खरीदनी पड़ेगी तो क्या मतलब इस जिंदगी का? हमने खुद सब बर्बाद कर दिया है। हमें जो है ज्यादा ट्रांसपोर्ट्स का यूज़ नहीं करना चाहिए, अगर कम जगह अगर जाना है हमें, | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] ज्यादा दूर नहीं जाना है, तो उसके लिए हमें जो है अपने पैदल जाना चाहिए, पैरों का यूज़ करना चाहिए। इससे हमारी हेल्थ भी अच्छी रहेगी। इससे हमारे जो है क्लाइमेट पे भी इफ़ेक्ट नहीं पड़ेगा, पॉल्यूशन भी नहीं होगा। हर चीज़ में जो है बेनिफिट्स है, तो देखा जाए तो अगर अपन कुछ अच्छी चीज़ों को देख देखेंगे अच्छी तरीके से, तो बेनिफिट्स भी हैं और अगर अपन बुरी तरीके से देखेंगे, तो उसमें ये भी है कि क्यों जाएं? हम थक जाएंगे इतनी दूर जाना है। लेकिन उसको अच्छे तरीके से देखेंगे, तो पता चलेगा कि हमारे एक सही तरीके यूज़ करने से कि हम अगर पैदल ना गाड़ी पे ना जाके पैदल कुछ दूर पे अगर कुछ जगह है, वहां जाएं, तो उससे बहुत सारी चीज़ें जो है हमारे लिए इफेक्टिव रहेगा, मतलब चीज़ों में बहुत सारी चीज़ों में जो है हमें सपोर्ट मिलेगा कि हां पॉल्यूशन नहीं होगा। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] यार तुम सही बोल रही हो। पर मेरे हिसाब से पता है क्या होना चाहिए? ये जो हमारी सरकार है ना, इसको मतलब एकदम स्ट्रिक्ट एक्शन लेनी चाहिए, ये नेचर के लिए। ठीक है? ये जो इंडस्ट्रीज अभी जो फैक्ट्रियां बन रही हैं, नहीं-नहीं। इनके लिए तो मतलब एकदम वो स्कूल कॉलेज में भी वो होना चाहिए, कंपनी सब में मतलब, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] स्कूल कॉलेज। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] कंपलसरी होना चाहिए कि हमें पेड़ लगाना है, पेड़ लगाना है, पौधे लगाने हैं, गमले लगाने हैं। जितना ज्यादा हो सके, उतना ज्यादा हमें आज से ही स्टार्ट कर देना चाहिए। पेड़ लगाना है कि हम घर के बाहर भी पेड़ लगाएं। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] बिलकुल। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] अगर अभी से स्टार्ट नहीं किया, तो कुछ नहीं हो पाएगा यार। हम ऐसी ही बस बातें करते रह जाएंगे और कुछ नहीं बचेगा हमारे पास, हमारे हाथों में कुछ | [Transition] RESUME | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_093",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.38,
+    "num_speakers": 2,
+    "overlap_ratio": 10.72,
+    "latency_seconds": 3.963087209034711,
+    "metrics": {
+      "wer": 0.2814,
+      "cer": 0.1311,
+      "speaker_attribution_accuracy": 0.9816,
+      "cpwer": 0.2857,
+      "diarization_gap": 0.0043,
+      "speaker_mapping": {
+        "Speaker 1": "Speaker 2",
+        "Speaker 0": "Speaker1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "हाय भाई, कैसा है?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ऑल गुड।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पता है कोई एआई टूल मैं यूज़ कर रहा था रीसेंटली प्रेजेंटेशन के लिए।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो तुझे कुछ एआई टूल्स के बारे में पता है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "लाइक बहुत सही, काफी अच्छा, सपोर्टिव काम करता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं यार यूज़ करता हूँ, बट मेरा तो हमेशा हेलुसिनेट ही करते रहता है, मैं तो पीपीटी बनवाता हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे यार ऐसा थोड़ी है, मतलब कुछ अच्छे टूल यूज़ कर ले जैसे गामा वगैरा यूज़ कर ले प्रेजेंटेशन के लिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे तो किया, मतलब बहुत बायस्ड रहता है, मतलब इसका मेरे को लगता है कि जो भी कन्वर्सेशन है वो बहुत बायस्ड है, मतलब व्हाट आई एम"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तू एडिट भी कर सकता है ना, तू एडिट भी कर सकता है, लाइक इट्स नॉट"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कि तू एडिट नहीं कर पाएगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बहुत सेंट्रिक होता है ये, मतलब मेरे को लगता है कि इसकी वजह से बहुत फॉल्स इंफॉर्मेशन भी स्प्रेड हो सकता है अगर उन्होंने किया तो ये सब।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, ये तो ये तो होता ही है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ये तो बिल्कुल होता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं अगर देखूँ तेरे को अभी बिहार में इलेक्शंस हुए, तो ये सब मॉडल्स वगैरा जो भी चल रहे थे, इनको वो ट्यून किया गया था।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं देख रहा था बीजेपी की तरफ ज्यादा इन्क्लिनेशन था उनका।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सो आई एम वेरी स्केयर्ड, मतलब जो इंफॉर्मेशन मुझे मिल रही है ईआई से, मैं भी भाई।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, medium pitch chest voice, casual and conversational cadence, initiating a topic about AI tools.\n- Speaker 1: Male, slightly higher pitch, casual and conversational cadence, responding and discussing AI tools and biases.\n\n[Utterance] हाय भाई, कैसा है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] ऑल गुड। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पता है कोई एआई टूल मैं यूज़ कर रहा था रीसेंटली प्रेजेंटेशन के लिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो तुझे कुछ एआई टूल्स के बारे में पता है? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] लाइक बहुत सही, काफी अच्छा, सपोर्टिव काम करता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मैं यार यूज़ करता हूँ, बट मेरा तो हमेशा हेलुसिनेट ही करते रहता है, मैं तो पीपीटी बनवाता हूँ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे यार ऐसा थोड़ी है, मतलब कुछ अच्छे टूल यूज़ कर ले जैसे गामा वगैरा यूज़ कर ले प्रेजेंटेशन के लिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे तो किया, मतलब बहुत बायस्ड रहता है, मतलब इसका मेरे को लगता है कि जो भी कन्वर्सेशन है वो बहुत बायस्ड है, मतलब व्हाट आई एम | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तू एडिट भी कर सकता है ना, तू एडिट भी कर सकता है, लाइक इट्स नॉट | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] कि तू एडिट नहीं कर पाएगा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] बहुत सेंट्रिक होता है ये, मतलब मेरे को लगता है कि इसकी वजह से बहुत फॉल्स इंफॉर्मेशन भी स्प्रेड हो सकता है अगर उन्होंने किया तो ये सब। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, ये तो ये तो होता ही है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] ये तो बिल्कुल होता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मैं अगर देखूँ तेरे को अभी बिहार में इलेक्शंस हुए, तो ये सब मॉडल्स वगैरा जो भी चल रहे थे, इनको वो ट्यून किया गया था। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मैं देख रहा था बीजेपी की तरफ ज्यादा इन्क्लिनेशन था उनका। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] सो आई एम वेरी स्केयर्ड, मतलब जो इंफॉर्मेशन मुझे मिल रही है ईआई से, मैं भी भाई। | [Transition] CONTINUE | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_066",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.47,
+    "num_speakers": 2,
+    "overlap_ratio": 9.78,
+    "latency_seconds": 3.9703220000956208,
+    "metrics": {
+      "wer": 0.2316,
+      "cer": 0.136,
+      "speaker_attribution_accuracy": 0.7866,
+      "cpwer": 0.5919,
+      "diarization_gap": 0.3603,
+      "speaker_mapping": {
+        "Speaker 1": "Speaker 0",
+        "Speaker 0": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "इंटरनेट से सर्च कर सकते हैं, तो,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मोबाइल के ऊपर बहुत सारी चीज़ें हैं और बहुत सारे कारण हो रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "जैसे मोबाइल में सब कोई स्टडी अगर कर सकते हैं, तो बाहर जैसे जो ट- टीचर होते हैं, उनको नुकसान हो रहा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, आपकी बात से सहमत हूँ कि कुछ नुकसान हो रहा है, लेकिन इससे समय का समय की भी बचत हो रही है, लेकिन कुछ चीज़ें ऐसी होती है, जो हम"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जैसे कोविड की कोविड के समय में हम एक दूसरे से मिल नहीं पा रहे थे, तो स्टडी में अगर मोबाइल नहीं होता, तो स्टडी में प्रॉब्लम होती।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो आपकी बात पूरी सही है, पर जैसे अभी एक अपन लाइव किसी से पढ़ाई करते हैं और एक अपन मोबाइल में पढ़ाई करते हैं, उसका बहुत फ़र्क होता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मोबाइल में इतना अच्छे से समझ में नहीं आता, जितना अपने को लाइव समझ में आता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, ये बात तो है कि, लेकिन आज के समय मोबाइल के फायदे भी है, नुकसान भी है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो अगर हम इसका सही उपयोग करें, तो फायदा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "और थोड़ी बहुत अवेयरनेस के साथ उपयोग करें, तो बहुत फायदे हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, बिल्कुल हम कर सकते हैं, क्योंकि बहुत सारी चीज़ें ऐसी हैं कि मोबाइल में बहुत खराब-खराब चीज़ें होती हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, तो इसीलिए हमें, अब इस- इसीलिए हमको जागरूक होना चाहिए कि मोबाइल में हमें क्या बच्चों को क्या देखना चाहिए।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इसके लिए ऐसे फंक्शन डेवलप किए जैसे किड्स मोड मोबाइल में होता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो उसको यूज़ करो।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कुछ चीज़ों को हमको ब्लॉक करना चाहिए।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, medium-low pitch, clear timbre, deliberate cadence, discussing the downsides of mobile usage in education.\n- Speaker 1: Male, slightly higher pitch, moderate cadence, conversational tone, responding and adding points about mobile usage.\n\n[Utterance] इंटरनेट से सर्च कर सकते हैं, तो, | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मोबाइल के ऊपर बहुत सारी चीज़ें हैं और बहुत सारे कारण हो रहे हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] जैसे मोबाइल में सब कोई स्टडी अगर कर सकते हैं, तो बाहर जैसे जो ट- टीचर होते हैं, उनको नुकसान हो रहा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, आपकी बात से सहमत हूँ कि कुछ नुकसान हो रहा है, लेकिन इससे समय का समय की भी बचत हो रही है, लेकिन कुछ चीज़ें ऐसी होती है, जो हम | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] जैसे कोविड की कोविड के समय में हम एक दूसरे से मिल नहीं पा रहे थे, तो स्टडी में अगर मोबाइल नहीं होता, तो स्टडी में प्रॉब्लम होती। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] वो आपकी बात पूरी सही है, पर जैसे अभी एक अपन लाइव किसी से पढ़ाई करते हैं और एक अपन मोबाइल में पढ़ाई करते हैं, उसका बहुत फ़र्क होता है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मोबाइल में इतना अच्छे से समझ में नहीं आता, जितना अपने को लाइव समझ में आता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, ये बात तो है कि, लेकिन आज के समय मोबाइल के फायदे भी है, नुकसान भी है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तो अगर हम इसका सही उपयोग करें, तो फायदा है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] और थोड़ी बहुत अवेयरनेस के साथ उपयोग करें, तो बहुत फायदे हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ, बिल्कुल हम कर सकते हैं, क्योंकि बहुत सारी चीज़ें ऐसी हैं कि मोबाइल में बहुत खराब-खराब चीज़ें होती हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, तो इसीलिए हमें, अब इस- इसीलिए हमको जागरूक होना चाहिए कि मोबाइल में हमें क्या बच्चों को क्या देखना चाहिए। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] इसके लिए ऐसे फंक्शन डेवलप किए जैसे किड्स मोड मोबाइल में होता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो उसको यूज़ करो। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] कुछ चीज़ों को हमको ब्लॉक करना चाहिए। | [Transition] CONTINUE | [Speaker] Speaker 0"
+  },
+  {
+    "sample_id": "hindi_084",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 300.06,
+    "num_speakers": 2,
+    "overlap_ratio": 7.42,
+    "latency_seconds": 11.421823333017528,
+    "metrics": {
+      "wer": 0.3435,
+      "cer": 0.1834,
+      "speaker_attribution_accuracy": 0.5344,
+      "cpwer": 0.6797,
+      "diarization_gap": 0.3362,
+      "speaker_mapping": {
+        "Speaker 1": "Speaker0",
+        "Speaker 0": "Speaker1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ भाई, चर्चा तो होबे ना करी अब अपने ही गाँव में 100 दिन का रोजगार मिलत बा, तब बाहर क्यों कहे जाई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सही ह।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बात तो सही ह, पर ई बतावा ई कार्ड बनवावे में बड़ा झमेला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बड़ा झमेला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बड़ा दिक्कत उठकत होतवा का, सुनाते ही बहुत बहुत दौड़ धूप करके पड़त था।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ना रे, एकदम आराम से हो जात बा, आसानी से।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बस पंचायत भवन जा के फॉर्म भरे के बा और फोटो वोटो लागी बस बन जाई, कोनो दलाल के चक्कर में ना पड़े के बा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और ई हो सुनली ह कि पैसवा अब सीधे खतवे में आवत था।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एकदम तुरंते।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "घर पकड़ ना ही ना बा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एकदम, अब उ जमाना गईल की प्रधान जी के पीछे-पीछे घूमे के पड़त रहे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सही बात ह।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अब तो डिजिटल इंडिया बना, मोबाइल पे मैसेज आ जाला कि पैसा आ गईल।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा, एक बात और ह, ई मैं हमनी औरतें खातिर बहुत सुविधा बा, कोनो खास नियम बा का?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सुनली ह, लइकन के खिलावे कभी जगह मिलत हो जा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे, उ त और नीक बात पूछ लो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अगर काम पर पाँच छ गो लइका रही, तो सरकार एक मेहरु के खाली लइका खिलावे को मजदूरी दे ले।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे वाह!"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हम्म, ओकरे के क्रोच की बोलल जाला इंग्लिश में कुछ ऐसा ही।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा, ई तो बहुत बढ़िया भइल, मतलब लइका भी आखी के सामने तो रहींस, कमाई भी हो रही।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "काम भी चली।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, और घर का फिकर भी ना रही।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "और का और सुना, अब तो गर्मी में काम करबू तो सरकार, हो जा पियावे का और छाव में बैठाई।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा पानी बंद कर दे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, और पूरा इंतजाम करे ले दवा दारू का भी बक्सा रहेला हो जा, एम्बुलेंस का, डॉक्टर का कुल चीज़ का सुविधा रहेला।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जैसे हमनी जैसे मेहरु के कुल के दिक्कत ना होके।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा, एक बात और बतावा, ई कमवा में खाली माटी कोड़े के बा, कुछ और भी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "नहीं नहीं, हमार हाथ पाँव तक जानते हो, ढेर भारी काम हमसे होत नहीं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे नहीं रे, खाली कोड़ाई नहीं बा, अब तो सरकार अपने खेत में काम करावे का भी पैसा दे ले।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अगर तोहार अपन खेत बा, तो ओकर सुधार करावा, सरकार मजदूरी दियो कर।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अच्छा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे ई तो और सोने पर सुहागा हो गईल, मतलब अपने खेत का सेवा भी करा, और सरकार से ओकर दाम भी पावा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सरकार भी ला।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "और का?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "गाँव का पीछे जो बड़ा वाला तालाब ह, का ओकर नाम ह अमृत सरोवर बा ना?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अमृत सरोवर बा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ओकर भी सफाई और सुंदीकरण का काम शुरू होके वाला बा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ओहिजा त मेहरु लोग के लिए त और आराम हो जाई काम करल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वाह, मतलब गाँव का विकास भी होई, अब पाकेट में रूपिया भी आ जाई।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पैसा भी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हम्म।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "गाँव का सड़क और नाली भी त मनरेगा से ही सुधुरत ह।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एकदम सही पकड़े हैं और देखें अब तो मोबाइल का हाजिरी लगेला।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "फोटो खींच के चढ़ावल जाला, जैसे कोनो।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मोबाइल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, जैसे कोनो बेईमानी का डर ना ना रही।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, अच्छा जीजी एक बात बतावा, ई कमवा जन है साल भर मिली कि कुछ दिन खातिर नहीं रही?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "देख, कम से कम 100 दिन का त गारंटी बा और अगर काम,"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "साल भर में 100 दिन का गारंटी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अगर काम 15 दिन के अंदर ना मिलल तो सरकार ओके बेरोजगार भत्ता भी दे ले, नियम मनवले बा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, अरे तब तो ई आउरे बढ़िया हो गईल, हमनी के शहर जा के धक्का खाए से तो हजार गुना बढ़िया ह।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और का, अपने ही घर का पास काम मिलत बा, परिवार के साथ रहा, सतवाना खाओ, मस्त रहा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "दूसरा का गुलामी से आजादी ना बा?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, सही कहत हो, हमहू सोचत है कि कल ही जा करके अपन नाम लिखवा ली।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, वही तो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, काहे कि रोजगार के लिए भटके से तो बढ़िया है ना, कि अपने माटी के सेवा करे जाव।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, एकदम, देरी जिन करे, ई तो सरकार का बहुत बड़ा योजना ह, सबका भला होवे के चाहिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बड़ा बढ़िया योजना ह।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बस अपन कागज, पत्तर ठीक रखे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कागज में का रखे की होई?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कागज में आधार, पासबुक का पहला प्रिंट ले लिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अच्छा, अच्छा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "चला तब कल मिलत है पंचायत भवन पे, थोड़ा चाय पानी भी हो जाई और काम का बात भी हो जाई।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, बिल्कुल।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बिल्कुल, बनारस में रहे के मनरेगा का लाभ ना उठाई जाई तो का कहली?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, अरे जीजी एक बात और मन में आवत ह, मान ला, कि हम नाम लिखवा देली और काम माँग लेली, पर अगर सरकार के पास उस समय कमवे ना रहल तब, तब का होई? हमनी तो बैठले रह जाई।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ना रे बहिन, सरकार बहुत चालाक बा, नियम ई बा कि अगर तू काम मँगलू और 15 दिन के अंदर तोके काम ना मिलल, तो सरकार तोके"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, mid-range pitch, energetic timbre, fast and conversational cadence.\n- Speaker 1: Female, slightly lower pitch, casual timbre, conversational cadence.\n\n[Utterance] हाँ भाई, चर्चा तो होबे ना करी अब अपने ही गाँव में 100 दिन का रोजगार मिलत बा, तब बाहर क्यों कहे जाई। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सही ह। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बात तो सही ह, पर ई बतावा ई कार्ड बनवावे में बड़ा झमेला। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बड़ा झमेला। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] बड़ा दिक्कत उठकत होतवा का, सुनाते ही बहुत बहुत दौड़ धूप करके पड़त था। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ना रे, एकदम आराम से हो जात बा, आसानी से। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बस पंचायत भवन जा के फॉर्म भरे के बा और फोटो वोटो लागी बस बन जाई, कोनो दलाल के चक्कर में ना पड़े के बा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] और ई हो सुनली ह कि पैसवा अब सीधे खतवे में आवत था। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] एकदम तुरंते। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] घर पकड़ ना ही ना बा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एकदम, अब उ जमाना गईल की प्रधान जी के पीछे-पीछे घूमे के पड़त रहे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सही बात ह। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अब तो डिजिटल इंडिया बना, मोबाइल पे मैसेज आ जाला कि पैसा आ गईल। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अच्छा, एक बात और ह, ई मैं हमनी औरतें खातिर बहुत सुविधा बा, कोनो खास नियम बा का? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सुनली ह, लइकन के खिलावे कभी जगह मिलत हो जा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे, उ त और नीक बात पूछ लो। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अगर काम पर पाँच छ गो लइका रही, तो सरकार एक मेहरु के खाली लइका खिलावे को मजदूरी दे ले। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे वाह! | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हम्म, ओकरे के क्रोच की बोलल जाला इंग्लिश में कुछ ऐसा ही। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अच्छा, ई तो बहुत बढ़िया भइल, मतलब लइका भी आखी के सामने तो रहींस, कमाई भी हो रही। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] काम भी चली। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, और घर का फिकर भी ना रही। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] और का और सुना, अब तो गर्मी में काम करबू तो सरकार, हो जा पियावे का और छाव में बैठाई। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अच्छा पानी बंद कर दे। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] हाँ, और पूरा इंतजाम करे ले दवा दारू का भी बक्सा रहेला हो जा, एम्बुलेंस का, डॉक्टर का कुल चीज़ का सुविधा रहेला। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] जैसे हमनी जैसे मेहरु के कुल के दिक्कत ना होके। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अच्छा, एक बात और बतावा, ई कमवा में खाली माटी कोड़े के बा, कुछ और भी। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] नहीं नहीं, हमार हाथ पाँव तक जानते हो, ढेर भारी काम हमसे होत नहीं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे नहीं रे, खाली कोड़ाई नहीं बा, अब तो सरकार अपने खेत में काम करावे का भी पैसा दे ले। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अगर तोहार अपन खेत बा, तो ओकर सुधार करावा, सरकार मजदूरी दियो कर। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अच्छा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे ई तो और सोने पर सुहागा हो गईल, मतलब अपने खेत का सेवा भी करा, और सरकार से ओकर दाम भी पावा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] सरकार भी ला। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] और का? | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] गाँव का पीछे जो बड़ा वाला तालाब ह, का ओकर नाम ह अमृत सरोवर बा ना? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अमृत सरोवर बा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ हाँ। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ओकर भी सफाई और सुंदीकरण का काम शुरू होके वाला बा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ओहिजा त मेहरु लोग के लिए त और आराम हो जाई काम करल। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वाह, मतलब गाँव का विकास भी होई, अब पाकेट में रूपिया भी आ जाई। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पैसा भी। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] हम्म। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] गाँव का सड़क और नाली भी त मनरेगा से ही सुधुरत ह। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एकदम सही पकड़े हैं और देखें अब तो मोबाइल का हाजिरी लगेला। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] फोटो खींच के चढ़ावल जाला, जैसे कोनो। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मोबाइल। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] हाँ, जैसे कोनो बेईमानी का डर ना ना रही। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] हाँ, अच्छा जीजी एक बात बतावा, ई कमवा जन है साल भर मिली कि कुछ दिन खातिर नहीं रही? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] देख, कम से कम 100 दिन का त गारंटी बा और अगर काम, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] साल भर में 100 दिन का गारंटी। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] अगर काम 15 दिन के अंदर ना मिलल तो सरकार ओके बेरोजगार भत्ता भी दे ले, नियम मनवले बा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अच्छा। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, अरे तब तो ई आउरे बढ़िया हो गईल, हमनी के शहर जा के धक्का खाए से तो हजार गुना बढ़िया ह। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] और का, अपने ही घर का पास काम मिलत बा, परिवार के साथ रहा, सतवाना खाओ, मस्त रहा। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] दूसरा का गुलामी से आजादी ना बा? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, सही कहत हो, हमहू सोचत है कि कल ही जा करके अपन नाम लिखवा ली। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, वही तो। | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] हाँ, काहे कि रोजगार के लिए भटके से तो बढ़िया है ना, कि अपने माटी के सेवा करे जाव। | [Transition] RESUME | [Speaker] Speaker 1\n[Utterance] हाँ, एकदम, देरी जिन करे, ई तो सरकार का बहुत बड़ा योजना ह, सबका भला होवे के चाहिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बड़ा बढ़िया योजना ह। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] बस अपन कागज, पत्तर ठीक रखे। | [Transition] RESUME | [Speaker] Speaker 0\n[Utterance] कागज में का रखे की होई? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] कागज में आधार, पासबुक का पहला प्रिंट ले लिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अच्छा, अच्छा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] चला तब कल मिलत है पंचायत भवन पे, थोड़ा चाय पानी भी हो जाई और काम का बात भी हो जाई। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, बिल्कुल। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] बिल्कुल, बनारस में रहे के मनरेगा का लाभ ना उठाई जाई तो का कहली? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, अरे जीजी एक बात और मन में आवत ह, मान ला, कि हम नाम लिखवा देली और काम माँग लेली, पर अगर सरकार के पास उस समय कमवे ना रहल तब, तब का होई? हमनी तो बैठले रह जाई। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] ना रे बहिन, सरकार बहुत चालाक बा, नियम ई बा कि अगर तू काम मँगलू और 15 दिन के अंदर तोके काम ना मिलल, तो सरकार तोके | [Transition] SHIFT | [Speaker] Speaker 0"
+  },
+  {
+    "sample_id": "hindi_086",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.17,
+    "num_speakers": 2,
+    "overlap_ratio": 5.77,
+    "latency_seconds": 3.5112445829436183,
+    "metrics": {
+      "wer": 0.12,
+      "cer": 0.0599,
+      "speaker_attribution_accuracy": 0.982,
+      "cpwer": 0.1371,
+      "diarization_gap": 0.0171,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "हेलो जी, क्या हाल-चाल?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं बढ़िया, आप कैसे हो?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मैं भी बढ़िया। यार, मुझे ना एक हेल्प चाहिए।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मुझे ना एक्चुअली घर शिफ्ट करना है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ओके।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो कुछ ब्रोकर वगैरा के कॉन्टैक्ट्स हैं क्या यहाँ ऑफिस के आसपास के एरिया में?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ऑफिस के आसपास, हाँ एक-दो ब्रोकर तो हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बट ब्रोकर से आपको बहुत कॉस्टली पड़ेगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वो उनका ब्रोकरेज चार्ज एंड ऑल।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "आप एक बार नो ब्रोकर पे भी चेक कर लो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एंड और भी तो ऑप्शंस हैं ही हमारे पास।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यार, पर प्रॉब्लम ये है कि मैं जब से यहाँ पे आई हूँ, तब से अब तक इतने घर शिफ्ट कर चुकी हूँ ना, एक तो कोई भी, हर जगह एक नई प्रॉब्लम है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कहीं पे ओनर अच्छे नहीं हैं, कहीं पे सिक्योरिटीज बहुत ज्यादा हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "रेंट तो, चलो ठीक है, अलग ही कहानी है, वो बढ़ता ही चला जा रहा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो कुछ बहुत ही मेन इशू सिक्योरिटी का भी रहता है एंड कई जगह तो वाटर की भी दिक्कत है इस एरिया में।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, moderate pitch, clear and friendly tone, requesting a favor and discussing apartment hunting.\n- Speaker 1: Male, moderate-deep pitch, helpful and conversational tone, responding to the query about real estate brokers.\n\n[Utterance] हेलो जी, क्या हाल-चाल? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मैं बढ़िया, आप कैसे हो? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मैं भी बढ़िया। यार, मुझे ना एक हेल्प चाहिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मुझे ना एक्चुअली घर शिफ्ट करना है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ओके। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तो कुछ ब्रोकर वगैरा के कॉन्टैक्ट्स हैं क्या यहाँ ऑफिस के आसपास के एरिया में? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] ऑफिस के आसपास, हाँ एक-दो ब्रोकर तो हैं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बट ब्रोकर से आपको बहुत कॉस्टली पड़ेगा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] वो उनका ब्रोकरेज चार्ज एंड ऑल। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] आप एक बार नो ब्रोकर पे भी चेक कर लो। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] एंड और भी तो ऑप्शंस हैं ही हमारे पास। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] यार, पर प्रॉब्लम ये है कि मैं जब से यहाँ पे आई हूँ, तब से अब तक इतने घर शिफ्ट कर चुकी हूँ ना, एक तो कोई भी, हर जगह एक नई प्रॉब्लम है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] कहीं पे ओनर अच्छे नहीं हैं, कहीं पे सिक्योरिटीज बहुत ज्यादा हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] रेंट तो, चलो ठीक है, अलग ही कहानी है, वो बढ़ता ही चला जा रहा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो कुछ बहुत ही मेन इशू सिक्योरिटी का भी रहता है एंड कई जगह तो वाटर की भी दिक्कत है इस एरिया में। | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_029",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 73.6,
+    "num_speakers": 2,
+    "overlap_ratio": 5.6,
+    "latency_seconds": 3.5266812089830637,
+    "metrics": {
+      "wer": 0.2414,
+      "cer": 0.1611,
+      "speaker_attribution_accuracy": 0.9906,
+      "cpwer": 0.1595,
+      "diarization_gap": 0.0,
+      "speaker_mapping": {
+        "Speaker 1": "SPEAKER_02",
+        "Speaker 0": "SPEAKER_03"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "आप ये देखिए कि जितने टोटल रिजर्वेशन होते हैं, कास्ट बेस्ड, वो आते हैं 40 या 42% पर।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एंड इकोनॉमिकली बैकवर्ड जो लोग हैं, उनका रिजर्वेशन 10% से ऊपर नहीं जा पाता।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और उसमें भी करप्शन की वजह से जो लोग इकोनॉमिकली वीक नहीं है या जो लोग उस कास्ट के नहीं हैं, लोग मतलब पैसे के बलबूते जस्ट रिजर्वेशन करवा लेते हैं, आपने देखा होगा बहुत जगह पे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, तो —"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, तो ये तो रिजर्वेशन की ये तो रिजर्वेशन का कोई गलती नहीं है ना।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अगर कास्ट सिस्टम है, अगर लोग दबे हुए हैं, उनको उठाने के लिए कुछ तो करना पड़ेगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अब अगर उसमें लोग अपना अलग फायदा उठा रहे हैं, अलग करप्शन कर रहे हैं, वो तो वो रिच, अप्पर क्लास, प्रिविलेज लोगों की गलती है ना।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो इसके लिए जो दबे हुए हैं, उनको क्यों नुकसान हो?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ये मुझे लगता है कि एजुकेशन सिस्टम बदला नहीं है वो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जो मिसयूज़ हो रहा है, तो अच्छी चीज़ का अगर मिसयूज़ हो रहा है, तो ये जिनके लिए बना है, उनके अगर बंद ही हो जाएगा ये, क्योंकि आपके पास वो एबिलिटी नहीं है कि आप करप्शन रोक सको, आप जबकि करप्शन को बढ़ावा दे रहे हो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो ये दलित का और जो लोअर कास्ट लोग हैं, उनका उनके साथ गलत क्यों हो कि रिजर्वेशन ही बंद कर दो?"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, lower-middle pitch, clear conversational tone, explaining caste-based reservation statistics.\n- Speaker 1: Female, higher pitch, engaging tone, discussing implementation and misuse of reservation policies.\n\n[Utterance] आप ये देखिए कि जितने टोटल रिजर्वेशन होते हैं, कास्ट बेस्ड, वो आते हैं 40 या 42% पर। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] एंड इकोनॉमिकली बैकवर्ड जो लोग हैं, उनका रिजर्वेशन 10% से ऊपर नहीं जा पाता। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] और उसमें भी करप्शन की वजह से जो लोग इकोनॉमिकली वीक नहीं है या जो लोग उस कास्ट के नहीं हैं, लोग मतलब पैसे के बलबूते जस्ट रिजर्वेशन करवा लेते हैं, आपने देखा होगा बहुत जगह पे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, तो — | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] हाँ, तो ये तो रिजर्वेशन की ये तो रिजर्वेशन का कोई गलती नहीं है ना। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] अगर कास्ट सिस्टम है, अगर लोग दबे हुए हैं, उनको उठाने के लिए कुछ तो करना पड़ेगा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अब अगर उसमें लोग अपना अलग फायदा उठा रहे हैं, अलग करप्शन कर रहे हैं, वो तो वो रिच, अप्पर क्लास, प्रिविलेज लोगों की गलती है ना। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो इसके लिए जो दबे हुए हैं, उनको क्यों नुकसान हो? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ये मुझे लगता है कि एजुकेशन सिस्टम बदला नहीं है वो। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] जो मिसयूज़ हो रहा है, तो अच्छी चीज़ का अगर मिसयूज़ हो रहा है, तो ये जिनके लिए बना है, उनके अगर बंद ही हो जाएगा ये, क्योंकि आपके पास वो एबिलिटी नहीं है कि आप करप्शन रोक सको, आप जबकि करप्शन को बढ़ावा दे रहे हो। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तो ये दलित का और जो लोअर कास्ट लोग हैं, उनका उनके साथ गलत क्यों हो कि रिजर्वेशन ही बंद कर दो? | [Transition] CONTINUE | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_070",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.55,
+    "num_speakers": 2,
+    "overlap_ratio": 4.6,
+    "latency_seconds": 4.970162875019014,
+    "metrics": {
+      "wer": 0.4758,
+      "cer": 0.2295,
+      "speaker_attribution_accuracy": 0.7403,
+      "cpwer": 0.6532,
+      "diarization_gap": 0.1774,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "नहीं यार, मारे तो घणो काम बाकी यार।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार, थारे एक रोज रोज रो यही है यार।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "चाले नी यार, ब्रेक में कई काम काम।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे कई करूं यार, सारा थ्रों काम नहीं देवै।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कई बॉस ही नहीं बन्दे माने तो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार, कहीं नहीं वे वे काम-वाम।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "चल थोड़ा ब्रेक लेने से चाय-वाय पी ना।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे थारो रोज रो यही है, ब्रेक लेओ, ब्रेक लेओ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तू तो कोई काम करे नहीं, मनै भी नहीं करने देवे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार, तू तो चल,े तो सही एक बार यार।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "नहीं नहीं, मुंह नहीं आई हूं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे, आधे घंटे में आई जा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "दाटेगा मनै।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "आधा घंटा में आई जा, आपा चाला।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "नहीं नहीं, मुंह नहीं आई हूं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "थारो तो रोज रो यही है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ब्रेक जावे, ब्रेक जावे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हूं तो काम करें—"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मनै भी नहीं करने देवे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अब तो काम आईन कर लीजिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे, काम खूब बाकी है, छुट्टी तक काम नहीं वेगा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे यार, चल ना यार, ऐसी क्या कर रही है?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वहां चलो, चल लेवे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बट जल्दी आई जाएगा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, आपा जल्दी आई जा।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो बाद में सर डाटेंगे, आपण को असुं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कहीं नहीं डाटेंगे, कहीं नहीं डाटेंगे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तू चाल, बस एक बार चाल तो सही।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वा चलो।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मूड फ्रेश भेजी, थोड़ो?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, मूड तो फ्रेश वेगा ही है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बट काम रो हैडेक है, वो कौन संभालेगा?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "काम भेजी, रे बट तो काम तू आइन कर लेवान यार, आपा दोई मैली कर लेवा।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, higher pitch, playful vocal timbre, rapid speaking cadence, casual and reluctant to work.\n- Speaker 1: Female, moderate pitch, clear timbre, persuasive speaking cadence, urging the other to work.\n\n[Utterance] नहीं यार, मारे तो घणो काम बाकी यार। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे यार, थारे एक रोज रोज रो यही है यार। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] चाले नी यार, ब्रेक में कई काम काम। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे कई करूं यार, सारा थ्रों काम नहीं देवै। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] कई बॉस ही नहीं बन्दे माने तो। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे यार, कहीं नहीं वे वे काम-वाम। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] चल थोड़ा ब्रेक लेने से चाय-वाय पी ना। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] अरे थारो रोज रो यही है, ब्रेक लेओ, ब्रेक लेओ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तू तो कोई काम करे नहीं, मनै भी नहीं करने देवे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे यार, तू तो चल,े तो सही एक बार यार। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] नहीं नहीं, मुंह नहीं आई हूं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे, आधे घंटे में आई जा। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] दाटेगा मनै। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] आधा घंटा में आई जा, आपा चाला। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] नहीं नहीं, मुंह नहीं आई हूं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] थारो तो रोज रो यही है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ब्रेक जावे, ब्रेक जावे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हूं तो काम करें— | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मनै भी नहीं करने देवे। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] अब तो काम आईन कर लीजिए। | [Transition] RESUME | [Speaker] Speaker 0\n[Utterance] अरे, काम खूब बाकी है, छुट्टी तक काम नहीं वेगा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे यार, चल ना यार, ऐसी क्या कर रही है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] वहां चलो, चल लेवे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बट जल्दी आई जाएगा। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ, आपा जल्दी आई जा। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो बाद में सर डाटेंगे, आपण को असुं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] कहीं नहीं डाटेंगे, कहीं नहीं डाटेंगे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तू चाल, बस एक बार चाल तो सही। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वा चलो। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मूड फ्रेश भेजी, थोड़ो? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ, मूड तो फ्रेश वेगा ही है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बट काम रो हैडेक है, वो कौन संभालेगा? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] काम भेजी, रे बट तो काम तू आइन कर लेवान यार, आपा दोई मैली कर लेवा। | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_083",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 300.2,
+    "num_speakers": 2,
+    "overlap_ratio": 4.16,
+    "latency_seconds": 11.241462083067745,
+    "metrics": {
+      "wer": 0.1236,
+      "cer": 0.0741,
+      "speaker_attribution_accuracy": 0.6269,
+      "cpwer": 0.5165,
+      "diarization_gap": 0.3928,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "यार कोई आजकल अच्छे से गाने वाने नहीं आ रहे क्या?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यार एक्साक्ट्ली मेरा भी कभी मन होता है ना तो और मैं भी ढूंढने चलती हूँ कि यार कुछ ऐसा सूथिंग सॉन्ग ढूंढ लूं सुन लूं तो फिर तो यार मुझे मिलते ही नहीं है और मैं हमेशा बस वही रेट्रो सोंग्स के लिए और चली जाती हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एक तो मेरी बड़ी दिक्कत है यार मैं इतना आउट ऑफ टच हो गई हूँ ना हिंदी गाने तो मैं बहुत ही आजकल कम सुन रही हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ऊपर से जो नए-नए आ रहे हैं ना यार वो जमते नहीं हैं मतलब सुन के मज़ा नहीं आता आधे से ज़्यादा टाइम तो रीमेक्स।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एक तो ये रीमेक्स का कल्चर मुझे समझ नहीं आता।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ठीक है, कुछ-कुछ रीमेक्स ना बहुत अच्छे लगते हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अब पता नहीं तुमने सुने हैं कि नहीं वरना कुछ 90s के दशक में जो गाने थे ना उसके या 80s या 90s के जो दशक के थे ना उसका रीमेक्स 2000s में आया था।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो क्या रीमेक्स का दशक था मैं बता नहीं सकती।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो एरा अलग था।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अब क्या कर रहे हैं जो 2000s के गाने है ना उसको अब जाके 2025 में ये लोग रीमेक्स कर रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो इतना खराब रीमेक्स कर रहे हैं ना।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो मेरे ख्याल अभी एक सैयारा करके आया था ना उसका भी कोई रीमेक्स अरे यार क्या रीमेक्स नहीं था वो मतलब उसका दोबारा से उन्होंने गाने को अपने तरीके से बनाया था।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मतलब वो गाना आता है ना जैसे ही रेडियो पे या टीवी पे मैं चेंज कर देती हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मैं सुन बर्दाश्त नहीं होता।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "करेक्ट।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे मेरे साथ भी ऐसा ही कुछ है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मुझे भी अभी इन लोगों के सेंस नहीं समझ में आती कि यह क्या बना रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बाय द वे आपका फेवरेट सॉन्ग कौन सा है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यार फेवरेट तो ऐसे होता है कि आज की डेट में आज के दिन कौन सा फेवरेट है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो हिंदी गाना तो यार अभी कोई भी इतना नहीं सुन रही हूँ मैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पंजाबी सुनती हुई क्या यार वो पता नहीं किसका है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "करन ओजला का गाना है कौन सा है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो बहुत आता है आजकल उस पे रेडियो पे या कहीं पर।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो मुझे बड़ा मज़ा आता है सुनने में।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्योंकि वो गाना तो गाया नहीं जाता।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बस उस गाने के एंड का आ आ ऊ जो करता है ना वो बस वही वही गा के खुश हो जाते हैं हम लोग।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "एग्ज़ाक्ट्ली।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मेरे को भी अ मुझे भी दिलजीत दोसांझ और इनके गाने बड़े अच्छे लगते हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "क्या दिलजीत के हो गए ना?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बिल्कुल-बिल्कुल पंजाबी हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पर मेरे को पंजाबी सोंग्स अच्छे लगते हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्योंकि मैं पंजाबी स्कूल से भी पढ़ी हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो मुझे काफी पसंद है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "नहीं यार मैं तू पूछ रही थी शायद कि दिलजीत के कॉन्सर्ट में गई हूँ कि नहीं?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं नहीं गई यार।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर मैंने सुना है कि उसके कॉन्सर्ट बड़े बड़े ही मज़ेदार धमाकेदार होते हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "धमाकेदार होते हैं एग्ज़ाक्ट्ली।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "करेक्ट।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तुम्हें मौका मिला कभी जाने का?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "नहीं यार, मुझे कभी ऐसा मौका नहीं मिला और टिकट्स भी काफी हाई थे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यार मतलब मन करे भी तो एक तो ये होता है ना कि कई बार इतने महंगे हो जाते हैं ना कि तुम्हारा मन भी करता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तुम कहते हो छोड़ो।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कुछ लोगों ने तो मैंने सुना है ये तक किया था कि अ मतलब जितने की टिकट थी उससे सस्ते में उनको फाइव स्टार होटल जिस पता नहीं कोई किस-किस होटल के बिल्कुल अ पीछे था वो उसका कॉन्सर्ट।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो लोगों ने होटल की टिकट बुक कर ली थी और वहां से देखा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "उन्होंने उस ऊपर क्योंकि ऊपर हाई राइज बिल्डिंग्स हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो उन्होंने उसकी फ्लोर से देखा है और इतना देखा है कि उसने अपने कॉन्सर्ट के बीच में रोक के बाद बोली भी है कि वो जो तुम लोग वहां से देख रहे हो ना तुम्हें भी हाय मेरी तरफ से।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ओह।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ओके।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ये बड़ा फेमस हुआ था।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ये इन्सिडेंट।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ओके।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सो ये ऐसे तो काफी सारे इंसिडेंट भी आए थे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अ बीच में मैंने भी सुने थे काफी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "फिर इसके बाद ऐसा हुआ कि मतलब मुझे ऐसा लगा रियलाइज़ हुआ कि ठीक है मतलब अगर एक एक्सटेंड के बाद आपको पैसे खर्च करने पड़ रहे हैं कॉन्सर्ट्स में जाने के लिए तो बेटर कि आप ऐसे ही सुन लीजिए और बहुत महंगे टिकट्स हैं इसके।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ये इसलिए नहीं होता।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वो जो आर्टिस्ट होते हैं ना वो लोग नहीं हैं कि इतने महंगे टिकट बेच रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ठीक है वो एक प्राइस तो रखेंगे यार आठ है उनको अपनी आठ बेचनी है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "क्या होता है कि वो अगर दो हज़ार की टिकट रखेंगे ना लोग क्या करते हैं होडिंग वाला कांसेप्ट है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "लोग क्या करेंगे 10-12 टिकट खरीद लेंगे उसको फिर 20-20 हज़ार में बेचते हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो ये लोग होते हैं जो मार्केट में प्राइस वगैरह गड़बड़ करवा देते हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो जो सस्ती टिकट्स भी होती है वो इतनी महंगी बिकती है क्योंकि वो ब्लैक में मिलती हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो आप नहीं जा सकते आप नहीं देख सकते क्योंकि अब जो चीज़ 2000 की आपको पता है कि उसकी वैल्यू ही वर्थ थी 2000 की है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तुम क्यों दोगे 20-25 हज़ार यार उसके?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "राईट।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "एग्ज़ाक्ट्ली।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मेरे भी सेम व्यूज़ हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अच्छा इसके अलावा बताइए कि ये आपको अ मतलब क्या जॉर्नर पसंद है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "स्पेशली लाइक सैड साइड वाला या धमाकेदार साइड वाला।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "बिल्कुल नहीं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सैड गाने तो मैं बिल्कुल सुन ही नहीं सकती।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मुझे तो बहुत ही मेरा ना दिमाग खराब होता है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं पॉप म्यूज़िक मुझे बहुत पसंद है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जितना मर्जी पॉप म्यूज़िक जिसपे तुम्हारा डांस करने का मन करे ना बेसिकली जिसपे तुम नाच सको।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मुझे वो गाना बहुत पसंद है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तुम्हें किस तरह के गाने पसंद है?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मुझे तो काफी ज़्यादा मतलब ऐसे तड़कते भड़कते गाने, शादी ब्याह वाले गाने एकदम जिसपे मैं भी आपको हाँ।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, medium pitch, smooth and casual conversational voice, expressing opinions on music.\n- Speaker 1: Female, slightly higher pitch, energetic and responsive, engaging in a back-and-forth dialogue.\n\n[Utterance] यार कोई आजकल अच्छे से गाने वाने नहीं आ रहे क्या? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] यार एक्साक्ट्ली मेरा भी कभी मन होता है ना तो और मैं भी ढूंढने चलती हूँ कि यार कुछ ऐसा सूथिंग सॉन्ग ढूंढ लूं सुन लूं तो फिर तो यार मुझे मिलते ही नहीं है और मैं हमेशा बस वही रेट्रो सोंग्स के लिए और चली जाती हूँ। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] एक तो मेरी बड़ी दिक्कत है यार मैं इतना आउट ऑफ टच हो गई हूँ ना हिंदी गाने तो मैं बहुत ही आजकल कम सुन रही हूँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] ऊपर से जो नए-नए आ रहे हैं ना यार वो जमते नहीं हैं मतलब सुन के मज़ा नहीं आता आधे से ज़्यादा टाइम तो रीमेक्स। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एक तो ये रीमेक्स का कल्चर मुझे समझ नहीं आता। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ठीक है, कुछ-कुछ रीमेक्स ना बहुत अच्छे लगते हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अब पता नहीं तुमने सुने हैं कि नहीं वरना कुछ 90s के दशक में जो गाने थे ना उसके या 80s या 90s के जो दशक के थे ना उसका रीमेक्स 2000s में आया था। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो क्या रीमेक्स का दशक था मैं बता नहीं सकती। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो एरा अलग था। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अब क्या कर रहे हैं जो 2000s के गाने है ना उसको अब जाके 2025 में ये लोग रीमेक्स कर रहे हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो इतना खराब रीमेक्स कर रहे हैं ना। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो मेरे ख्याल अभी एक सैयारा करके आया था ना उसका भी कोई रीमेक्स अरे यार क्या रीमेक्स नहीं था वो मतलब उसका दोबारा से उन्होंने गाने को अपने तरीके से बनाया था। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मतलब वो गाना आता है ना जैसे ही रेडियो पे या टीवी पे मैं चेंज कर देती हूँ। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मैं सुन बर्दाश्त नहीं होता। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] करेक्ट। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] अरे मेरे साथ भी ऐसा ही कुछ है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मुझे भी अभी इन लोगों के सेंस नहीं समझ में आती कि यह क्या बना रहे हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] बाय द वे आपका फेवरेट सॉन्ग कौन सा है? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] यार फेवरेट तो ऐसे होता है कि आज की डेट में आज के दिन कौन सा फेवरेट है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो हिंदी गाना तो यार अभी कोई भी इतना नहीं सुन रही हूँ मैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पंजाबी सुनती हुई क्या यार वो पता नहीं किसका है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] करन ओजला का गाना है कौन सा है? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो बहुत आता है आजकल उस पे रेडियो पे या कहीं पर। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो मुझे बड़ा मज़ा आता है सुनने में। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] क्योंकि वो गाना तो गाया नहीं जाता। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] बस उस गाने के एंड का आ आ ऊ जो करता है ना वो बस वही वही गा के खुश हो जाते हैं हम लोग। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] एग्ज़ाक्ट्ली। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मेरे को भी अ मुझे भी दिलजीत दोसांझ और इनके गाने बड़े अच्छे लगते हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] क्या दिलजीत के हो गए ना? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बिल्कुल-बिल्कुल पंजाबी हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पर मेरे को पंजाबी सोंग्स अच्छे लगते हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] क्योंकि मैं पंजाबी स्कूल से भी पढ़ी हूँ। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो मुझे काफी पसंद है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] नहीं यार मैं तू पूछ रही थी शायद कि दिलजीत के कॉन्सर्ट में गई हूँ कि नहीं? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मैं नहीं गई यार। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] पर मैंने सुना है कि उसके कॉन्सर्ट बड़े बड़े ही मज़ेदार धमाकेदार होते हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] धमाकेदार होते हैं एग्ज़ाक्ट्ली। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] करेक्ट। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तुम्हें मौका मिला कभी जाने का? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] नहीं यार, मुझे कभी ऐसा मौका नहीं मिला और टिकट्स भी काफी हाई थे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] यार मतलब मन करे भी तो एक तो ये होता है ना कि कई बार इतने महंगे हो जाते हैं ना कि तुम्हारा मन भी करता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तुम कहते हो छोड़ो। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] कुछ लोगों ने तो मैंने सुना है ये तक किया था कि अ मतलब जितने की टिकट थी उससे सस्ते में उनको फाइव स्टार होटल जिस पता नहीं कोई किस-किस होटल के बिल्कुल अ पीछे था वो उसका कॉन्सर्ट। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो लोगों ने होटल की टिकट बुक कर ली थी और वहां से देखा है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] उन्होंने उस ऊपर क्योंकि ऊपर हाई राइज बिल्डिंग्स हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो उन्होंने उसकी फ्लोर से देखा है और इतना देखा है कि उसने अपने कॉन्सर्ट के बीच में रोक के बाद बोली भी है कि वो जो तुम लोग वहां से देख रहे हो ना तुम्हें भी हाय मेरी तरफ से। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ओह। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] ओके। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ये बड़ा फेमस हुआ था। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ये इन्सिडेंट। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ओके। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सो ये ऐसे तो काफी सारे इंसिडेंट भी आए थे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अ बीच में मैंने भी सुने थे काफी। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] फिर इसके बाद ऐसा हुआ कि मतलब मुझे ऐसा लगा रियलाइज़ हुआ कि ठीक है मतलब अगर एक एक्सटेंड के बाद आपको पैसे खर्च करने पड़ रहे हैं कॉन्सर्ट्स में जाने के लिए तो बेटर कि आप ऐसे ही सुन लीजिए और बहुत महंगे टिकट्स हैं इसके। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ये इसलिए नहीं होता। | [Transition] OVERLAP | [Speaker] Speaker 1\n[Utterance] वो जो आर्टिस्ट होते हैं ना वो लोग नहीं हैं कि इतने महंगे टिकट बेच रहे हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ठीक है वो एक प्राइस तो रखेंगे यार आठ है उनको अपनी आठ बेचनी है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] क्या होता है कि वो अगर दो हज़ार की टिकट रखेंगे ना लोग क्या करते हैं होडिंग वाला कांसेप्ट है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] लोग क्या करेंगे 10-12 टिकट खरीद लेंगे उसको फिर 20-20 हज़ार में बेचते हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो ये लोग होते हैं जो मार्केट में प्राइस वगैरह गड़बड़ करवा देते हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो जो सस्ती टिकट्स भी होती है वो इतनी महंगी बिकती है क्योंकि वो ब्लैक में मिलती हैं। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो आप नहीं जा सकते आप नहीं देख सकते क्योंकि अब जो चीज़ 2000 की आपको पता है कि उसकी वैल्यू ही वर्थ थी 2000 की है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तुम क्यों दोगे 20-25 हज़ार यार उसके? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] राईट। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] एग्ज़ाक्ट्ली। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मेरे भी सेम व्यूज़ हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अच्छा इसके अलावा बताइए कि ये आपको अ मतलब क्या जॉर्नर पसंद है? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] स्पेशली लाइक सैड साइड वाला या धमाकेदार साइड वाला। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] बिल्कुल नहीं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सैड गाने तो मैं बिल्कुल सुन ही नहीं सकती। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मुझे तो बहुत ही मेरा ना दिमाग खराब होता है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मैं पॉप म्यूज़िक मुझे बहुत पसंद है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] जितना मर्जी पॉप म्यूज़िक जिसपे तुम्हारा डांस करने का मन करे ना बेसिकली जिसपे तुम नाच सको। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मुझे वो गाना बहुत पसंद है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तुम्हें किस तरह के गाने पसंद है? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मुझे तो काफी ज़्यादा मतलब ऐसे तड़कते भड़कते गाने, शादी ब्याह वाले गाने एकदम जिसपे मैं भी आपको हाँ। | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_065",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.1,
+    "num_speakers": 2,
+    "overlap_ratio": 3.95,
+    "latency_seconds": 3.8437326250132173,
+    "metrics": {
+      "wer": 0.1692,
+      "cer": 0.0931,
+      "speaker_attribution_accuracy": 0.9265,
+      "cpwer": 0.2731,
+      "diarization_gap": 0.1038,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे यार भाई क्या हुआ?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे क्या हो गया?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे यार अभी चाय की टपरी पे गया था तो छोटा बच्चा को कप मांगते हुए देखा यार बिलकुल अच्छा नहीं लगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अरे यार अब तो अपने देश के हर जगह हर गली में तुमको एक ऐसा बच्चा तो दिख ही जाएगा जो कि बर्तन साफ कर रहा होगा, गाड़ी साफ कर रहा होगा या फिर"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बट यार ये वाली सही बात थोड़ी नहीं है अभी इनको आगे पढ़ना चाहिए जिससे आगे बढ़े बढ़े हो के कुछ अपना परिवार संभालेंगे"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यार परिवार क्या संभालेंगे, अपने को क्या पता भाई यार उनके घर की हालत कैसी होगी?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यार वो सब मैं समझ सकता हूँ, बट लेकिन यार अगर वो पढ़ेंगे, करेंगे तो फिर वो आगे अच्छा करेंगे तो पढ़ेंगे ना जब सरकार थोड़ा इनके घर वालों को रोज़गार दे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो सब मैं समझ सकता हूँ, बट लेकिन थोड़ा सा अपने उनको बच्चा अगर पढ़ेंगे, सरकार भी कुछ अच्छा करेगी तो जा करके वो कुछ अच्छा करेंगे ना यार?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यार देख बच्चों से काम करवाना गलत बात है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "लेकिन जब स्थिति इतनी खराब हो जाती है ना कि जब घर पे दो रोटी नहीं मिल पाती है तो यार सब करना पड़ता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो सब मैं समझ सकता हूँ, पर यार इस मामले में सरकार को भी देखना चाहिए जिससे कि वो कुछ बच्चे आगे पढ़ पाए, कुछ अच्छी योजना लानी चाहिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "योजनाएं तो लाएं, लेकिन उसका इस्तेमाल कैसे करेंगे ये गरीब लोग, इनको क्या पता यार कौन से क्या निकल रहा है?"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, lower chest pitch, deliberate cadence, conversational tone expressing surprise and concern.\n- Speaker 1: Male, slightly higher pitch, casual and engaged cadence, discussing social issues and child labor.\n\n[Utterance] अरे यार भाई क्या हुआ? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे क्या हो गया? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे यार अभी चाय की टपरी पे गया था तो छोटा बच्चा को कप मांगते हुए देखा यार बिलकुल अच्छा नहीं लगा। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अरे यार अब तो अपने देश के हर जगह हर गली में तुमको एक ऐसा बच्चा तो दिख ही जाएगा जो कि बर्तन साफ कर रहा होगा, गाड़ी साफ कर रहा होगा या फिर | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बट यार ये वाली सही बात थोड़ी नहीं है अभी इनको आगे पढ़ना चाहिए जिससे आगे बढ़े बढ़े हो के कुछ अपना परिवार संभालेंगे | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] यार परिवार क्या संभालेंगे, अपने को क्या पता भाई यार उनके घर की हालत कैसी होगी? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] यार वो सब मैं समझ सकता हूँ, बट लेकिन यार अगर वो पढ़ेंगे, करेंगे तो फिर वो आगे अच्छा करेंगे तो पढ़ेंगे ना जब सरकार थोड़ा इनके घर वालों को रोज़गार दे। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] वो सब मैं समझ सकता हूँ, बट लेकिन थोड़ा सा अपने उनको बच्चा अगर पढ़ेंगे, सरकार भी कुछ अच्छा करेगी तो जा करके वो कुछ अच्छा करेंगे ना यार? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] यार देख बच्चों से काम करवाना गलत बात है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] लेकिन जब स्थिति इतनी खराब हो जाती है ना कि जब घर पे दो रोटी नहीं मिल पाती है तो यार सब करना पड़ता है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] वो सब मैं समझ सकता हूँ, पर यार इस मामले में सरकार को भी देखना चाहिए जिससे कि वो कुछ बच्चे आगे पढ़ पाए, कुछ अच्छी योजना लानी चाहिए। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] योजनाएं तो लाएं, लेकिन उसका इस्तेमाल कैसे करेंगे ये गरीब लोग, इनको क्या पता यार कौन से क्या निकल रहा है? | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_089",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.42,
+    "num_speakers": 2,
+    "overlap_ratio": 3.36,
+    "latency_seconds": 3.509414916858077,
+    "metrics": {
+      "wer": 0.1862,
+      "cer": 0.0881,
+      "speaker_attribution_accuracy": 0.9483,
+      "cpwer": 0.234,
+      "diarization_gap": 0.0479,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे एक बात बताइए मेरे बेडशीट पर कुछ स्टेंस लग रहे थे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इवन मेरे पास कुछ सफेद कलर की शर्ट थी उसपे भी दाग लग रहे थे और वो येलोइश हुई जा रही थी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो कुछ तरीके हैं क्या इसको रिमूव करने के?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मतलब मैंने ड्राई क्लीनिंग वालों को भी दी थी पर"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो कह रहा है पीला सा पड़ रहा है क्या कपडा?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, उसमें पीला पीला वो पहले वाइट था अब पीला होता जा रहा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "और यह बाहर से करवाने के बाद हुआ है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, यह बाहर से करवाने के बाद, पहले भी मतलब हुआ है पर अभी और ज्यादा"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "अरे पहले सिर्फ धब्बा था, पीलापन आने लगा था।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो यार तो एक कुछ घरेलू नुस्खे ट्राई कर सकता है एक बार।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैंने सुना है कि अगर हम लोग यह होता है ना जो बर्तन धोने वाला साबुन, उसमें पानी मिला के थोड़ा बेकिंग सोडा और विनेगर मिला के अगर कपडे पे लगाएं ना, तो ब्लीच जैसा काम करता है विदाउट ब्लीच की एक्चुअल ज़रूरत पड़े।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो मे बी तू एक बार"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, lower-pitched chest voice, slightly hesitant cadence, asking for stain removal advice.\n- Speaker 1: Female, higher-pitched clear voice, engaged cadence, offering home remedy suggestions.\n\n[Utterance] अरे एक बात बताइए मेरे बेडशीट पर कुछ स्टेंस लग रहे थे। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] इवन मेरे पास कुछ सफेद कलर की शर्ट थी उसपे भी दाग लग रहे थे और वो येलोइश हुई जा रही थी। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो कुछ तरीके हैं क्या इसको रिमूव करने के? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मतलब मैंने ड्राई क्लीनिंग वालों को भी दी थी पर | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो कह रहा है पीला सा पड़ रहा है क्या कपडा? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, उसमें पीला पीला वो पहले वाइट था अब पीला होता जा रहा है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] और यह बाहर से करवाने के बाद हुआ है? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, यह बाहर से करवाने के बाद, पहले भी मतलब हुआ है पर अभी और ज्यादा | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अरे पहले सिर्फ धब्बा था, पीलापन आने लगा था। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो यार तो एक कुछ घरेलू नुस्खे ट्राई कर सकता है एक बार। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] मैंने सुना है कि अगर हम लोग यह होता है ना जो बर्तन धोने वाला साबुन, उसमें पानी मिला के थोड़ा बेकिंग सोडा और विनेगर मिला के अगर कपडे पे लगाएं ना, तो ब्लीच जैसा काम करता है विदाउट ब्लीच की एक्चुअल ज़रूरत पड़े। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो मे बी तू एक बार | [Transition] CONTINUE | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_022",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 192.83,
+    "num_speakers": 2,
+    "overlap_ratio": 3.32,
+    "latency_seconds": 6.369672750122845,
+    "metrics": {
+      "wer": 0.1511,
+      "cer": 0.0495,
+      "speaker_attribution_accuracy": 1.0,
+      "cpwer": 0.1511,
+      "diarization_gap": 0.0,
+      "speaker_mapping": {
+        "Speaker 0": "SPEAKER_02",
+        "Speaker 1": "SPEAKER_03"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "ये आपका ये आपका इंडिविजुअल बिहेवियर है ना, ये आप बाहर जाओगे, बाहर सब ये चीज़ नहीं सोचते, ना ये करते हैं, बोलते होंगे सोशल मीडिया पे, इनकी आवाज़ सोशल मीडिया तक सीमित रहती होगी, ये असली में नहीं करते लोग फॉलो ये चीज़।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जी, मुझे लगता है कि हरकतें और फितरतों को जज करना चाहिए, ना कि लोगों को उनके नामों को, उनके कास्ट को।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कि, मतलब, ऐसे लोग भी फायदे में आ रहे हैं, जिनकी हरकत, जिनके इंटेंशन सही नहीं हैं, लेकिन"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो तो, वो तो, तो वो सिर्फ कास्ट का प्रॉब्लम नहीं है ना। लोगों को ये दिखता है कि रिजर्वेशन से जो लोग डिज़र्व नहीं करते, उनको भी पावर मिल रही है, उनको भी अपॉर्चुनिटी मिल रही है, तो वो तो हर एक चीज़ में है। आप अलग से बस रिजर्वेशन को ही अकेला हो नहीं कर सकते।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कॉर्नर नहीं कर सकते कि रिजर्वेशन के वजह से लोगों के अपॉर्चुनिटीज जा रही है। लोगों को अपॉर्चुनिटीज मिल भी रही है ना? ये मेरिट बेसिस, मेरिट बेसिस तो बाकी चीज़ों में तो लोगों को नहीं दिखता, रिजर्वेशन में ही दिखता है क्योंकि उनको लगता है कि उनकी चांस जा रही है इससे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "जी, कहीं किसी की जाएगी तो किसी को मिलेगी भी, तो ये बात तो सही है कि किसी को अगर अपॉर्चुनिटी मिल रही है,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कि मैं ये करूं,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो, मतलब, ये एक तरह का बढ़ावा मिल जाता है उन्हें, कि, मतलब,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यहाँ पे मैं फायदा उठा सकता हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और जिनको अपलिफ्टमेंट नहीं मिली है, जिनको इतने सालों से कोई एक्सपोजर नहीं मिला है, उनको ऑफकोर्स ज्यादा अपॉर्चुनिटीज मिलने की ज्यादा उनके लिए पॉलिसीज़ बनेंगी, क्योंकि वो इक्वल है ही नहीं जो लोगों को इक्वलिटी चाहिए तो इक्वल ही लोगों को ट्रीट करो ना। अगर उनको आप शुरू से इक्वल ही ट्रीट करते, तो ना कास्ट सिस्टम होता, ना रिजर्वेशन होता।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो यहाँ किसी को पहले दबा दोगे, फिर अगर उनको उठाने के लिए कोई पॉलिसीज़ बन रही है, जो उनको हेल्प मिल रहा है, आपको उससे भी प्रॉब्लम है, क्योंकि आप लोगों को लग रहा है कि आपके रिजर्वेशन आपके अपॉर्चुनिटीज़ छीन रही है रिजर्वेशन की वजह से।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो आपको नहीं लगता यहाँ पे करप्शन काफी ज़्यादा इंवॉल्व्ड है रिजर्वेशन के साथ-साथ?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पर करप्शन तो हर चीज़ में है। कहाँ पे नहीं है? आप रिजर्वेशन को बंद करने के लिए लोग इतना बोलते हैं कि इसमें करप्शन है, ये है, वो है, तो ऐसे तो हर चीज़ में करप्शन। आप पॉलिटिक्स में जाएंगे, हर जगह, हर पॉलिसी, किस चीज़ का गलत इस्तेमाल नहीं हो रहा? ब्राह्मण में, मेरे कॉलेजेज़ में ब्राह्मण थे, सुपर रिच फैमिलीज से, सुपर रिच बैकग्राउंड, एक्सट्रीमली प्रिविलेज।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "उन लोगों ने अपना इकोनॉमिकली वीकर सर्टिफिकेट्स बना रखा था फेक ताकि उनको जॉब अपॉर्चुनिटीज़ मिले।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "क्योंकि ये चीज़ है, इसी का वो फायदा उठा रहे हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ये अगर नहीं होती तो वो नहीं उठा पाते।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो वो भी तो, तो फायदा उठाने की बात बस रिजर्वेशन में ही है और गरीब लोगों पे जो कास्ट वाइज जो नीचे हैं, उन पे ही क्यों आता है ये फायदा उठाने वाली बात?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "उन चीज़ों के लिए रिजर्वेशन तो ऑफकोर्स वो लोग फायदा उठाएंगे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अगर कोई सच में इकोनॉमिकली पुअर है,"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो उसको मिलना चाहिए।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मुझे उसमें कोई गलत चीज़ नहीं लगती।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, तो इसलिए इकोनॉमिकली पुअर के लिए भी रिजर्वेशनज़ हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "उनकी भी स्कीम्स हैं, उनकी भी पॉलिसीज़ हैं। उनका भी ये है कि अगर उनका बीपीएल है उनका, तो उनको अलग से गवर्नमेंट फंड्स देंगी। वो गवर्नमेंट नहीं देती, वो गवर्नमेंट का करप्शन है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वो ये नहीं है कि ये लोग गवर्नमेंट का पैसा खा रहे हैं तो ये भी बंद हो जाना चाहिए।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, medium pitch, clear tone, deliberate cadence, expressing opinions about reservation systems and social behavior.\n- Speaker 1: Male, slightly lower pitch, calm and analytical tone, questioning and discussing the nuances of the points raised.\n\n[Speaker Profiles]\n[Utterance] ये आपका ये आपका इंडिविजुअल बिहेवियर है ना, ये आप बाहर जाओगे, बाहर सब ये चीज़ नहीं सोचते, ना ये करते हैं, बोलते होंगे सोशल मीडिया पे, इनकी आवाज़ सोशल मीडिया तक सीमित रहती होगी, ये असली में नहीं करते लोग फॉलो ये चीज़। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] जी, मुझे लगता है कि हरकतें और फितरतों को जज करना चाहिए, ना कि लोगों को उनके नामों को, उनके कास्ट को। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] कि, मतलब, ऐसे लोग भी फायदे में आ रहे हैं, जिनकी हरकत, जिनके इंटेंशन सही नहीं हैं, लेकिन | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] वो तो, वो तो, तो वो सिर्फ कास्ट का प्रॉब्लम नहीं है ना। लोगों को ये दिखता है कि रिजर्वेशन से जो लोग डिज़र्व नहीं करते, उनको भी पावर मिल रही है, उनको भी अपॉर्चुनिटी मिल रही है, तो वो तो हर एक चीज़ में है। आप अलग से बस रिजर्वेशन को ही अकेला हो नहीं कर सकते। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] कॉर्नर नहीं कर सकते कि रिजर्वेशन के वजह से लोगों के अपॉर्चुनिटीज जा रही है। लोगों को अपॉर्चुनिटीज मिल भी रही है ना? ये मेरिट बेसिस, मेरिट बेसिस तो बाकी चीज़ों में तो लोगों को नहीं दिखता, रिजर्वेशन में ही दिखता है क्योंकि उनको लगता है कि उनकी चांस जा रही है इससे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] जी, कहीं किसी की जाएगी तो किसी को मिलेगी भी, तो ये बात तो सही है कि किसी को अगर अपॉर्चुनिटी मिल रही है, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] कि मैं ये करूं, | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो, मतलब, ये एक तरह का बढ़ावा मिल जाता है उन्हें, कि, मतलब, | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] यहाँ पे मैं फायदा उठा सकता हूँ। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] और जिनको अपलिफ्टमेंट नहीं मिली है, जिनको इतने सालों से कोई एक्सपोजर नहीं मिला है, उनको ऑफकोर्स ज्यादा अपॉर्चुनिटीज मिलने की ज्यादा उनके लिए पॉलिसीज़ बनेंगी, क्योंकि वो इक्वल है ही नहीं जो लोगों को इक्वलिटी चाहिए तो इक्वल ही लोगों को ट्रीट करो ना। अगर उनको आप शुरू से इक्वल ही ट्रीट करते, तो ना कास्ट सिस्टम होता, ना रिजर्वेशन होता। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो यहाँ किसी को पहले दबा दोगे, फिर अगर उनको उठाने के लिए कोई पॉलिसीज़ बन रही है, जो उनको हेल्प मिल रहा है, आपको उससे भी प्रॉब्लम है, क्योंकि आप लोगों को लग रहा है कि आपके रिजर्वेशन आपके अपॉर्चुनिटीज़ छीन रही है रिजर्वेशन की वजह से। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो आपको नहीं लगता यहाँ पे करप्शन काफी ज़्यादा इंवॉल्व्ड है रिजर्वेशन के साथ-साथ? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पर करप्शन तो हर चीज़ में है। कहाँ पे नहीं है? आप रिजर्वेशन को बंद करने के लिए लोग इतना बोलते हैं कि इसमें करप्शन है, ये है, वो है, तो ऐसे तो हर चीज़ में करप्शन। आप पॉलिटिक्स में जाएंगे, हर जगह, हर पॉलिसी, किस चीज़ का गलत इस्तेमाल नहीं हो रहा? ब्राह्मण में, मेरे कॉलेजेज़ में ब्राह्मण थे, सुपर रिच फैमिलीज से, सुपर रिच बैकग्राउंड, एक्सट्रीमली प्रिविलेज। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] उन लोगों ने अपना इकोनॉमिकली वीकर सर्टिफिकेट्स बना रखा था फेक ताकि उनको जॉब अपॉर्चुनिटीज़ मिले। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] क्योंकि ये चीज़ है, इसी का वो फायदा उठा रहे हैं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] ये अगर नहीं होती तो वो नहीं उठा पाते। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] तो वो भी तो, तो फायदा उठाने की बात बस रिजर्वेशन में ही है और गरीब लोगों पे जो कास्ट वाइज जो नीचे हैं, उन पे ही क्यों आता है ये फायदा उठाने वाली बात? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] उन चीज़ों के लिए रिजर्वेशन तो ऑफकोर्स वो लोग फायदा उठाएंगे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] अगर कोई सच में इकोनॉमिकली पुअर है, | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] तो उसको मिलना चाहिए। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मुझे उसमें कोई गलत चीज़ नहीं लगती। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] हाँ, तो इसलिए इकोनॉमिकली पुअर के लिए भी रिजर्वेशनज़ हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] उनकी भी स्कीम्स हैं, उनकी भी पॉलिसीज़ हैं। उनका भी ये है कि अगर उनका बीपीएल है उनका, तो उनको अलग से गवर्नमेंट फंड्स देंगी। वो गवर्नमेंट नहीं देती, वो गवर्नमेंट का करप्शन है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वो ये नहीं है कि ये लोग गवर्नमेंट का पैसा खा रहे हैं तो ये भी बंद हो जाना चाहिए। | [Transition] CONTINUE | [Speaker] Speaker 0"
+  },
+  {
+    "sample_id": "hindi_042",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 72.61,
+    "num_speakers": 2,
+    "overlap_ratio": 2.77,
+    "latency_seconds": 3.7717078330460936,
+    "metrics": {
+      "wer": 0.2055,
+      "cer": 0.1453,
+      "speaker_attribution_accuracy": 0.8301,
+      "cpwer": 0.4932,
+      "diarization_gap": 0.2877,
+      "speaker_mapping": {
+        "Speaker 1": "Speaker A",
+        "Speaker 0": "Speaker B"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "जनता नजरिए"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तमाम डेवलपमेंट के और विकास कार्य हो रहे हैं विकास कार्य तो बहुत है दीप उसको भी आ रहा है हाँ हाँ हाँ हाँ हाँ मुख्यमंत्री जी तो लेके आते हो गया बहुत अच्छा मुख्यमंत्री तो मुख्यमंत्री जी है जोगी जी और मोदी जी के लिए क्या कहना है?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "जय श्री राम"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्या नाम था?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "संजीव कुमार"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "सर किस सफर आज आप लोग आए हैं क्या?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "सरगुपुर निमा के उपलक्ष में सरयू नदी में स्नान करने के लिए यहाँ पे आए हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यहाँ से श्री राम मंदिर घूमने जाएँगे उसके बाद हनुमानगढ़ी जाएँगे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "यहाँ की जो बन रहा है, वो सब भी दर्शन करेंगे क्या क्या-क्या बन रहा है क्या-क्या हो रहा है वो सब"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कैसा लगा यहाँ पर सर?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "नहीं अभी बहुत अच्छा लगा है और अभी तो बन रहा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्या कहना चाहते हैं तमाम कार्य हुए डेवलपमेंट के कार्य हुए हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मंदिर बन गया।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "भगवान भी विराजमान हो चुके हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कभी ऐसा था कि आप नहीं ऐसा नहीं सोच तो था जब बीजेपी के सरकार बनी तो हो गया कि हाँ एक दिन ना एक दिन होगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "थोड़ा टाइम लगा बाकी श्री राम जी आए पधारे अच्छा लग रहा है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "परिवार सहित आप लोग आए थे?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ परिवार के साथ आए हैं।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्या नाम है सर आपका?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "संजय कुमार"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, medium pitch, clear timbre, conversational and interviewing tone.\n- Speaker 1: Male, slightly lower pitch, steady cadence, responding to questions about development and visits.\n\n[Utterance] जनता नजरिए | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तमाम डेवलपमेंट के और विकास कार्य हो रहे हैं विकास कार्य तो बहुत है दीप उसको भी आ रहा है हाँ हाँ हाँ हाँ हाँ मुख्यमंत्री जी तो लेके आते हो गया बहुत अच्छा मुख्यमंत्री तो मुख्यमंत्री जी है जोगी जी और मोदी जी के लिए क्या कहना है? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] जय श्री राम | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] क्या नाम था? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] संजीव कुमार | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] सर किस सफर आज आप लोग आए हैं क्या? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] सरगुपुर निमा के उपलक्ष में सरयू नदी में स्नान करने के लिए यहाँ पे आए हैं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] यहाँ से श्री राम मंदिर घूमने जाएँगे उसके बाद हनुमानगढ़ी जाएँगे। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] यहाँ की जो बन रहा है, वो सब भी दर्शन करेंगे क्या क्या-क्या बन रहा है क्या-क्या हो रहा है वो सब | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] कैसा लगा यहाँ पर सर? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] नहीं अभी बहुत अच्छा लगा है और अभी तो बन रहा है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] क्या कहना चाहते हैं तमाम कार्य हुए डेवलपमेंट के कार्य हुए हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मंदिर बन गया। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] भगवान भी विराजमान हो चुके हैं। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] कभी ऐसा था कि आप नहीं ऐसा नहीं सोच तो था जब बीजेपी के सरकार बनी तो हो गया कि हाँ एक दिन ना एक दिन होगा। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] थोड़ा टाइम लगा बाकी श्री राम जी आए पधारे अच्छा लग रहा है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] परिवार सहित आप लोग आए थे? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ परिवार के साथ आए हैं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] क्या नाम है सर आपका? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] संजय कुमार | [Transition] SHIFT | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_092",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.33,
+    "num_speakers": 2,
+    "overlap_ratio": 2.57,
+    "latency_seconds": 4.460920375073329,
+    "metrics": {
+      "wer": 0.0966,
+      "cer": 0.0483,
+      "speaker_attribution_accuracy": 0.5202,
+      "cpwer": 0.8352,
+      "diarization_gap": 0.7386,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "तेरे को डांस वगैरह करना अच्छा लगता है क्या?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, मुझे तो बहुत ज्यादा पसंद है डांस करना, एकदम मतलब शादी-ब्याह वाले जो गाने होते हैं उसपे तो मैं खूब थिरकती हूँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मुझे जितना, मुझसे कोई पूछे ना, तो मुझे जितना डांस करना पसंद है ना, उतना ही कम मुझे डांस आता है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "तो मैं यह नहीं कहूँगी कि मुझे पसंद नहीं है, बस मुझे आता नहीं है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "ओके।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पर मुझे ऐसा लगता है डांस करने का सबसे अच्छा तरीका है गेट स्टार्टेड, बस शुरू हो जाओ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "और धीरे-धीरे वो सब आने लगता है और मैं तो मतलब मेरे स्कूल टाइम में बहुत सारे डांस फंक्शंस में पार्टिसिपेट करती थी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वन ऑफ द लाइक एक्टिविटी, मेरी फेवरेट एक्टिविटी मेरी डांस होती थी हमेशा से, अभी भी है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "यार हमारे स्कूल में ना फोक डांस ज्यादा होते थे, मतलब ऐसे पॉप म्यूजिक वगैरह नहीं, फोक डांसेस ज्यादा होते थे, तुम्हारे स्कूल में भी कैसा था?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, मेरी स्कूल एक्चुअली पंजाबी थी, तो हम गिद्दा-विद्दा बहुत करते थे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हम भांगड़ा बहुत करते थे।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, higher pitch, energetic cadence, enthusiastic about dancing and sharing school memories.\n- Speaker 1: Female, slightly deeper pitch, warm timbre, conversational and engaging tone.\n\n[Utterance] तेरे को डांस वगैरह करना अच्छा लगता है क्या? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, मुझे तो बहुत ज्यादा पसंद है डांस करना, एकदम मतलब शादी-ब्याह वाले जो गाने होते हैं उसपे तो मैं खूब थिरकती हूँ। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] मुझे जितना, मुझसे कोई पूछे ना, तो मुझे जितना डांस करना पसंद है ना, उतना ही कम मुझे डांस आता है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] तो मैं यह नहीं कहूँगी कि मुझे पसंद नहीं है, बस मुझे आता नहीं है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] ओके। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] पर मुझे ऐसा लगता है डांस करने का सबसे अच्छा तरीका है गेट स्टार्टेड, बस शुरू हो जाओ। | [Transition] RESUME | [Speaker] Speaker 0\n[Utterance] और धीरे-धीरे वो सब आने लगता है और मैं तो मतलब मेरे स्कूल टाइम में बहुत सारे डांस फंक्शंस में पार्टिसिपेट करती थी। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वन ऑफ द लाइक एक्टिविटी, मेरी फेवरेट एक्टिविटी मेरी डांस होती थी हमेशा से, अभी भी है। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] यार हमारे स्कूल में ना फोक डांस ज्यादा होते थे, मतलब ऐसे पॉप म्यूजिक वगैरह नहीं, फोक डांसेस ज्यादा होते थे, तुम्हारे स्कूल में भी कैसा था? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, मेरी स्कूल एक्चुअली पंजाबी थी, तो हम गिद्दा-विद्दा बहुत करते थे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हम भांगड़ा बहुत करते थे। | [Transition] CONTINUE | [Speaker] Speaker 1"
+  },
+  {
+    "sample_id": "hindi_090",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.31,
+    "num_speakers": 2,
+    "overlap_ratio": 2.42,
+    "latency_seconds": 3.3203843750525266,
+    "metrics": {
+      "wer": 0.0842,
+      "cer": 0.059,
+      "speaker_attribution_accuracy": 1.0,
+      "cpwer": 0.0842,
+      "diarization_gap": 0.0,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 1",
+        "Speaker 1": "Speaker 2"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "हेलो जी, कैसे हो आप?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "मैं यार एकदम ठीक, बस थोड़ी सी बोर हो रही हूँ, बाकी सब तो बिल्कुल ठीक। तू बता।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बस यार, बोर ही हो रहा था, वीकेंड में कुछ करने को होता नहीं है, बट सोच रहा था पिकल बॉल खेलने चल सकता हूँ।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "फिर से पिकल बॉल यार, एक तो तुम्हारा ऑब्सेशन, पिकल बॉल से कितना ज़्यादा है।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "कितनी बार खेल चुके हो वैसे तुम?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मैं पिकल बॉल ऑलमोस्ट हर दो हफ्ते में एक बार तो जाता हूँ।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अब फिर क्यों कह रहा है कि मैं वीकेंड पे बोर होता हूँ?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "जो वीकेंड में नहीं जाता हूँ, उसमें बोर होता हूँ।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "पर पिकल बॉल के लिए कुछ मिनिमम क्राइटेरिया भी तो रहता होगा ना कि कितने लोग, कितने प्लेयर्स ज़रूरी होते हैं खेलने के लिए तभी पॉसिबल है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "चार ज़िंदा हट्टे-कट्टे लोग ठीक हैं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "चार में हो जाएगा, तो फिर चार लोग इकट्ठे भी तो करने पड़ेंगे ना?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, तो दो से शुरू करेंगे, दो से तीन, तीन से चार ऐसे ही होगा।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "तो पहले हम दोनों खेलने का ट्राई करें एक बार क्या?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, चलो, कोई नहीं।"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Male, lower pitch chest voice, casual and slightly monotonous cadence, friend talking about weekend plans.\n- Speaker 1: Female, higher pitch voice, expressive and energetic cadence, friend questioning weekend activities and preferences.\n\n[Utterance] हेलो जी, कैसे हो आप? | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] मैं यार एकदम ठीक, बस थोड़ी सी बोर हो रही हूँ, बाकी सब तो बिल्कुल ठीक। तू बता। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] बस यार, बोर ही हो रहा था, वीकेंड में कुछ करने को होता नहीं है, बट सोच रहा था पिकल बॉल खेलने चल सकता हूँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] फिर से पिकल बॉल यार, एक तो तुम्हारा ऑब्सेशन, पिकल बॉल से कितना ज़्यादा है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] कितनी बार खेल चुके हो वैसे तुम? | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मैं पिकल बॉल ऑलमोस्ट हर दो हफ्ते में एक बार तो जाता हूँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] अब फिर क्यों कह रहा है कि मैं वीकेंड पे बोर होता हूँ? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] जो वीकेंड में नहीं जाता हूँ, उसमें बोर होता हूँ। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] पर पिकल बॉल के लिए कुछ मिनिमम क्राइटेरिया भी तो रहता होगा ना कि कितने लोग, कितने प्लेयर्स ज़रूरी होते हैं खेलने के लिए तभी पॉसिबल है। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] चार ज़िंदा हट्टे-कट्टे लोग ठीक हैं। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] चार में हो जाएगा, तो फिर चार लोग इकट्ठे भी तो करने पड़ेंगे ना? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, तो दो से शुरू करेंगे, दो से तीन, तीन से चार ऐसे ही होगा। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] तो पहले हम दोनों खेलने का ट्राई करें एक बार क्या? | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, चलो, कोई नहीं। | [Transition] SHIFT | [Speaker] Speaker 0"
+  },
+  {
+    "sample_id": "hindi_073",
+    "model_id": "gemini-3.5-flash-lite",
+    "approach": "strategy_c3_acoustic_token0",
+    "duration_seconds": 60.36,
+    "num_speakers": 2,
+    "overlap_ratio": 2.24,
+    "latency_seconds": 4.166996665997431,
+    "metrics": {
+      "wer": 0.1875,
+      "cer": 0.0873,
+      "speaker_attribution_accuracy": 0.5381,
+      "cpwer": 0.6683,
+      "diarization_gap": 0.4808,
+      "speaker_mapping": {
+        "Speaker 0": "Speaker 0",
+        "Speaker 1": "Speaker 1"
+      },
+      "format_valid": true
+    },
+    "predicted_turns": [
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ यार कचरे वाली गाड़ी नहीं आई। आज कल तो आई थी, आज ही नहीं आई।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "क्यों नहीं आई आज?"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "पता नहीं, पूछना पड़ेगा अपन नगर पालिका वालों से। एप्लीकेशन लिखिए, पूछिए।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "इतना कचरा हो रहा है, कचरे वाली गाड़ी नहीं आएगी, तो कचरा कहाँ से हटेगा यहाँ पे?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ, सही है। मोहल्ले वाले से बात करें अपन।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "क्या हुआ है? कचरा वाला आया नहीं है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "मोहल्ले वाले को इकठ्ठा करके बात करनी पड़ेगी और रिपोर्ट लिखवानी पड़ेगी।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, बाकी कचरा फैलेगा, तो फिर बच्चे टच करें, फिर बीमार होंगे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "वही, गाय वगैरह खावे।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "इतनी स्मेल आने लग गई उस कचरे से।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "हाँ, सही है।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "बात करें अपन मोहल्ले वाले से।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "उन सब मोहल्ले वालों को बोलना पड़ेगा कचरा एक जगह इकठ्ठा करके डालें, इधर उधर ना फैलाएं।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "हाँ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "फिर बच्चे भी उससे टच करें, तो फिर वो बीमार होंगे, गाय-वाय खाएगी।"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "वही, गाय खाने लग गई, गाय मरेगी यहाँ पे, फिर वो भी स्मेल करेगी वहाँ पे।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "कच—"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "अपन बात करें फिर मोहल्ले वाले से ना एप्लीकेशन लिख के फिर"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "करें कुछ।"
+      },
+      {
+        "speaker": "Speaker 0",
+        "text": "ओके, अब देखना पड़ेगा उनको बुलाते हैं और जाते हैं वहाँ पे, बात करते हैं, ताकि ये सब कचरा हटेगा और यहाँ पे सब कुछ सही"
+      }
+    ],
+    "raw_response": "[Speaker Profiles]\n- Speaker 0: Female, medium pitch, clear timbre, steady cadence, expressing concern about the garbage issue.\n- Speaker 1: Female, slightly higher pitch, conversational timbre, responsive cadence, agreeing and expanding on the garbage problem.\n\n[Utterance] हाँ यार कचरे वाली गाड़ी नहीं आई। आज कल तो आई थी, आज ही नहीं आई। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] क्यों नहीं आई आज? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] पता नहीं, पूछना पड़ेगा अपन नगर पालिका वालों से। एप्लीकेशन लिखिए, पूछिए। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] इतना कचरा हो रहा है, कचरे वाली गाड़ी नहीं आएगी, तो कचरा कहाँ से हटेगा यहाँ पे? | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] हाँ, सही है। मोहल्ले वाले से बात करें अपन। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] क्या हुआ है? कचरा वाला आया नहीं है। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] मोहल्ले वाले को इकठ्ठा करके बात करनी पड़ेगी और रिपोर्ट लिखवानी पड़ेगी। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] हाँ, बाकी कचरा फैलेगा, तो फिर बच्चे टच करें, फिर बीमार होंगे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] वही, गाय वगैरह खावे। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] इतनी स्मेल आने लग गई उस कचरे से। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ, सही है। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] बात करें अपन मोहल्ले वाले से। | [Transition] CONTINUE | [Speaker] Speaker 0\n[Utterance] उन सब मोहल्ले वालों को बोलना पड़ेगा कचरा एक जगह इकठ्ठा करके डालें, इधर उधर ना फैलाएं। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] हाँ। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] फिर बच्चे भी उससे टच करें, तो फिर वो बीमार होंगे, गाय-वाय खाएगी। | [Transition] SHIFT | [Speaker] Speaker 0\n[Utterance] वही, गाय खाने लग गई, गाय मरेगी यहाँ पे, फिर वो भी स्मेल करेगी वहाँ पे। | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] कच— | [Transition] OVERLAP | [Speaker] Speaker 0\n[Utterance] अपन बात करें फिर मोहल्ले वाले से ना एप्लीकेशन लिख के फिर | [Transition] SHIFT | [Speaker] Speaker 1\n[Utterance] करें कुछ। | [Transition] CONTINUE | [Speaker] Speaker 1\n[Utterance] ओके, अब देखना पड़ेगा उनको बुलाते हैं और जाते हैं वहाँ पे, बात करते हैं, ताकि ये सब कचरा हटेगा और यहाँ पे सब कुछ सही | [Transition] SHIFT | [Speaker] Speaker 0"
+  }
+]

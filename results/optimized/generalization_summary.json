@@ -1,0 +1,93 @@
+{
+  "benchmark_title": "Candidate C5 Generalization Certification Benchmark",
+  "dataset_path": "data/indic_diarbench_subset",
+  "evaluated_model": "gemini-3.5-flash-lite",
+  "approach": "strategy_c5_adaptive_champion",
+  "execution_timestamp": "2026-09-14T12:58:30.202604+00:00",
+  "total_samples": 20,
+  "macro_metrics": {
+    "count": 20,
+    "mean_wer": 0.2349,
+    "mean_wer_normalized": 0.2349,
+    "mean_cer": 0.1353,
+    "mean_cer_normalized": 0.1353,
+    "mean_speaker_attribution_accuracy": 0.7775,
+    "mean_cpwer": 0.4754,
+    "mean_cpwer_normalized": 0.4754,
+    "mean_diarization_gap": 0.2405,
+    "mean_latency_seconds": 4.339,
+    "outlier_count": 0
+  },
+  "slices": {
+    "2_speakers": {
+      "count": 15,
+      "mean_wer": 0.2454,
+      "mean_wer_normalized": 0.2454,
+      "mean_cer": 0.136,
+      "mean_cer_normalized": 0.136,
+      "mean_speaker_attribution_accuracy": 0.7853,
+      "mean_cpwer": 0.4647,
+      "mean_cpwer_normalized": 0.4647,
+      "mean_diarization_gap": 0.2193,
+      "mean_latency_seconds": 4.039,
+      "outlier_count": 0
+    },
+    "3_speakers": {
+      "count": 5,
+      "mean_wer": 0.2033,
+      "mean_wer_normalized": 0.2033,
+      "mean_cer": 0.133,
+      "mean_cer_normalized": 0.133,
+      "mean_speaker_attribution_accuracy": 0.7542,
+      "mean_cpwer": 0.5074,
+      "mean_cpwer_normalized": 0.5074,
+      "mean_diarization_gap": 0.304,
+      "mean_latency_seconds": 5.241,
+      "outlier_count": 0
+    },
+    "4_speakers": {
+      "count": 0,
+      "mean_wer": 0.0,
+      "mean_wer_normalized": 0.0,
+      "mean_cer": 0.0,
+      "mean_cer_normalized": 0.0,
+      "mean_speaker_attribution_accuracy": 0.0,
+      "mean_cpwer": 0.0,
+      "mean_cpwer_normalized": 0.0,
+      "mean_diarization_gap": 0.0,
+      "mean_latency_seconds": 0.0,
+      "outlier_count": 0
+    }
+  },
+  "baseline_comparison": {
+    "default_3_5_flash_lite_baseline": {
+      "mean_wer": 0.2475,
+      "mean_cer": 0.1414,
+      "mean_speaker_attribution_accuracy": 0.6904,
+      "mean_cpwer": 0.5816,
+      "mean_diarization_gap": 0.3341,
+      "mean_latency_seconds": 3.092
+    },
+    "gemini_2_5_flash_baseline": {
+      "mean_wer": 3.6293,
+      "mean_wer_normalized": 0.2418,
+      "mean_cer": 2.8537,
+      "mean_cer_normalized": 0.1437,
+      "mean_speaker_attribution_accuracy": 0.7942,
+      "mean_cpwer": 3.8778,
+      "mean_cpwer_normalized": 0.3878,
+      "mean_diarization_gap": 0.2497,
+      "mean_latency_seconds": 8.205
+    },
+    "candidate_c5_delta_vs_3_5_default": {
+      "saa_gain": 0.0871,
+      "diarization_gap_reduction": 0.0936,
+      "wer_delta": -0.0126
+    },
+    "candidate_c5_delta_vs_2_5_flash": {
+      "saa_gain": -0.0167,
+      "diarization_gap_reduction": 0.0092,
+      "speedup_vs_2_5": 1.89
+    }
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "evaluation_timestamp": "2026-09-14T05:15:49Z",
+  "models_evaluated": [
+    "gemini-2.5-flash",
+    "gemini-3.5-flash-lite"
+  ],
+  "total_samples": 20,
+  "aggregate_summary": {
+    "gemini-2.5-flash": {
+      "mean_wer": 3.6293,
+      "mean_cer": 2.8537,
+      "mean_speaker_attribution_accuracy": 0.7942,
+      "mean_cpwer": 3.8778,
+      "mean_diarization_gap": 0.2497,
+      "mean_latency_seconds": 8.205,
+      "total_samples": 20
+    },
+    "gemini-3.5-flash-lite": {
+      "mean_wer": 0.2475,
+      "mean_cer": 0.1414,
+      "mean_speaker_attribution_accuracy": 0.6904,
+      "mean_cpwer": 0.5816,
+      "mean_diarization_gap": 0.3341,
+      "mean_latency_seconds": 3.092,
+      "total_samples": 20
+    }
+  },
+  "overall_delta_3_5_vs_2_5": {
+    "wer_delta": -3.3818,
+    "cer_delta": -2.7123,
+    "saa_delta": -0.1038,
+    "cpwer_delta": -3.2962,
+    "diarization_gap_delta": 0.0844,
+    "latency_speedup": 2.654
+  },
+  "total_failure_samples_count": 15,
+  "failure_samples": [
+    {
+      "sample_id": "hindi_067",
+      "num_speakers": 2,
+      "overlap_ratio": 13.52,
+      "duration_seconds": 60.39,
+      "saa_2_5": 0.567,
+      "saa_3_5": 0.5097,
+      "saa_delta": -0.0573,
+      "wer_2_5": 0.6494,
+      "wer_3_5": 0.5281,
+      "wer_delta": -0.1213,
+      "cpwer_2_5": 0.8268,
+      "cpwer_3_5": 0.9784,
+      "cpwer_delta": 0.1516,
+      "diar_gap_2_5": 0.1775,
+      "diar_gap_3_5": 0.4502
+    },
+    {
+      "sample_id": "hindi_066",
+      "num_speakers": 2,
+      "overlap_ratio": 9.78,
+      "duration_seconds": 60.47,
+      "saa_2_5": 0.9755,
+      "saa_3_5": 0.7342,
+      "saa_delta": -0.2413,
+      "wer_2_5": 0.2243,
+      "wer_3_5": 0.2574,
+      "wer_delta": 0.0331,
+      "cpwer_2_5": 0.2537,
+      "cpwer_3_5": 0.4963,
+      "cpwer_delta": 0.2426,
+      "diar_gap_2_5": 0.0294,
+      "diar_gap_3_5": 0.239
+    },
+    {
+      "sample_id": "hindi_070",
+      "num_speakers": 2,
+      "overlap_ratio": 4.6,
+      "duration_seconds": 60.55,
+      "saa_2_5": 1.0,
+      "saa_3_5": 0.6234,
+      "saa_delta": -0.3766,
+      "wer_2_5": 0.3266,
+      "wer_3_5": 0.4234,
+      "wer_delta": 0.0968,
+      "cpwer_2_5": 0.3266,
+      "cpwer_3_5": 0.7379,
+      "cpwer_delta": 0.4113,
+      "diar_gap_2_5": 0.0,
+      "diar_gap_3_5": 0.3145
+    },
+    {
+      "sample_id": "hindi_073",
+      "num_speakers": 2,
+      "overlap_ratio": 2.24,
+      "duration_seconds": 60.36,
+      "saa_2_5": 0.8442,
+      "saa_3_5": 0.608,
+      "saa_delta": -0.2362,
+      "wer_2_5": 0.2644,
+      "wer_3_5": 0.2115,
+      "wer_delta": -0.0529,
+      "cpwer_2_5": 0.5096,
+      "cpwer_3_5": 0.7163,
+      "cpwer_delta": 0.2067,
+      "diar_gap_2_5": 0.2452,
+      "diar_gap_3_5": 0.5048
+    },
+    {
+      "sample_id": "hindi_045",
+      "num_speakers": 3,
+      "overlap_ratio": 9.33,
+      "duration_seconds": 60.0,
+      "saa_2_5": 0.4908,
+      "saa_3_5": 0.8091,
+      "saa_delta": 0.3183,
+      "wer_2_5": 0.2383,
+      "wer_3_5": 0.2979,
+      "wer_delta": 0.0596,
+      "cpwer_2_5": 1.0723,
+      "cpwer_3_5": 0.5957,
+      "cpwer_delta": -0.4766,
+      "diar_gap_2_5": 0.834,
+      "diar_gap_3_5": 0.2979
+    },
+    {
+      "sample_id": "hindi_046",
+      "num_speakers": 3,
+      "overlap_ratio": 4.8,
+      "duration_seconds": 68.06,
+      "saa_2_5": 0.5211,
+      "saa_3_5": 0.4811,
+      "saa_delta": -0.04,
+      "wer_2_5": 0.1255,
+      "wer_3_5": 0.1255,
+      "wer_delta": 0.0,
+      "cpwer_2_5": 0.7528,
+      "cpwer_3_5": 0.7491,
+      "cpwer_delta": -0.0037,
+      "diar_gap_2_5": 0.6273,
+      "diar_gap_3_5": 0.6236
+    },
+    {
+      "sample_id": "hindi_042",
+      "num_speakers": 2,
+      "overlap_ratio": 2.77,
+      "duration_seconds": 72.61,
+      "saa_2_5": 0.6753,
+      "saa_3_5": 0.6935,
+      "saa_delta": 0.0182,
+      "wer_2_5": 0.242,
+      "wer_3_5": 0.3105,
+      "wer_delta": 0.0685,
+      "cpwer_2_5": 0.7443,
+      "cpwer_3_5": 0.653,
+      "cpwer_delta": -0.0913,
+      "diar_gap_2_5": 0.5023,
+      "diar_gap_3_5": 0.3425
+    },
+    {
+      "sample_id": "hindi_024",
+      "num_speakers": 3,
+      "overlap_ratio": 17.36,
+      "duration_seconds": 198.91,
+      "saa_2_5": 0.9875,
+      "saa_3_5": 0.5016,
+      "saa_delta": -0.4859,
+      "wer_2_5": 0.172,
+      "wer_3_5": 0.1691,
+      "wer_delta": -0.0029,
+      "cpwer_2_5": 0.1778,
+      "cpwer_3_5": 0.7405,
+      "cpwer_delta": 0.5627,
+      "diar_gap_2_5": 0.0058,
+      "diar_gap_3_5": 0.5714
+    },
+    {
+      "sample_id": "hindi_085",
+      "num_speakers": 2,
+      "overlap_ratio": 15.15,
+      "duration_seconds": 60.13,
+      "saa_2_5": 0.7317,
+      "saa_3_5": 0.6882,
+      "saa_delta": -0.0435,
+      "wer_2_5": 34.4588,
+      "wer_3_5": 0.3144,
+      "wer_delta": -34.1444,
+      "cpwer_2_5": 34.6031,
+      "cpwer_3_5": 0.6186,
+      "cpwer_delta": -33.9845,
+      "diar_gap_2_5": 0.1443,
+      "diar_gap_3_5": 0.3041
+    },
+    {
+      "sample_id": "hindi_001",
+      "num_speakers": 3,
+      "overlap_ratio": 12.35,
+      "duration_seconds": 75.33,
+      "saa_2_5": 0.801,
+      "saa_3_5": 0.619,
+      "saa_delta": -0.182,
+      "wer_2_5": 0.2039,
+      "wer_3_5": 0.2184,
+      "wer_delta": 0.0145,
+      "cpwer_2_5": 0.466,
+      "cpwer_3_5": 0.8301,
+      "cpwer_delta": 0.3641,
+      "diar_gap_2_5": 0.2621,
+      "diar_gap_3_5": 0.6117
+    },
+    {
+      "sample_id": "hindi_087",
+      "num_speakers": 2,
+      "overlap_ratio": 12.18,
+      "duration_seconds": 60.23,
+      "saa_2_5": 0.9937,
+      "saa_3_5": 0.5404,
+      "saa_delta": -0.4533,
+      "wer_2_5": 0.3563,
+      "wer_3_5": 0.3161,
+      "wer_delta": -0.0402,
+      "cpwer_2_5": 0.3391,
+      "cpwer_3_5": 0.7241,
+      "cpwer_delta": 0.385,
+      "diar_gap_2_5": 0.0,
+      "diar_gap_3_5": 0.408
+    },
+    {
+      "sample_id": "hindi_093",
+      "num_speakers": 2,
+      "overlap_ratio": 10.72,
+      "duration_seconds": 60.38,
+      "saa_2_5": 0.9673,
+      "saa_3_5": 0.7075,
+      "saa_delta": -0.2598,
+      "wer_2_5": 0.2771,
+      "wer_3_5": 0.303,
+      "wer_delta": 0.0259,
+      "cpwer_2_5": 0.2857,
+      "cpwer_3_5": 0.5195,
+      "cpwer_delta": 0.2338,
+      "diar_gap_2_5": 0.0087,
+      "diar_gap_3_5": 0.2165
+    },
+    {
+      "sample_id": "hindi_089",
+      "num_speakers": 2,
+      "overlap_ratio": 3.36,
+      "duration_seconds": 60.42,
+      "saa_2_5": 1.0,
+      "saa_3_5": 0.9489,
+      "saa_delta": -0.0511,
+      "wer_2_5": 0.1755,
+      "wer_3_5": 0.1596,
+      "wer_delta": -0.0159,
+      "cpwer_2_5": 0.1755,
+      "cpwer_3_5": 0.2074,
+      "cpwer_delta": 0.0319,
+      "diar_gap_2_5": 0.0,
+      "diar_gap_3_5": 0.0479
+    },
+    {
+      "sample_id": "hindi_092",
+      "num_speakers": 2,
+      "overlap_ratio": 2.57,
+      "duration_seconds": 60.33,
+      "saa_2_5": 1.0,
+      "saa_3_5": 0.5345,
+      "saa_delta": -0.4655,
+      "wer_2_5": 0.1193,
+      "wer_3_5": 0.0852,
+      "wer_delta": -0.0341,
+      "cpwer_2_5": 0.1193,
+      "cpwer_3_5": 0.75,
+      "cpwer_delta": 0.6307,
+      "diar_gap_2_5": 0.0,
+      "diar_gap_3_5": 0.6648
+    },
+    {
+      "sample_id": "hindi_090",
+      "num_speakers": 2,
+      "overlap_ratio": 2.42,
+      "duration_seconds": 60.31,
+      "saa_2_5": 1.0,
+      "saa_3_5": 1.0,
+      "saa_delta": 0.0,
+      "wer_2_5": 0.1316,
+      "wer_3_5": 0.1789,
+      "wer_delta": 0.0473,
+      "cpwer_2_5": 0.1316,
+      "cpwer_3_5": 0.1789,
+      "cpwer_delta": 0.0473,
+      "diar_gap_2_5": 0.0,
+      "diar_gap_3_5": 0.0
+    }
+  ],
+  "sample_level_comparisons": {
+    "hindi_064": {
+      "sample_id": "hindi_064",
+      "duration_seconds": 60.2,
+      "num_speakers": 2,
+      "overlap_ratio": 14.33,
+      "gemini-2.5-flash": {
+        "wer": 0.2903,
+        "cer": 0.1739,
+        "speaker_attribution_accuracy": 0.5177,
+        "cpwer": 1.0645,
+        "diarization_gap": 0.7742,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.2402649590512738
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2806,
+        "cer": 0.1665,
+        "speaker_attribution_accuracy": 0.6643,
+        "cpwer": 0.5226,
+        "diarization_gap": 0.2419,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.1145705831004307
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0097,
+        "saa_delta": 0.1466,
+        "cpwer_delta": -0.5419,
+        "diarization_gap_delta": -0.5323,
+        "latency_ratio": 0.961
+      },
+      "is_regression": false
+    },
+    "hindi_067": {
+      "sample_id": "hindi_067",
+      "duration_seconds": 60.39,
+      "num_speakers": 2,
+      "overlap_ratio": 13.52,
+      "gemini-2.5-flash": {
+        "wer": 0.6494,
+        "cer": 0.4545,
+        "speaker_attribution_accuracy": 0.567,
+        "cpwer": 0.8268,
+        "diarization_gap": 0.1775,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.471328082960099
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.5281,
+        "cer": 0.3171,
+        "speaker_attribution_accuracy": 0.5097,
+        "cpwer": 0.9784,
+        "diarization_gap": 0.4502,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.9809355000033975
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.1213,
+        "saa_delta": -0.0573,
+        "cpwer_delta": 0.1516,
+        "diarization_gap_delta": 0.2727,
+        "latency_ratio": 0.859
+      },
+      "is_regression": true
+    },
+    "hindi_066": {
+      "sample_id": "hindi_066",
+      "duration_seconds": 60.47,
+      "num_speakers": 2,
+      "overlap_ratio": 9.78,
+      "gemini-2.5-flash": {
+        "wer": 0.2243,
+        "cer": 0.1343,
+        "speaker_attribution_accuracy": 0.9755,
+        "cpwer": 0.2537,
+        "diarization_gap": 0.0294,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 0",
+          "Speaker 0": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 4.319343207986094
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2574,
+        "cer": 0.1575,
+        "speaker_attribution_accuracy": 0.7342,
+        "cpwer": 0.4963,
+        "diarization_gap": 0.239,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 0",
+          "Speaker 0": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.181926458957605
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0331,
+        "saa_delta": -0.2413,
+        "cpwer_delta": 0.2426,
+        "diarization_gap_delta": 0.2096,
+        "latency_ratio": 0.737
+      },
+      "is_regression": true
+    },
+    "hindi_070": {
+      "sample_id": "hindi_070",
+      "duration_seconds": 60.55,
+      "num_speakers": 2,
+      "overlap_ratio": 4.6,
+      "gemini-2.5-flash": {
+        "wer": 0.3266,
+        "cer": 0.1507,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.3266,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 5.540556750027463
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.4234,
+        "cer": 0.1901,
+        "speaker_attribution_accuracy": 0.6234,
+        "cpwer": 0.7379,
+        "diarization_gap": 0.3145,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 0",
+          "Speaker 0": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.94338020903524
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0968,
+        "saa_delta": -0.3766,
+        "cpwer_delta": 0.4113,
+        "diarization_gap_delta": 0.3145,
+        "latency_ratio": 0.531
+      },
+      "is_regression": true
+    },
+    "hindi_065": {
+      "sample_id": "hindi_065",
+      "duration_seconds": 60.1,
+      "num_speakers": 2,
+      "overlap_ratio": 3.95,
+      "gemini-2.5-flash": {
+        "wer": 0.1615,
+        "cer": 0.0975,
+        "speaker_attribution_accuracy": 0.5331,
+        "cpwer": 0.55,
+        "diarization_gap": 0.3885,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 0",
+          "Speaker 0": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.232259958051145
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1692,
+        "cer": 0.0853,
+        "speaker_attribution_accuracy": 0.5224,
+        "cpwer": 0.5692,
+        "diarization_gap": 0.4,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.8260040420573205
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0077,
+        "saa_delta": -0.0107,
+        "cpwer_delta": 0.0192,
+        "diarization_gap_delta": 0.0115,
+        "latency_ratio": 0.874
+      },
+      "is_regression": false
+    },
+    "hindi_069": {
+      "sample_id": "hindi_069",
+      "duration_seconds": 60.47,
+      "num_speakers": 2,
+      "overlap_ratio": 3.49,
+      "gemini-2.5-flash": {
+        "wer": 0.2176,
+        "cer": 0.1103,
+        "speaker_attribution_accuracy": 0.7426,
+        "cpwer": 0.4444,
+        "diarization_gap": 0.2269,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.0734512920025736
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2269,
+        "cer": 0.118,
+        "speaker_attribution_accuracy": 0.8416,
+        "cpwer": 0.3657,
+        "diarization_gap": 0.1389,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.1668613749789074
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0093,
+        "saa_delta": 0.099,
+        "cpwer_delta": -0.0787,
+        "diarization_gap_delta": -0.088,
+        "latency_ratio": 1.03
+      },
+      "is_regression": false
+    },
+    "hindi_073": {
+      "sample_id": "hindi_073",
+      "duration_seconds": 60.36,
+      "num_speakers": 2,
+      "overlap_ratio": 2.24,
+      "gemini-2.5-flash": {
+        "wer": 0.2644,
+        "cer": 0.1052,
+        "speaker_attribution_accuracy": 0.8442,
+        "cpwer": 0.5096,
+        "diarization_gap": 0.2452,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 0",
+          "Speaker 0": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.5562215839745477
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2115,
+        "cer": 0.0967,
+        "speaker_attribution_accuracy": 0.608,
+        "cpwer": 0.7163,
+        "diarization_gap": 0.5048,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 0",
+          "Speaker 1": "Speaker 1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.4617298330413178
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0529,
+        "saa_delta": -0.2362,
+        "cpwer_delta": 0.2067,
+        "diarization_gap_delta": 0.2596,
+        "latency_ratio": 0.973
+      },
+      "is_regression": true
+    },
+    "hindi_044": {
+      "sample_id": "hindi_044",
+      "duration_seconds": 54.54,
+      "num_speakers": 3,
+      "overlap_ratio": 11.84,
+      "gemini-2.5-flash": {
+        "wer": 33.7754,
+        "cer": 24.46,
+        "speaker_attribution_accuracy": 0.5354,
+        "cpwer": 34.5424,
+        "diarization_gap": 0.7669,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A"
+        },
+        "format_valid": true,
+        "latency_seconds": 28.73975925007835
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2373,
+        "cer": 0.1578,
+        "speaker_attribution_accuracy": 0.7991,
+        "cpwer": 0.5297,
+        "diarization_gap": 0.2924,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A",
+          "Speaker 1": "Speaker C"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.0681543750688434
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -33.5381,
+        "saa_delta": 0.2637,
+        "cpwer_delta": -34.0127,
+        "diarization_gap_delta": -0.4745,
+        "latency_ratio": 0.107
+      },
+      "is_regression": false
+    },
+    "hindi_045": {
+      "sample_id": "hindi_045",
+      "duration_seconds": 60.0,
+      "num_speakers": 3,
+      "overlap_ratio": 9.33,
+      "gemini-2.5-flash": {
+        "wer": 0.2383,
+        "cer": 0.1363,
+        "speaker_attribution_accuracy": 0.4908,
+        "cpwer": 1.0723,
+        "diarization_gap": 0.834,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.8821888329694048
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2979,
+        "cer": 0.1933,
+        "speaker_attribution_accuracy": 0.8091,
+        "cpwer": 0.5957,
+        "diarization_gap": 0.2979,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A",
+          "Speaker 1": "Speaker B"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.7458382500335574
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0596,
+        "saa_delta": 0.3183,
+        "cpwer_delta": -0.4766,
+        "diarization_gap_delta": -0.5361,
+        "latency_ratio": 0.953
+      },
+      "is_regression": true
+    },
+    "hindi_046": {
+      "sample_id": "hindi_046",
+      "duration_seconds": 68.06,
+      "num_speakers": 3,
+      "overlap_ratio": 4.8,
+      "gemini-2.5-flash": {
+        "wer": 0.1255,
+        "cer": 0.0623,
+        "speaker_attribution_accuracy": 0.5211,
+        "cpwer": 0.7528,
+        "diarization_gap": 0.6273,
+        "speaker_mapping": {
+          "Speaker 2": "Speaker A",
+          "Speaker 1": "Speaker B",
+          "Speaker 0": "Speaker C"
+        },
+        "format_valid": true,
+        "latency_seconds": 50.37110733403824
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1255,
+        "cer": 0.0623,
+        "speaker_attribution_accuracy": 0.4811,
+        "cpwer": 0.7491,
+        "diarization_gap": 0.6236,
+        "speaker_mapping": {
+          "Speaker 3": "Speaker A",
+          "Speaker 2": "Speaker B",
+          "Speaker 1": "Speaker C"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.2167758339783177
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0,
+        "saa_delta": -0.04,
+        "cpwer_delta": -0.0037,
+        "diarization_gap_delta": -0.0037,
+        "latency_ratio": 0.064
+      },
+      "is_regression": true
+    },
+    "hindi_042": {
+      "sample_id": "hindi_042",
+      "duration_seconds": 72.61,
+      "num_speakers": 2,
+      "overlap_ratio": 2.77,
+      "gemini-2.5-flash": {
+        "wer": 0.242,
+        "cer": 0.1717,
+        "speaker_attribution_accuracy": 0.6753,
+        "cpwer": 0.7443,
+        "diarization_gap": 0.5023,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A",
+          "Speaker 1": "Speaker B"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.260021958965808
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.3105,
+        "cer": 0.2246,
+        "speaker_attribution_accuracy": 0.6935,
+        "cpwer": 0.653,
+        "diarization_gap": 0.3425,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker A",
+          "Speaker 1": "Speaker B"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.1913370830006897
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0685,
+        "saa_delta": 0.0182,
+        "cpwer_delta": -0.0913,
+        "diarization_gap_delta": -0.1598,
+        "latency_ratio": 0.979
+      },
+      "is_regression": true
+    },
+    "hindi_024": {
+      "sample_id": "hindi_024",
+      "duration_seconds": 198.91,
+      "num_speakers": 3,
+      "overlap_ratio": 17.36,
+      "gemini-2.5-flash": {
+        "wer": 0.172,
+        "cer": 0.1107,
+        "speaker_attribution_accuracy": 0.9875,
+        "cpwer": 0.1778,
+        "diarization_gap": 0.0058,
+        "speaker_mapping": {
+          "Speaker 2": "SPEAKER_01",
+          "Speaker 1": "SPEAKER_02",
+          "Speaker 0": "SPEAKER_03"
+        },
+        "format_valid": true,
+        "latency_seconds": 7.494905542000197
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1691,
+        "cer": 0.1198,
+        "speaker_attribution_accuracy": 0.5016,
+        "cpwer": 0.7405,
+        "diarization_gap": 0.5714,
+        "speaker_mapping": {
+          "Speaker 0": "SPEAKER_02",
+          "Speaker 1": "SPEAKER_03"
+        },
+        "format_valid": true,
+        "latency_seconds": 6.284815167076886
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0029,
+        "saa_delta": -0.4859,
+        "cpwer_delta": 0.5627,
+        "diarization_gap_delta": 0.5656,
+        "latency_ratio": 0.839
+      },
+      "is_regression": true
+    },
+    "hindi_085": {
+      "sample_id": "hindi_085",
+      "duration_seconds": 60.13,
+      "num_speakers": 2,
+      "overlap_ratio": 15.15,
+      "gemini-2.5-flash": {
+        "wer": 34.4588,
+        "cer": 30.1755,
+        "speaker_attribution_accuracy": 0.7317,
+        "cpwer": 34.6031,
+        "diarization_gap": 0.1443,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 22.572057500015944
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.3144,
+        "cer": 0.1823,
+        "speaker_attribution_accuracy": 0.6882,
+        "cpwer": 0.6186,
+        "diarization_gap": 0.3041,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 1",
+          "Speaker 0": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.6450598330702633
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -34.1444,
+        "saa_delta": -0.0435,
+        "cpwer_delta": -33.9845,
+        "diarization_gap_delta": 0.1598,
+        "latency_ratio": 0.117
+      },
+      "is_regression": true
+    },
+    "hindi_001": {
+      "sample_id": "hindi_001",
+      "duration_seconds": 75.33,
+      "num_speakers": 3,
+      "overlap_ratio": 12.35,
+      "gemini-2.5-flash": {
+        "wer": 0.2039,
+        "cer": 0.1533,
+        "speaker_attribution_accuracy": 0.801,
+        "cpwer": 0.466,
+        "diarization_gap": 0.2621,
+        "speaker_mapping": {
+          "Speaker 1": "SPEAKER_04",
+          "Speaker 0": "SPEAKER_05"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.223829875001684
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.2184,
+        "cer": 0.1685,
+        "speaker_attribution_accuracy": 0.619,
+        "cpwer": 0.8301,
+        "diarization_gap": 0.6117,
+        "speaker_mapping": {
+          "Speaker 0": "SPEAKER_02",
+          "Speaker 1": "SPEAKER_05"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.9560905839316547
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0145,
+        "saa_delta": -0.182,
+        "cpwer_delta": 0.3641,
+        "diarization_gap_delta": 0.3496,
+        "latency_ratio": 0.917
+      },
+      "is_regression": true
+    },
+    "hindi_087": {
+      "sample_id": "hindi_087",
+      "duration_seconds": 60.23,
+      "num_speakers": 2,
+      "overlap_ratio": 12.18,
+      "gemini-2.5-flash": {
+        "wer": 0.3563,
+        "cer": 0.159,
+        "speaker_attribution_accuracy": 0.9937,
+        "cpwer": 0.3391,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker0",
+          "Speaker 1": "Speaker1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.215204833075404
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.3161,
+        "cer": 0.1628,
+        "speaker_attribution_accuracy": 0.5404,
+        "cpwer": 0.7241,
+        "diarization_gap": 0.408,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker0",
+          "Speaker 1": "Speaker1"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.5941720829578117
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0402,
+        "saa_delta": -0.4533,
+        "cpwer_delta": 0.385,
+        "diarization_gap_delta": 0.408,
+        "latency_ratio": 0.807
+      },
+      "is_regression": true
+    },
+    "hindi_093": {
+      "sample_id": "hindi_093",
+      "duration_seconds": 60.38,
+      "num_speakers": 2,
+      "overlap_ratio": 10.72,
+      "gemini-2.5-flash": {
+        "wer": 0.2771,
+        "cer": 0.1164,
+        "speaker_attribution_accuracy": 0.9673,
+        "cpwer": 0.2857,
+        "diarization_gap": 0.0087,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 2",
+          "Speaker 0": "Speaker1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.4032854589167982
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.303,
+        "cer": 0.1458,
+        "speaker_attribution_accuracy": 0.7075,
+        "cpwer": 0.5195,
+        "diarization_gap": 0.2165,
+        "speaker_mapping": {
+          "Speaker 1": "Speaker 2",
+          "Speaker 0": "Speaker1"
+        },
+        "format_valid": true,
+        "latency_seconds": 3.0281993340468034
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0259,
+        "saa_delta": -0.2598,
+        "cpwer_delta": 0.2338,
+        "diarization_gap_delta": 0.2078,
+        "latency_ratio": 0.89
+      },
+      "is_regression": true
+    },
+    "hindi_086": {
+      "sample_id": "hindi_086",
+      "duration_seconds": 60.17,
+      "num_speakers": 2,
+      "overlap_ratio": 5.77,
+      "gemini-2.5-flash": {
+        "wer": 0.1771,
+        "cer": 0.0866,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.1714,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.8852269160561264
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1371,
+        "cer": 0.0719,
+        "speaker_attribution_accuracy": 0.982,
+        "cpwer": 0.1486,
+        "diarization_gap": 0.0114,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.801037082914263
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.04,
+        "saa_delta": -0.018,
+        "cpwer_delta": -0.0228,
+        "diarization_gap_delta": 0.0114,
+        "latency_ratio": 0.971
+      },
+      "is_regression": false
+    },
+    "hindi_089": {
+      "sample_id": "hindi_089",
+      "duration_seconds": 60.42,
+      "num_speakers": 2,
+      "overlap_ratio": 3.36,
+      "gemini-2.5-flash": {
+        "wer": 0.1755,
+        "cer": 0.0943,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.1755,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.944365832954645
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1596,
+        "cer": 0.0906,
+        "speaker_attribution_accuracy": 0.9489,
+        "cpwer": 0.2074,
+        "diarization_gap": 0.0479,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.7765740000177175
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0159,
+        "saa_delta": -0.0511,
+        "cpwer_delta": 0.0319,
+        "diarization_gap_delta": 0.0479,
+        "latency_ratio": 0.943
+      },
+      "is_regression": true
+    },
+    "hindi_092": {
+      "sample_id": "hindi_092",
+      "duration_seconds": 60.33,
+      "num_speakers": 2,
+      "overlap_ratio": 2.57,
+      "gemini-2.5-flash": {
+        "wer": 0.1193,
+        "cer": 0.0507,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.1193,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.4646106249419972
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.0852,
+        "cer": 0.0447,
+        "speaker_attribution_accuracy": 0.5345,
+        "cpwer": 0.75,
+        "diarization_gap": 0.6648,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.3932832499267533
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": -0.0341,
+        "saa_delta": -0.4655,
+        "cpwer_delta": 0.6307,
+        "diarization_gap_delta": 0.6648,
+        "latency_ratio": 0.971
+      },
+      "is_regression": true
+    },
+    "hindi_090": {
+      "sample_id": "hindi_090",
+      "duration_seconds": 60.31,
+      "num_speakers": 2,
+      "overlap_ratio": 2.42,
+      "gemini-2.5-flash": {
+        "wer": 0.1316,
+        "cer": 0.0711,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.1316,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 4.216377416043542
+      },
+      "gemini-3.5-flash-lite": {
+        "wer": 0.1789,
+        "cer": 0.0723,
+        "speaker_attribution_accuracy": 1.0,
+        "cpwer": 0.1789,
+        "diarization_gap": 0.0,
+        "speaker_mapping": {
+          "Speaker 0": "Speaker 1",
+          "Speaker 1": "Speaker 2"
+        },
+        "format_valid": true,
+        "latency_seconds": 2.4674752079881728
+      },
+      "delta_3_5_minus_2_5": {
+        "wer_delta": 0.0473,
+        "saa_delta": 0.0,
+        "cpwer_delta": 0.0473,
+        "diarization_gap_delta": 0.0,
+        "latency_ratio": 0.585
+      },
+      "is_regression": true
+    }
+  }
+}

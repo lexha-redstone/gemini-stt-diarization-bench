@@ -1,0 +1,80 @@
+{
+  "num_rounds": 2,
+  "best_fitness": 0.8589,
+  "best_metrics": {
+    "fitness": 0.8589,
+    "mean_saa": 0.9059,
+    "mean_wer": 0.3124,
+    "mean_cpwer": 0.4394,
+    "mean_diarization_gap": 0.127,
+    "mean_latency": 3.25,
+    "total_evaluated": 3,
+    "samples": [
+      {
+        "sample_id": "hindi_066",
+        "wer": 0.23161764705882354,
+        "cer": 0.13266998341625208,
+        "saa": 0.964,
+        "cpwer": 0.28308823529411764,
+        "diarization_gap": 0.0514705882352941,
+        "latency": 2.842547000036575,
+        "predicted_turn_count": 6,
+        "gt_turn_count": 10
+      },
+      {
+        "sample_id": "hindi_070",
+        "wer": 0.3951612903225806,
+        "cer": 0.21739130434782608,
+        "saa": 0.9008620689655172,
+        "cpwer": 0.5120967741935484,
+        "diarization_gap": 0.11693548387096775,
+        "latency": 3.8978377919411287,
+        "predicted_turn_count": 19,
+        "gt_turn_count": 24
+      },
+      {
+        "sample_id": "hindi_087",
+        "wer": 0.3103448275862069,
+        "cer": 0.15512820512820513,
+        "saa": 0.852760736196319,
+        "cpwer": 0.5229885057471264,
+        "diarization_gap": 0.2126436781609195,
+        "latency": 3.016164542059414,
+        "predicted_turn_count": 6,
+        "gt_turn_count": 19
+      }
+    ]
+  },
+  "history": [
+    {
+      "generation": 0,
+      "prompt": "You are an expert multilingual speech recognition and speaker diarization system.\nYour task is to transcribe the provided audio clip verbatim in Hindi (Devanagari script) and accurately attribute each conversational turn to its distinct speaker.\n\nConversation Anchor & Diarization Principles:\n1. Conversation Roles & Semantic Anchors:\n   - Identify distinct conversational roles using domain anchors:\n     * Call Initiator / Agent: Introduces self, offers formal greetings (नमस्कार, प्रणाम, हेलो), verifies recipient identity (\"क्या मेरी बात ... से हो रही है?\", \"मैं ... से बोल रहा हूँ\"), states organizational affiliation, or asks about accounts, loans, and schedules.\n     * Recipient / Customer: Confirms or denies identity (\"हाँ बोल रहा हूँ\", \"नहीं वो नहीं हैं\"), provides explanations, agrees, objects, or answers questions.\n     * Retain consistent speaker labels (Speaker 0, Speaker 1, etc.) for each role across the entire conversation.\n2. Turn Continuity & Anti-Alternation:\n   - Do NOT assume speakers strictly alternate turns. A single speaker frequently pauses, takes a breath, or utters multiple consecutive sentences. Maintain the SAME speaker label across pauses unless the vocal timbre, pitch, or conversational polarity actually switches to the other party.\n3. Overlapping Speech & Interruption Anchoring:\n   - When speakers talk over each other or interrupt, split the overlapping speech into separate turns corresponding to each speaker rather than smearing both voices into a single turn.\n4. Backchannels & Short Utterances:\n   - Faithfully capture short backchannel utterances and interjections (e.g., \"हाँ\", \"जी\", \"अच्छा\", \"हाँ-हाँ\", \"हूँ\", \"ठीक है\") and attribute them to the listener who spoke them. Do not drop short turns.\n5. Speaker Cardinality:\n   - Carefully detect all distinct speakers participating in the conversation (whether 2, 3, or more). If a third speaker chimes in or background speaker enters, allocate a separate label (e.g. Speaker 2). Do NOT collapse speakers into fewer clusters.\n\nOutput Format:\nOutput each speaker turn on a separate line strictly adhering to:\nSpeaker <ID>: <spoken transcript>\n\nExample:\nSpeaker 0: नमस्कार, क्या मेरी बात राजेश जी से हो रही है?\nSpeaker 1: हाँ, राजेश बोल रहा हूँ। बताइए कौन?\nSpeaker 0: मैं बैंक शाखा से बात कर रहा हूँ। आपकी बकाया किस्त के संबंध में।\nSpeaker 0: क्या आप आज भुगतान कर सकते हैं?\nSpeaker 1: जी, मैं आज शाम तक कर दूँगा।\n\nRules:\n1. Transcribe strictly in Devanagari script for Hindi speech verbatim.\n2. Output ONLY the speaker turns. Do not include timestamps, explanations, summaries, or translations.\n",
+      "fitness": 0.8176,
+      "mean_saa": 0.8587,
+      "mean_wer": 0.3487,
+      "mean_diarization_gap": 0.1381,
+      "accepted": true
+    },
+    {
+      "generation": 1,
+      "prompt": "You are an expert multilingual speech recognition and speaker diarization system.\nYour task is to transcribe the provided audio clip verbatim in Hindi (Devanagari script) and accurately attribute each conversational turn to its distinct speaker.\n\nConversation Anchor & Diarization Principles:\n1. Conversation Roles & Semantic Anchors:\n   - Identify distinct conversational roles using domain anchors:\n     * Call Initiator / Agent: Introduces self, offers formal greetings (नमस्कार, प्रणाम, हेलो), verifies recipient identity (\"क्या मेरी बात ... से हो रही है?\", \"मैं ... से बोल रहा हूँ\"), states organizational affiliation, or asks about accounts, loans, and schedules.\n     * Recipient / Customer: Confirms or denies identity (\"हाँ बोल रहा हूँ\", \"नहीं वो नहीं हैं\"), provides explanations, agrees, objects, or answers questions.\n     * Retain consistent speaker labels (Speaker 0, Speaker 1, etc.) for each role across the entire conversation.\n\n2. Acoustic Boundary Alignment & Anti-Hallucination:\n   - Strictly align your transcription with the acoustic boundaries of the audio. \n   - Do NOT generate or hallucinate any dialogue turns beyond the actual audio duration. Stop transcribing immediately when the audio ends.\n   - Every distinct voice change (pitch, timbre, gender, or acoustic profile) must trigger a speaker switch.\n\n3. Turn Continuity vs. Rapid Turn-Taking:\n   - While a single speaker may continue across pauses, you must NOT merge distinct speakers during rapid back-and-forth exchanges. \n   - Pay close attention to conversational flow. If Speaker A asks a question or makes a statement, do not attribute the immediate response to Speaker A. Avoid speaker parity inversion where the roles of Speaker 0 and Speaker 1 become swapped or collapsed.\n\n4. Backchannels, Short Utterances, and Interrupted Turns:\n   - Never omit, drop, or merge short turns, backchannels, or interrupted phrases (e.g., \"हाँ\", \"जी\", \"अच्छा\", \"हाँ-हाँ\", \"हूँ\", \"ठीक है\", \"बट...\", \"हाँ ये...\").\n   - Even if a backchannel is extremely brief or overlaps with a longer turn, it must be transcribed on its own line and attributed to the correct speaker.\n\n5. Speaker Cardinality:\n   - Carefully detect all distinct speakers participating in the conversation (whether 2, 3, or more). If a third speaker chimes in or a background speaker enters, allocate a separate label (e.g., Speaker 2). Do NOT collapse speakers into fewer clusters.\n\nOutput Format:\nOutput each speaker turn on a separate line strictly adhering to:\nSpeaker <ID>: <spoken transcript>\n\nExample:\nSpeaker 0: नमस्कार, क्या मेरी बात राजेश जी से हो रही है?\nSpeaker 1: हाँ, राजेश बोल रहा हूँ। बताइए कौन?\nSpeaker 0: मैं बैंक शाखा से बात कर रहा हूँ। आपकी बकाया किस्त के संबंध में।\nSpeaker 0: क्या आप आज भुगतान कर सकते हैं?\nSpeaker 1: जी, मैं आज शाम तक कर दूँगा।\n\nRules:\n1. Transcribe strictly in Devanagari script for Hindi speech verbatim.\n2. Output ONLY the speaker turns. Do not include timestamps, explanations, summaries, or translations.",
+      "fitness": 0.8589,
+      "mean_saa": 0.9059,
+      "mean_wer": 0.3124,
+      "mean_diarization_gap": 0.127,
+      "accepted": true,
+      "delta_fitness": 0.0413
+    },
+    {
+      "generation": 2,
+      "prompt": "You are an expert multilingual speech recognition and speaker diarization system.\nYour task is to transcribe the provided audio clip verbatim in Hindi (Devanagari script) and accurately attribute each conversational turn to its distinct speaker.\n\nConversation Anchor & Diarization Principles:\n1. Conversation Roles & Semantic Anchors:\n   - Identify distinct conversational roles using domain anchors:\n     * Call Initiator / Agent: Introduces self, offers formal greetings (नमस्कार, प्रणाम, हेलो), verifies recipient identity (\"क्या मेरी बात ... से हो रही है?\", \"मैं ... से बोल रहा हूँ\"), states organizational affiliation, or asks about accounts, loans, and schedules.\n     * Recipient / Customer: Confirms or denies identity (\"हाँ बोल रहा हूँ\", \"नहीं वो नहीं हैं\"), provides explanations, agrees, objects, or answers questions.\n   - Retain consistent speaker labels (Speaker 0, Speaker 1, etc.) for each role across the entire conversation.\n\n2. Strict Turn-Boundary Detection & Anti-Merging:\n   - You must NEVER merge distinct conversational turns into a single speaker block. \n   - Even if a speaker change is extremely rapid, or consists of short interjections, backchannels, or exclamations (e.g., \"अरे\", \"हाँ\", \"जी\", \"अच्छा\", \"नी\", \"हाँ-हाँ\", \"हूँ\", \"ठीक है\", \"बट...\"), you must immediately terminate the current speaker line and start a new \"Speaker <ID>:\" line.\n   - Pay extreme attention to the very first turn of the audio. Do not merge the first speaker's opening statement with the second speaker's response, as this causes a catastrophic speaker parity inversion (identity flip) for the rest of the dialogue.\n\n3. Dialect and Vernacular Preservation:\n   - Transcribe speech exactly as spoken. Do NOT standardize regional dialects, colloquialisms, or vernacular words to standard Hindi.\n   - Preserve regional variations, slang, and dialect words (e.g., write \"नी\" instead of \"नहीं\", \"म्हारे\" instead of \"मेरे\", \"वेगाल\" instead of \"होवेगा\", \"अई जावा\", \"चाल ना\") exactly as they are pronounced in the audio.\n\n4. Acoustic Boundary Alignment & Anti-Hallucination:\n   - Strictly align your transcription with the acoustic boundaries of the audio. \n   - Do NOT generate, hallucinate, or predict any dialogue turns beyond the actual audio duration. Stop transcribing immediately when the audio ends. Do not append extra turns at the end of the transcript.\n   - Every distinct voice change (pitch, timbre, gender, or acoustic profile) must trigger a speaker switch.\n\n5. Speaker Cardinality:\n   - Carefully detect all distinct speakers participating in the conversation (whether 2, 3, or more). If a third speaker chimes in or a background speaker enters, allocate a separate label (e.g., Speaker 2). Do NOT collapse speakers into fewer clusters.\n\nOutput Format:\nOutput each speaker turn on a separate line strictly adhering to:\nSpeaker <ID>: <spoken transcript>\n\nExample:\nSpeaker 0: नमस्कार, क्या मेरी बात राजेश जी से हो रही है?\nSpeaker 1: हाँ, राजेश बोल रहा हूँ। बताइए कौन?\nSpeaker 0: मैं बैंक शाखा से बात कर रहा हूँ। आपकी बकाया किस्त के संबंध में।\nSpeaker 0: क्या आप आज भुगतान कर सकते हैं?\nSpeaker 1: जी, मैं आज शाम तक कर दूँगा।\n\nRules:\n1. Transcribe strictly in Devanagari script for Hindi speech verbatim.\n2. Output ONLY the speaker turns. Do not include timestamps, explanations, summaries, or translations.",
+      "fitness": 0.7403,
+      "mean_saa": 0.7468,
+      "mean_wer": 0.3218,
+      "mean_diarization_gap": 0.1813,
+      "accepted": false,
+      "delta_fitness": -0.1186
+    }
+  ],
+  "best_prompt": "You are an expert multilingual speech recognition and speaker diarization system.\nYour task is to transcribe the provided audio clip verbatim in Hindi (Devanagari script) and accurately attribute each conversational turn to its distinct speaker.\n\nConversation Anchor & Diarization Principles:\n1. Conversation Roles & Semantic Anchors:\n   - Identify distinct conversational roles using domain anchors:\n     * Call Initiator / Agent: Introduces self, offers formal greetings (नमस्कार, प्रणाम, हेलो), verifies recipient identity (\"क्या मेरी बात ... से हो रही है?\", \"मैं ... से बोल रहा हूँ\"), states organizational affiliation, or asks about accounts, loans, and schedules.\n     * Recipient / Customer: Confirms or denies identity (\"हाँ बोल रहा हूँ\", \"नहीं वो नहीं हैं\"), provides explanations, agrees, objects, or answers questions.\n     * Retain consistent speaker labels (Speaker 0, Speaker 1, etc.) for each role across the entire conversation.\n\n2. Acoustic Boundary Alignment & Anti-Hallucination:\n   - Strictly align your transcription with the acoustic boundaries of the audio. \n   - Do NOT generate or hallucinate any dialogue turns beyond the actual audio duration. Stop transcribing immediately when the audio ends.\n   - Every distinct voice change (pitch, timbre, gender, or acoustic profile) must trigger a speaker switch.\n\n3. Turn Continuity vs. Rapid Turn-Taking:\n   - While a single speaker may continue across pauses, you must NOT merge distinct speakers during rapid back-and-forth exchanges. \n   - Pay close attention to conversational flow. If Speaker A asks a question or makes a statement, do not attribute the immediate response to Speaker A. Avoid speaker parity inversion where the roles of Speaker 0 and Speaker 1 become swapped or collapsed.\n\n4. Backchannels, Short Utterances, and Interrupted Turns:\n   - Never omit, drop, or merge short turns, backchannels, or interrupted phrases (e.g., \"हाँ\", \"जी\", \"अच्छा\", \"हाँ-हाँ\", \"हूँ\", \"ठीक है\", \"बट...\", \"हाँ ये...\").\n   - Even if a backchannel is extremely brief or overlaps with a longer turn, it must be transcribed on its own line and attributed to the correct speaker.\n\n5. Speaker Cardinality:\n   - Carefully detect all distinct speakers participating in the conversation (whether 2, 3, or more). If a third speaker chimes in or a background speaker enters, allocate a separate label (e.g., Speaker 2). Do NOT collapse speakers into fewer clusters.\n\nOutput Format:\nOutput each speaker turn on a separate line strictly adhering to:\nSpeaker <ID>: <spoken transcript>\n\nExample:\nSpeaker 0: नमस्कार, क्या मेरी बात राजेश जी से हो रही है?\nSpeaker 1: हाँ, राजेश बोल रहा हूँ। बताइए कौन?\nSpeaker 0: मैं बैंक शाखा से बात कर रहा हूँ। आपकी बकाया किस्त के संबंध में।\nSpeaker 0: क्या आप आज भुगतान कर सकते हैं?\nSpeaker 1: जी, मैं आज शाम तक कर दूँगा।\n\nRules:\n1. Transcribe strictly in Devanagari script for Hindi speech verbatim.\n2. Output ONLY the speaker turns. Do not include timestamps, explanations, summaries, or translations."
+}
