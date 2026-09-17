@@ -30,9 +30,10 @@ def test_is_retryable_exception():
     bad_req = errors.ClientError(400, {"error": {"message": "INVALID_ARGUMENT: Invalid parameter"}})
     assert is_retryable_exception(bad_req) is False
 
-    # Connection and timeout errors must retry
+    # Connection, timeout, and OS/requests errors must retry
     assert is_retryable_exception(ConnectionError("Connection reset")) is True
     assert is_retryable_exception(TimeoutError("Read timed out")) is True
+    assert is_retryable_exception(OSError("Socket closed")) is True
 
 
 def test_client_live_connectivity():

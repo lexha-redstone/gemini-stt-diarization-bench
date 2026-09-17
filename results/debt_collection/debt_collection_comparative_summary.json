@@ -1,0 +1,332 @@
+{
+  "benchmark_title": "Gemini STT & Speaker Diarization: 50-Sample Hindi Debt Collection & Fierce Argument Benchmark",
+  "timestamp": "2026-09-17T07:44:26.722707+00:00",
+  "project_id": "cloud-llm-preview1",
+  "total_samples": 50,
+  "total_duration_seconds": 10524.0,
+  "mean_sample_duration_seconds": 210.48,
+  "mean_overlap_ratio": 18.37,
+  "macro_summary": {
+    "gemini_2_5_flash": {
+      "count": 50,
+      "mean_wer": 2.4889,
+      "mean_wer_normalized": 0.1467,
+      "mean_cer": 2.4325,
+      "mean_cer_normalized": 0.1107,
+      "mean_speaker_attribution_accuracy": 0.8562,
+      "mean_cpwer": 2.6631,
+      "mean_cpwer_normalized": 0.3101,
+      "mean_diarization_gap": 0.1752,
+      "mean_latency_seconds": 17.476,
+      "outlier_count": 1,
+      "speedup_vs_2_5": 1.0,
+      "name": "Gemini 2.5 Flash Baseline"
+    },
+    "strategy_c5_adaptive_champion": {
+      "count": 50,
+      "mean_wer": 0.1667,
+      "mean_wer_normalized": 0.1667,
+      "mean_cer": 0.1289,
+      "mean_cer_normalized": 0.1289,
+      "mean_speaker_attribution_accuracy": 0.906,
+      "mean_cpwer": 0.2798,
+      "mean_cpwer_normalized": 0.2798,
+      "mean_diarization_gap": 0.1135,
+      "mean_latency_seconds": 14.196,
+      "outlier_count": 0,
+      "speedup_vs_2_5": 1.23,
+      "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+    }
+  },
+  "duration_buckets": {
+    "<70s": {
+      "bucket_label": "<70s",
+      "duration_range_seconds": [
+        30.0,
+        70.0
+      ],
+      "sample_count": 13,
+      "mean_duration_seconds": 50.0,
+      "mean_overlap_ratio": 17.21,
+      "gemini_2_5_flash": {
+        "count": 13,
+        "mean_wer": 0.1969,
+        "mean_wer_normalized": 0.1969,
+        "mean_cer": 0.1493,
+        "mean_cer_normalized": 0.1493,
+        "mean_speaker_attribution_accuracy": 0.8874,
+        "mean_cpwer": 0.334,
+        "mean_cpwer_normalized": 0.334,
+        "mean_diarization_gap": 0.137,
+        "mean_latency_seconds": 5.269,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0,
+        "name": "Gemini 2.5 Flash Baseline"
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 13,
+        "mean_wer": 0.191,
+        "mean_wer_normalized": 0.191,
+        "mean_cer": 0.1475,
+        "mean_cer_normalized": 0.1475,
+        "mean_speaker_attribution_accuracy": 0.9355,
+        "mean_cpwer": 0.2653,
+        "mean_cpwer_normalized": 0.2653,
+        "mean_diarization_gap": 0.0761,
+        "mean_latency_seconds": 7.112,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 0.74,
+        "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+      },
+      "comparison": {
+        "saa_delta_c5_vs_2_5": 0.0481,
+        "cpwer_delta_c5_vs_2_5": -0.0687,
+        "diarization_gap_delta_c5_vs_2_5": -0.0609,
+        "wer_delta_c5_vs_2_5": -0.0059,
+        "speedup_c5_vs_2_5": 0.74
+      }
+    },
+    "70s-180s": {
+      "bucket_label": "70s-180s",
+      "duration_range_seconds": [
+        70.0,
+        180.0
+      ],
+      "sample_count": 13,
+      "mean_duration_seconds": 124.0,
+      "mean_overlap_ratio": 18.16,
+      "gemini_2_5_flash": {
+        "count": 13,
+        "mean_wer": 9.1327,
+        "mean_wer_normalized": 0.1223,
+        "mean_cer": 9.0251,
+        "mean_cer_normalized": 0.0938,
+        "mean_speaker_attribution_accuracy": 0.8262,
+        "mean_cpwer": 9.3789,
+        "mean_cpwer_normalized": 0.3307,
+        "mean_diarization_gap": 0.2462,
+        "mean_latency_seconds": 25.361,
+        "outlier_count": 1,
+        "speedup_vs_2_5": 1.0,
+        "name": "Gemini 2.5 Flash Baseline"
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 13,
+        "mean_wer": 0.1575,
+        "mean_wer_normalized": 0.1575,
+        "mean_cer": 0.1216,
+        "mean_cer_normalized": 0.1216,
+        "mean_speaker_attribution_accuracy": 0.9219,
+        "mean_cpwer": 0.2535,
+        "mean_cpwer_normalized": 0.2535,
+        "mean_diarization_gap": 0.096,
+        "mean_latency_seconds": 10.16,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 2.5,
+        "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+      },
+      "comparison": {
+        "saa_delta_c5_vs_2_5": 0.0957,
+        "cpwer_delta_c5_vs_2_5": -9.1254,
+        "diarization_gap_delta_c5_vs_2_5": -0.1502,
+        "wer_delta_c5_vs_2_5": -8.9752,
+        "speedup_c5_vs_2_5": 2.5
+      }
+    },
+    "180s-300s": {
+      "bucket_label": "180s-300s",
+      "duration_range_seconds": [
+        180.0,
+        300.0
+      ],
+      "sample_count": 12,
+      "mean_duration_seconds": 240.0,
+      "mean_overlap_ratio": 18.86,
+      "gemini_2_5_flash": {
+        "count": 12,
+        "mean_wer": 0.1433,
+        "mean_wer_normalized": 0.1433,
+        "mean_cer": 0.1082,
+        "mean_cer_normalized": 0.1082,
+        "mean_speaker_attribution_accuracy": 0.9322,
+        "mean_cpwer": 0.2013,
+        "mean_cpwer_normalized": 0.2013,
+        "mean_diarization_gap": 0.0623,
+        "mean_latency_seconds": 15.194,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0,
+        "name": "Gemini 2.5 Flash Baseline"
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 12,
+        "mean_wer": 0.1672,
+        "mean_wer_normalized": 0.1672,
+        "mean_cer": 0.1261,
+        "mean_cer_normalized": 0.1261,
+        "mean_speaker_attribution_accuracy": 0.8985,
+        "mean_cpwer": 0.2947,
+        "mean_cpwer_normalized": 0.2947,
+        "mean_diarization_gap": 0.1275,
+        "mean_latency_seconds": 15.66,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 0.97,
+        "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+      },
+      "comparison": {
+        "saa_delta_c5_vs_2_5": -0.0337,
+        "cpwer_delta_c5_vs_2_5": 0.0934,
+        "diarization_gap_delta_c5_vs_2_5": 0.0652,
+        "wer_delta_c5_vs_2_5": 0.0239,
+        "speedup_c5_vs_2_5": 0.97
+      }
+    },
+    "300s-600s": {
+      "bucket_label": "300s-600s",
+      "duration_range_seconds": [
+        300.0,
+        600.0
+      ],
+      "sample_count": 12,
+      "mean_duration_seconds": 448.5,
+      "mean_overlap_ratio": 19.36,
+      "gemini_2_5_flash": {
+        "count": 12,
+        "mean_wer": 0.1202,
+        "mean_wer_normalized": 0.1202,
+        "mean_cer": 0.0883,
+        "mean_cer_normalized": 0.0883,
+        "mean_speaker_attribution_accuracy": 0.779,
+        "mean_cpwer": 0.3726,
+        "mean_cpwer_normalized": 0.3726,
+        "mean_diarization_gap": 0.2524,
+        "mean_latency_seconds": 24.44,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0,
+        "name": "Gemini 2.5 Flash Baseline"
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 12,
+        "mean_wer": 0.15,
+        "mean_wer_normalized": 0.15,
+        "mean_cer": 0.1196,
+        "mean_cer_normalized": 0.1196,
+        "mean_speaker_attribution_accuracy": 0.8643,
+        "mean_cpwer": 0.3089,
+        "mean_cpwer_normalized": 0.3089,
+        "mean_diarization_gap": 0.1589,
+        "mean_latency_seconds": 24.781,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 0.99,
+        "name": "Strategy C5: Adaptive Acoustic Champion (Pure 3.5 Flash Lite)"
+      },
+      "comparison": {
+        "saa_delta_c5_vs_2_5": 0.0853,
+        "cpwer_delta_c5_vs_2_5": -0.0637,
+        "diarization_gap_delta_c5_vs_2_5": -0.0935,
+        "wer_delta_c5_vs_2_5": 0.0298,
+        "speedup_c5_vs_2_5": 0.99
+      }
+    }
+  },
+  "conflict_tiers": {
+    "moderate_12_16_pct": {
+      "tier_label": "moderate_12_16_pct",
+      "sample_count": 16,
+      "mean_overlap_ratio": 14.56,
+      "gemini_2_5_flash": {
+        "count": 16,
+        "mean_wer": 0.1367,
+        "mean_wer_normalized": 0.1367,
+        "mean_cer": 0.1013,
+        "mean_cer_normalized": 0.1013,
+        "mean_speaker_attribution_accuracy": 0.8937,
+        "mean_cpwer": 0.2723,
+        "mean_cpwer_normalized": 0.2723,
+        "mean_diarization_gap": 0.1388,
+        "mean_latency_seconds": 11.732,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 16,
+        "mean_wer": 0.1364,
+        "mean_wer_normalized": 0.1364,
+        "mean_cer": 0.1014,
+        "mean_cer_normalized": 0.1014,
+        "mean_speaker_attribution_accuracy": 0.9376,
+        "mean_cpwer": 0.2314,
+        "mean_cpwer_normalized": 0.2314,
+        "mean_diarization_gap": 0.095,
+        "mean_latency_seconds": 12.139,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 0.97
+      }
+    },
+    "high_16_20_pct": {
+      "tier_label": "high_16_20_pct",
+      "sample_count": 16,
+      "mean_overlap_ratio": 17.77,
+      "gemini_2_5_flash": {
+        "count": 16,
+        "mean_wer": 7.4491,
+        "mean_wer_normalized": 0.1285,
+        "mean_cer": 7.3511,
+        "mean_cer_normalized": 0.0944,
+        "mean_speaker_attribution_accuracy": 0.8583,
+        "mean_cpwer": 7.6182,
+        "mean_cpwer_normalized": 0.2623,
+        "mean_diarization_gap": 0.1692,
+        "mean_latency_seconds": 26.083,
+        "outlier_count": 1,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 16,
+        "mean_wer": 0.1663,
+        "mean_wer_normalized": 0.1663,
+        "mean_cer": 0.1325,
+        "mean_cer_normalized": 0.1325,
+        "mean_speaker_attribution_accuracy": 0.9205,
+        "mean_cpwer": 0.2633,
+        "mean_cpwer_normalized": 0.2633,
+        "mean_diarization_gap": 0.0973,
+        "mean_latency_seconds": 15.635,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.67
+      }
+    },
+    "extreme_over_20_pct": {
+      "tier_label": "extreme_over_20_pct",
+      "sample_count": 18,
+      "mean_overlap_ratio": 22.29,
+      "gemini_2_5_flash": {
+        "count": 18,
+        "mean_wer": 0.1708,
+        "mean_wer_normalized": 0.1708,
+        "mean_cer": 0.1327,
+        "mean_cer_normalized": 0.1327,
+        "mean_speaker_attribution_accuracy": 0.821,
+        "mean_cpwer": 0.3837,
+        "mean_cpwer_normalized": 0.3837,
+        "mean_diarization_gap": 0.2129,
+        "mean_latency_seconds": 14.931,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.0
+      },
+      "strategy_c5_adaptive_champion": {
+        "count": 18,
+        "mean_wer": 0.1941,
+        "mean_wer_normalized": 0.1941,
+        "mean_cer": 0.1502,
+        "mean_cer_normalized": 0.1502,
+        "mean_speaker_attribution_accuracy": 0.8651,
+        "mean_cpwer": 0.3374,
+        "mean_cpwer_normalized": 0.3374,
+        "mean_diarization_gap": 0.1443,
+        "mean_latency_seconds": 14.746,
+        "outlier_count": 0,
+        "speedup_vs_2_5": 1.01
+      }
+    }
+  }
+}

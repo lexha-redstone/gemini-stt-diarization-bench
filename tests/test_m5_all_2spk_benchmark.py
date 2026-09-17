@@ -148,9 +148,9 @@ def test_benchmark_report_and_documentation_consistency():
     assert "1 (`hindi_084`)" not in report_text
     assert "1 (`hindi_084`)" not in readme_text
 
-    # Ensure accurate test count (368 tests) and no stale 367 references
-    assert "368/368 Tests Passing" in report_text
-    assert "368 tests" in readme_text
+    # Ensure accurate test count (372 tests) and no stale 367 references
+    assert "372/372 Tests Passing" in report_text
+    assert "372 tests" in readme_text
     assert "367" not in report_text
     assert "367" not in readme_text
 

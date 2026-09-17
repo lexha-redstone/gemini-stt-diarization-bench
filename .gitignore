@@ -19,6 +19,9 @@ Thumbs.db
 # Agent / Task metadata & archive
 .agents/
 .archive/
+BRIEFING.md
+PROJECT.md
+handoff.md
 
 # Environments
 .venv/
@@ -30,3 +33,7 @@ ENV/
 credentials.json
 *.pem
 *.key
+
+# Debt collection synthetic audio files (shared via ZIP archive)
+data/debt_collection_subset/audio/
+*.zip

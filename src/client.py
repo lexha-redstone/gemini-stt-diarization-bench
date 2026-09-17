@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 
 def is_retryable_exception(exc: BaseException) -> bool:
     """Determines whether an exception is transient and should be retried."""
-    if isinstance(exc, (errors.ServerError, ConnectionError, TimeoutError)):
+    if isinstance(exc, (errors.ServerError, ConnectionError, TimeoutError, OSError)):
         return True
     if isinstance(exc, errors.ClientError):
         code = getattr(exc, "code", None)
@@ -113,9 +113,10 @@ class GeminiClient:
         )
 
         if needs_refresh:
+            http_opts = types.HttpOptions(timeout=600_000)
             if self.api_key:
                 logger.info("Initializing GeminiClient via Developer API Key.")
-                self._client = genai.Client(api_key=self.api_key)
+                self._client = genai.Client(api_key=self.api_key, http_options=http_opts)
             else:
                 logger.info(
                     f"Initializing GeminiClient via Vertex AI (project={self.project_id}, location={self.location})."
@@ -126,6 +127,7 @@ class GeminiClient:
                     project=self.project_id,
                     location=self.location,
                     credentials=creds,
+                    http_options=http_opts,
                 )
         return self._client
 
